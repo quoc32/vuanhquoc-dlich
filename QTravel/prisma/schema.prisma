@@ -1,0 +1,238 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  CUSTOMER
+  ADMIN
+}
+
+enum CabinClass {
+  ECONOMY
+  PREMIUM_ECONOMY
+  BUSINESS
+  FIRST_CLASS
+}
+
+enum FlightBookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+  COMPLETED
+}
+
+enum PaymentStatus {
+  PENDING
+  SUCCESS
+  FAILED
+  REFUNDED
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String
+  fullName  String
+  phone     String?
+  role      Role     @default(CUSTOMER)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  refreshToken String?  @db.Text
+
+  reviews  HotelReview[]
+
+  flightOrders FlightOrder[]
+}
+
+model Hotel {
+  id              String   @id // Use property_token as ID
+  name            String
+  description     String?  @db.Text
+  link            String?  @db.Text
+  latitude        Float?
+  longitude       Float?
+  address         String?
+  overallRating   Float?
+  reviewsCount    Int?     @default(0)
+  ratePerNight    Int?
+  amenities       Json?
+  
+  cityId          String?
+  city            City?     @relation(fields: [cityId], references: [id])
+  
+  reviews         HotelReview[]
+  media           HotelMedia[]
+
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+}
+
+model HotelReview {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  hotelId   String
+  comment   String?  @db.Text
+  images    Json?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user  User  @relation(fields: [userId], references: [id])
+  hotel Hotel @relation(fields: [hotelId], references: [id])
+}
+
+model Media {
+  id      Int     @id @default(autoincrement())
+  url     String  @db.Text
+  caption String?
+
+  hotelMedia    HotelMedia[]
+  activityMedia ActivityMedia[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model HotelMedia {
+  id      Int   @id @default(autoincrement())
+  hotelId String
+  mediaId Int
+  hotel   Hotel @relation(fields: [hotelId], references: [id])
+  media   Media @relation(fields: [mediaId], references: [id])
+
+  @@unique([hotelId, mediaId])
+}
+
+
+model Activity {
+  id               Int      @id @default(autoincrement())
+  cityId           String?
+  name             String
+  category         String? // e.g., "Hoạt động giải trí", "Chuyến tham quan"
+  description      String?  @db.Text
+  price            Decimal  @db.Decimal(10, 2)
+  originalPrice    Decimal? @db.Decimal(10, 2)
+  rating           Float    @default(0)
+  reviewCount      Int      @default(0)
+  bookingCount     Int      @default(0)
+  freeCancellation Boolean  @default(false)
+  isPopular        Boolean  @default(false) // e.g., "Nhiều người quan tâm"
+  imageUrl         String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  city     City?           @relation(fields: [cityId], references: [id])
+  media    ActivityMedia[]
+}
+
+model ActivityMedia {
+  id         Int @id @default(autoincrement())
+  activityId Int
+  mediaId    Int
+
+  activity Activity @relation(fields: [activityId], references: [id])
+  media    Media    @relation(fields: [mediaId], references: [id])
+
+  @@unique([activityId, mediaId])
+}
+
+model City {
+  id          String  @id
+  gmt         String?
+  cityId      String? @map("city_id")
+  iataCode    String? @map("iata_code")
+  countryIso2 String? @map("country_iso2")
+  geonameId   String? @map("geoname_id")
+  latitude    String?
+  longitude   String?
+  cityName    String? @map("city_name")
+  cityNameVi  String? @map("city_name_vi")
+  timezone    String?
+
+  airports   Airport[]
+  hotels     Hotel[]
+  activities Activity[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Airline {
+  id                   String  @id
+  fleetAverageAge      String? @map("fleet_average_age")
+  airlineId            String? @map("airline_id")
+  callsign             String?
+  hubCode              String? @map("hub_code")
+  iataCode             String? @map("iata_code")
+  icaoCode             String? @map("icao_code")
+  countryIso2          String? @map("country_iso2")
+  dateFounded          String? @map("date_founded")
+  iataPrefixAccounting String? @map("iata_prefix_accounting")
+  airlineName          String? @map("airline_name")
+  countryName          String? @map("country_name")
+  fleetSize            String? @map("fleet_size")
+  status               String?
+  type                 String?
+
+  // Keep old fields
+  logoUrl           String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Airport {
+  id           String  @id
+  gmt          String?
+  airportId    String? @map("airport_id")
+  iataCode     String? @map("iata_code")
+  cityIataCode String? @map("city_iata_code")
+  icaoCode     String? @map("icao_code")
+  countryIso2  String? @map("country_iso2")
+  geonameId    String? @map("geoname_id")
+  latitude     String?
+  longitude    String?
+  airportName  String  @map("airport_name")
+  countryName  String? @map("country_name")
+  phoneNumber  String? @map("phone_number")
+  timezone     String?
+
+  // Relations
+  cityId     String?
+  city       City?     @relation(fields: [cityId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model FlightOrder {
+  id            String    @id
+  userId        Int?
+  paymentStatus PaymentStatus @default(PENDING)
+  
+  user          User?     @relation(fields: [userId], references: [id])
+  payments      PaymentTransaction[]
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model PaymentTransaction {
+  id               String   @id @default(uuid())
+  flightOrderId    String
+  amount           Int      // VNĐ requested from MoMo
+  originalCurrency String   // AUD, USD, etc.
+  originalAmount   String   // Original amount requested from Duffel
+  status           PaymentStatus @default(PENDING)
+  momoTransId      String?
+
+  flightOrder      FlightOrder @relation(fields: [flightOrderId], references: [id])
+
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+

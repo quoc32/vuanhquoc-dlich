@@ -1,0 +1,234 @@
+@baseUrl = https://api.duffel.com
+@token = {{$dotenv DUFFEL_API_TOKEN}}
+@duffelVersion = v2
+
+### ==========================================
+### 1. PLACES & AIRPORTS
+### ==========================================
+
+# 1.1 List Airports
+# @name listAirports
+GET {{baseUrl}}/air/airports?limit=20
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+###
+
+# Lấy danh sách toàn bộ sân bay tại Việt Nam (Country: VN)
+GET {{baseUrl}}/air/airports?iata_country_code=VN
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+###
+
+# 1.2 Search Places (Suggestions for cities/airports)
+# @name searchPlaces
+GET {{baseUrl}}/places/suggestions?query=Ho%20Chi%20Minh
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+### ==========================================
+### 2. FLIGHT SEARCH (Offer Requests)
+### ==========================================
+
+# 2.1 Create an Offer Request (Search for flights)
+# @name createOfferRequest
+POST {{baseUrl}}/air/offer_requests?return_offers=false
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+Content-Type: application/json
+
+{
+  "data": {
+    "slices": [
+      {
+        "origin": "SGN",
+        "destination": "HAN",
+        "departure_date": "2026-08-20"
+      }
+    ],
+    "passengers": [
+      {
+        "type": "adult"
+      },
+      {
+        "type": "adult"
+      },
+      {
+        "type": "child"
+      }
+    ],
+    "cabin_class": "economy"
+  }
+}
+
+###
+# Bay khứ hồi
+# @name createRoundTripOfferRequest
+POST {{baseUrl}}/air/offer_requests?return_offers=false
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+Content-Type: application/json
+
+{
+  "data": {
+    "slices": [
+      {
+        "origin": "SGN",
+        "destination": "HAN",
+        "departure_date": "2026-08-20"
+      },
+      {
+        "origin": "HAN",
+        "destination": "SGN",
+        "departure_date": "2026-08-27"
+      }
+    ],
+    "passengers": [
+      { "type": "adult" },
+      { "type": "adult" },
+      { "type": "child" }
+    ],
+    "cabin_class": "economy"
+  }
+}
+
+###
+
+# Cần lấy ID từ Offer Request ở trên để gán vào biến này
+@offerRequestId = orq_0000B7SFInEekzFG0ijHiz
+
+# 2.2 List Offers from an Offer Request (Có phân trang)
+# API này cho phép truyền limit (mặc định 50, tối đa 200)
+# @name listOffers
+GET {{baseUrl}}/air/offers?offer_request_id={{offerRequestId}}&limit=5
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+###
+
+# Để lấy trang tiếp theo, bạn cần truyền cursor lấy từ trường `meta.after` của response trước đó
+# @name listOffersNextPage
+GET {{baseUrl}}/air/offers?offer_request_id={{offerRequestId}}&limit=20&after=g2wAAAACbQAAABJsA...
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+###
+
+# Cần lấy ID của một Offer cụ thể từ danh sách trên
+@offerId = off_0000B7S3uKmmCqxhdmbEqW
+
+# 2.3 Get a specific Offer details
+# @name getOffer
+GET {{baseUrl}}/air/offers/{{offerId}}
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+###
+
+# 2.4 Get Seat Maps for an Offer (Lấy sơ đồ và giá ghế)
+# @name getSeatMaps
+GET {{baseUrl}}/air/seat_maps?offer_id={{offerId}}
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+### ==========================================
+### 3. BOOKING (Orders)
+### ==========================================
+
+# 3.1 Create an Order (Book a flight)
+# Lưu ý: Cần truyền đúng ID của Offer và thông tin hành khách tương ứng
+# @name createOrder
+POST {{baseUrl}}/air/orders
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+Content-Type: application/json
+
+{
+  "data": {
+    "type": "hold",
+    "selected_offers": [
+      "off_0000B7S3uKmmCqxhdmbEqW"
+    ],
+    "passengers": [
+      {
+        "id": "pas_0000B7S3uKROEicPuLZQH5", 
+        "title": "mr",
+        "given_name": "Nguyen",
+        "family_name": "Van A",
+        "born_on": "1990-01-01",
+        "email": "nguyenvana@example.com",
+        "phone_number": "+84901234567",
+        "gender": "m"
+      },
+      {
+        "id": "pas_0000B7S3uKROEicPuLZQH6", 
+        "title": "mr",
+        "given_name": "Nguyen",
+        "family_name": "Van B",
+        "born_on": "2020-01-01",
+        "email": "nguyenvanb@example.com",
+        "phone_number": "+84901234567",
+        "gender": "m"
+      }
+    ]
+  }
+}
+
+###
+
+@orderId = ord_0000A...
+
+# 3.2 Get a specific Order
+# @name getOrder
+GET {{baseUrl}}/air/orders/{{orderId}}
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+###
+
+# 3.3 List Orders
+# @name listOrders
+GET {{baseUrl}}/air/orders?limit=20
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+### ==========================================
+### 4. REFERENCE DATA
+### ==========================================
+
+# 4.1 List Airlines
+# @name listAirlines
+GET {{baseUrl}}/air/airlines?limit=20
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+###
+
+# 4.2 List Aircrafts
+# @name listAircrafts
+GET {{baseUrl}}/air/aircraft?limit=20
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+
+### ==========================================
+### 5. PAYMENTS (Thanh toán Order Hold)
+### ==========================================
+
+# @name payForOrder
+POST {{baseUrl}}/air/payments
+Authorization: Bearer {{token}}
+Duffel-Version: {{duffelVersion}}
+Content-Type: application/json
+
+{
+  "data": {
+    "order_id": "{{orderId}}",
+    "payment": {
+      "type": "balance",
+      "currency": "VND", 
+      "amount": "1500000" 
+    }
+  }
+}
+

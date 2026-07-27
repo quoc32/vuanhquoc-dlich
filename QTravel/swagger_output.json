@@ -1,0 +1,1130 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "QTravel API",
+    "description": "API documentation for QTravel backend",
+    "version": "1.0.0"
+  },
+  "host": "localhost:3000",
+  "basePath": "",
+  "schemes": [
+    "http"
+  ],
+  "securityDefinitions": {
+    "bearerAuth": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header",
+      "description": "Nhập token theo định dạng: Bearer <token>"
+    }
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/health": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "description": "Đăng ký tài khoản người dùng mới",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Thông tin đăng ký",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "email": {
+                  "type": "string",
+                  "example": "vuanhquoc1@gmail.com"
+                },
+                "password": {
+                  "type": "string",
+                  "example": "password123"
+                },
+                "fullName": {
+                  "type": "string",
+                  "example": "Nguyen Van A"
+                },
+                "phone": {
+                  "type": "string",
+                  "example": "0901234567"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "description": "Đăng nhập vào hệ thống",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Thông tin đăng nhập",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "email": {
+                  "type": "string",
+                  "example": "nguyenvana@example.com"
+                },
+                "password": {
+                  "type": "string",
+                  "example": "password123"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/refresh-token": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "description": "Lấy lại Access Token mới dựa vào Refresh Token",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Token làm mới",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "refreshToken": {
+                  "type": "string",
+                  "example": "eyJhbGciOiJIUzI1NiIsInR..."
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/logout": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "description": "Đăng xuất khỏi hệ thống (Yêu cầu Authentication)",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/api/v1/users/profile": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get current user profile",
+        "description": "",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Update current user profile",
+        "description": "",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Profile information",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "fullName": {
+                  "type": "string",
+                  "example": "John Doe"
+                },
+                "phone": {
+                  "type": "string",
+                  "example": "0123456789"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/api/v1/users/change-password": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Change password",
+        "description": "",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Password information",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "currentPassword": {
+                  "type": "string",
+                  "example": "oldpassword123"
+                },
+                "newPassword": {
+                  "type": "string",
+                  "example": "newpassword123"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/api/v1/users/orders": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get user bookings/orders",
+        "description": "",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/api/v1/users/orders/{id}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/airports": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/places/suggestions": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/offer_requests": {
+      "post": {
+        "tags": [
+          "Flight Search"
+        ],
+        "description": "Tạo yêu cầu tìm kiếm chuyến bay (Offer Request)",
+        "parameters": [
+          {
+            "name": "return_offers",
+            "in": "query",
+            "description": "Trả về danh sách các offer (true/false)",
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Thông tin tìm kiếm chuyến bay",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "example": {
+                    "slices": [
+                      {
+                        "origin": "SGN",
+                        "destination": "HAN",
+                        "departure_date": "2026-08-20"
+                      }
+                    ],
+                    "passengers": [
+                      {
+                        "type": "adult"
+                      },
+                      {
+                        "type": "adult"
+                      },
+                      {
+                        "type": "child"
+                      }
+                    ],
+                    "cabin_class": "economy"
+                  }
+                },
+                "currency": {
+                  "type": "string",
+                  "example": "VND",
+                  "description": "Đơn vị tiền tệ muốn hiển thị (Mặc định: VND)"
+                }
+              }
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/offers": {
+      "get": {
+        "tags": [
+          "Flight Search"
+        ],
+        "description": "Lấy danh sách Offer từ một Offer Request (có phân trang)",
+        "parameters": [
+          {
+            "name": "offer_request_id",
+            "in": "query",
+            "description": "ID của Offer Request",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Số lượng kết quả trả về tối đa (Mặc định 50, tối đa 200)",
+            "type": "integer"
+          },
+          {
+            "name": "after",
+            "in": "query",
+            "description": "Con trỏ cursor để phân trang (lấy từ trường meta.after của response trước đó)",
+            "type": "string"
+          },
+          {
+            "name": "params",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/offers/{id}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/seat_maps": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "offer_id",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/orders": {
+      "post": {
+        "tags": [
+          "Booking"
+        ],
+        "description": "Tạo mới một đặt chỗ (Order). Bắt buộc người dùng phải đăng nhập.",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Thông tin hành khách và ID của Offer để đặt chỗ",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "example": {
+                    "type": "hold",
+                    "selected_offers": [
+                      "off_0000B7S3uKmmCqxhdmbEqW"
+                    ],
+                    "passengers": [
+                      {
+                        "id": "pas_0000B7S3uKROEicPuLZQH5",
+                        "title": "mr",
+                        "given_name": "Nguyen",
+                        "family_name": "Van A",
+                        "born_on": "1990-01-01",
+                        "email": "nguyenvana@example.com",
+                        "phone_number": "+84901234567",
+                        "gender": "m"
+                      },
+                      {
+                        "id": "pas_0000B7S3uKROEicPuLZQH6",
+                        "title": "mr",
+                        "given_name": "Nguyen",
+                        "family_name": "Van B",
+                        "born_on": "2020-01-01",
+                        "email": "nguyenvanb@example.com",
+                        "phone_number": "+84901234567",
+                        "gender": "m"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/orders/{id}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/airlines": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/aircraft": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/payments": {
+      "post": {
+        "tags": [
+          "Payments"
+        ],
+        "description": "Thanh toán cho một Order đang được Hold (bằng Balance)",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Thông tin thanh toán",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "example": {
+                    "order_id": "ord_0000A...",
+                    "payment": {
+                      "type": "balance",
+                      "currency": "VND",
+                      "amount": "1500000"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/flights/payments/sessions": {
+      "post": {
+        "tags": [
+          "Payments"
+        ],
+        "description": "Tạo Payment Session để thanh toán qua Duffel Links",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Thông tin tạo session thanh toán",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "example": {
+                    "reference": "ord_0000A...",
+                    "success_url": "http://localhost:3000/success",
+                    "failure_url": "http://localhost:3000/failure",
+                    "cancel_url": "http://localhost:3000/cancel",
+                    "abandonment_url": "http://localhost:3000/abandonment",
+                    "checkout": {
+                      "email": "nguyenvana@example.com",
+                      "type": "hosted"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/momo/create": {
+      "post": {
+        "tags": [
+          "Payments"
+        ],
+        "description": "Tạo link thanh toán MoMo (captureWallet, payWithMethod, payWithATM, payWithCC)",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "description": "ID đơn hàng cần thanh toán",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "orderId": {
+                  "type": "string",
+                  "example": "ord_0000..."
+                },
+                "requestType": {
+                  "type": "string",
+                  "example": "captureWallet"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/api/v1/momo/ipn": {
+      "post": {
+        "tags": [
+          "Payments"
+        ],
+        "description": "Webhook IPN từ MoMo gọi về",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "orderId": {
+                  "example": "any"
+                },
+                "resultCode": {
+                  "example": "any"
+                },
+                "transId": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/v1/hotels/cities/search": {
+      "get": {
+        "tags": [
+          "Hotels"
+        ],
+        "description": "Tìm kiếm gợi ý tên Thành phố cho ô tìm kiếm (Autocomplete)",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "Từ khoá tìm kiếm (Tên thành phố hoặc mã IATA)",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/hotels/": {
+      "get": {
+        "tags": [
+          "Hotels"
+        ],
+        "description": "Tìm kiếm danh sách khách sạn theo City ID hoặc Tên Thành phố.",
+        "parameters": [
+          {
+            "name": "cityId",
+            "in": "query",
+            "description": "Mã City ID",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "cityName",
+            "in": "query",
+            "description": "Tên thành phố",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Số lượng kết quả trả về",
+            "required": false,
+            "type": "integer"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Số lượng kết quả bỏ qua (phân trang)",
+            "required": false,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/hotels/{id}": {
+      "get": {
+        "tags": [
+          "Hotels"
+        ],
+        "description": "Lấy thông tin chi tiết khách sạn",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/v1/hotels/{id}/reviews": {
+      "get": {
+        "tags": [
+          "Hotels"
+        ],
+        "description": "Lấy danh sách đánh giá của khách sạn",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Hotels"
+        ],
+        "description": "Thêm đánh giá mới cho khách sạn (Hỗ trợ upload ảnh)",
+        "consumes": [
+          "multipart/form-data"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          },
+          {
+            "name": "authorization",
+            "hidden": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "hidden": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "comment",
+            "in": "formData",
+            "type": "string",
+            "required": true,
+            "description": "Nội dung đánh giá"
+          },
+          {
+            "name": "images",
+            "in": "formData",
+            "type": "file",
+            "description": "Ảnh đính kèm",
+            "required": false
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "comment": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/api/v1/hotels/{id}/reviews/{reviewId}": {
+      "put": {
+        "tags": [
+          "Hotels"
+        ],
+        "description": "Sửa nội dung đánh giá",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "reviewId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "comment": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "delete": {
+        "tags": [
+          "Hotels"
+        ],
+        "description": "Xóa đánh giá",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "reviewId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ]
+}

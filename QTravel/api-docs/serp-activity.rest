@@ -1,0 +1,19 @@
+@baseUrl = https://serpapi.com
+@serpApiKey = {{$dotenv SERP_API_KEY}}
+
+###
+# Tìm kiếm danh sách các hoạt động / địa điểm vui chơi tại Đà Nẵng (Google Search API)
+# API này sử dụng SerpApi để cào dữ liệu từ kết quả tìm kiếm Google (Top Sights / Local Results).
+#
+# Các tham số quan trọng:
+# - engine: "google" (Tìm kiếm Google thông thường)
+# - q: Truy vấn tìm kiếm (vd: "things to do in Da Nang", "địa điểm vui chơi Đà Nẵng")
+# - hl: Ngôn ngữ hiển thị (vd: vi, en)
+# - gl: Quốc gia để tối ưu hóa kết quả (vd: vn)
+
+GET {{baseUrl}}/search.json
+  ?engine=google_local
+  &q=du thuyen song han da nang
+  &hl=vi
+  &gl=vn
+  &api_key={{serpApiKey}}

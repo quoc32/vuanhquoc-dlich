@@ -1,0 +1,256 @@
+{
+  "search_metadata": {
+    "id": "6a341ef3f9c5e9c804db270b",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/tt_hXbJyq6MNad98F8zB6A/6a341ef3f9c5e9c804db270b.json",
+    "created_at": "2026-06-18 16:38:11 UTC",
+    "processed_at": "2026-06-18 16:38:11 UTC",
+    "google_local_url": "https://www.google.com/search?q=du+thuyen+song+han+da+nang&hl=vi&gl=vn&udm=1",
+    "raw_html_file": "https://serpapi.com/searches/tt_hXbJyq6MNad98F8zB6A/6a341ef3f9c5e9c804db270b.html",
+    "total_time_taken": 2.72
+  },
+  "search_parameters": {
+    "engine": "google_local",
+    "q": "du thuyen song han da nang",
+    "google_domain": "google.com",
+    "hl": "vi",
+    "gl": "vn",
+    "device": "desktop"
+  },
+  "local_map": {
+    "gps_coordinates": {
+      "latitude": 16.06585673976666,
+      "longitude": 108.22408676147461
+    }
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "rating": 4.4,
+      "reviews": 90,
+      "reviews_original": "(90)",
+      "description": "\"Trải nghiệm nên có trên sông Hàn, nơi có những cây cầu đẹp.\"",
+      "links": {
+        "website": "https://duthuyensonghan.vn/",
+        "directions": "https://www.google.com/maps/dir//Du+Thuy%E1%BB%81n+S%C3%B4ng+H%C3%A0n+%C4%90%C3%A0+N%E1%BA%B5ng+(2Da+Tickets),+26+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x314219bbf6a1c67b:0x3c19dccc641354e9?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIKRAA&hl=vi&gl=vn"
+      },
+      "place_id": "4330735287103870185",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=4330735287103870185&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11h1lvft9t",
+      "gps_coordinates": {
+        "latitude": 16.079141,
+        "longitude": 108.224279
+      },
+      "title": "Du Thuyền Sông Hàn Đà Nẵng (2Da Tickets)",
+      "type": "Điểm thu hút khách du lịch",
+      "phone": "0796 768 636",
+      "address": "26 Bạch Đằng",
+      "hours": "Mở cả ngày"
+    },
+    {
+      "position": 2,
+      "rating": 4.6,
+      "reviews": 52,
+      "reviews_original": "(52)",
+      "description": "\"Đáng để trải nghiệm.\"",
+      "links": {
+        "website": "http://duthuyensonghan.info/",
+        "directions": "https://www.google.com/maps/dir//Du+Thuy%E1%BB%81n+S%C3%B4ng+H%C3%A0n+%C4%90%C3%A0+N%E1%BA%B5ng,+28+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x314219059ad56fad:0xf86db7a6eb753360?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIJxAA&hl=vi&gl=vn"
+      },
+      "place_id": "17901166021410370400",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=17901166021410370400&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11s_sgt7zk",
+      "gps_coordinates": {
+        "latitude": 16.078691,
+        "longitude": 108.223669
+      },
+      "title": "Du Thuyền Sông Hàn Đà Nẵng",
+      "type": "Đại lý du lịch tham quan",
+      "phone": "0349 306 377",
+      "years_in_business": "Đã hoạt động hơn 3 năm",
+      "address": "28 Bạch Đằng",
+      "hours": "Đã đóng cửa · Mở cửa lúc 20:00 Thứ 6"
+    },
+    {
+      "position": 3,
+      "rating": 4.6,
+      "reviews": 27,
+      "reviews_original": "(27)",
+      "description": "\"Đẹp, nên trải nghiệm\"",
+      "links": {
+        "website": "https://veduthuyen.vn/",
+        "directions": "https://www.google.com/maps/dir//Du+thuy%E1%BB%81n+s%C3%B4ng+H%C3%A0n,+32+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+50000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x31421935765833d7:0xeda19f820f627095?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIIRAA&hl=vi&gl=vn"
+      },
+      "place_id": "17123142639192010901",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=17123142639192010901&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11lc9wkb_z",
+      "gps_coordinates": {
+        "latitude": 16.078257,
+        "longitude": 108.223648
+      },
+      "title": "Du thuyền sông Hàn",
+      "type": "Đại lý du lịch biển",
+      "phone": "0935 268 218",
+      "address": "32 Bạch Đằng",
+      "hours": "Mở cả ngày"
+    },
+    {
+      "position": 4,
+      "rating": 4.0,
+      "reviews": 625,
+      "reviews_original": "(625)",
+      "price": "1-600.000 ₫",
+      "description": "\"Mọi người nên trải nghiệm nhé\"",
+      "links": {
+        "website": "http://taurongsonghan.com.vn/",
+        "directions": "https://www.google.com/maps/dir//T%C3%A0u+R%E1%BB%93ng+S%C3%B4ng+H%C3%A0n,+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x314219b021926e9d:0x68c1f146b700a808?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIIhAA&hl=vi&gl=vn"
+      },
+      "place_id": "7548579736469940232",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=7548579736469940232&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11df64_6db",
+      "gps_coordinates": {
+        "latitude": 16.078278,
+        "longitude": 108.224136
+      },
+      "title": "Tàu Rồng Sông Hàn",
+      "type": "Nhà hàng",
+      "phone": "0236 3752 180",
+      "address": "Bạch Đằng",
+      "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 6"
+    },
+    {
+      "position": 5,
+      "rating": 4.5,
+      "reviews": 15,
+      "reviews_original": "(15)",
+      "description": "\"Gd mk 2 người lớn và 1 e bé bạn ấy take care rất nhiệt tình\"",
+      "links": {
+        "website": "https://duthuyensonghan.vn/",
+        "directions": "https://www.google.com/maps/dir//Du+Thuy%E1%BB%81n+S%C3%B4ng+H%C3%A0n+%C4%90%C3%A0+N%E1%BA%B5ng+-+2Da+Tickets,+36+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x314217b8ab30b127:0x5e1abc8168730e86?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIJBAA&hl=vi&gl=vn"
+      },
+      "place_id": "6780939452948876934",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=6780939452948876934&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11fpkwfhwt",
+      "gps_coordinates": {
+        "latitude": 16.077843,
+        "longitude": 108.224093
+      },
+      "title": "Du Thuyền Sông Hàn Đà Nẵng - 2Da Tickets",
+      "type": "Phòng vé",
+      "phone": "0796 768 636",
+      "address": "36 Bạch Đằng",
+      "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 6"
+    },
+    {
+      "position": 6,
+      "rating": 5.0,
+      "reviews": 7,
+      "reviews_original": "(7)",
+      "description": "\"Lần đầu đc trải nghiệm kiểu z nên thấy vui ghê.\"",
+      "links": {
+        "website": "http://duthuyensonghandanang.vn/",
+        "directions": "https://www.google.com/maps/dir//Du+thuy%E1%BB%81n+S%C3%B4ng+H%C3%A0n+%C4%90%C3%A0+N%E1%BA%B5ng+-+Han+River+Danang+Yacht,+26+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x314219ea5793f847:0xa31b4a7306697990?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIKBAA&hl=vi&gl=vn"
+      },
+      "place_id": "11753069510442711440",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=11753069510442711440&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11x64sqs62",
+      "gps_coordinates": {
+        "latitude": 16.07892,
+        "longitude": 108.223648
+      },
+      "title": "Du thuyền Sông Hàn Đà Nẵng - Han River Danang Yacht",
+      "type": "Cảng tàu du lịch",
+      "phone": "0905 790 777",
+      "address": "26 Bạch Đằng",
+      "hours": "Đã đóng cửa · Mở cửa lúc 18:00 Thứ 6"
+    },
+    {
+      "position": 7,
+      "rating": 4.5,
+      "reviews": 122,
+      "reviews_original": "(122)",
+      "description": "\"Một trải nghiệm tuyệt vời.\"",
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Du+thuy%E1%BB%81n+s%C3%B4ng+H%C3%A0n+Vinh+Anh+-+Da+Nang+cruise+on+Han+river,+B%E1%BA%BFn+s%C3%B4ng+Thu+-+PHN+marina,+B%C3%ACnh+Minh+10,+H%C3%B2a+C%C6%B0%E1%BB%9Dng,+%C4%90%C3%A0+N%E1%BA%B5ng+50000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x314219186170dda7:0x6f858f75d4f28af5?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIIBAA&hl=vi&gl=vn"
+      },
+      "place_id": "8035986846359128821",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=8035986846359128821&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11sxy5yf3v",
+      "gps_coordinates": {
+        "latitude": 16.05014,
+        "longitude": 108.224227
+      },
+      "title": "Du thuyền sông Hàn Vinh Anh - Da Nang cruise on Han river",
+      "type": "Bến du thuyền",
+      "phone": "0905 717 189",
+      "address": "Bến sông Thu - PHN marina, Bình Minh 10",
+      "hours": "Đã đóng cửa · Mở cửa lúc 17:00 Thứ 6"
+    },
+    {
+      "position": 8,
+      "rating": 4.0,
+      "reviews": 1,
+      "reviews_original": "(1)",
+      "links": {
+        "directions": "https://www.google.com/maps/dir//362F%2BGFQ+B%E1%BA%BFn+Du+Thuy%E1%BB%81n+S%C3%B4ng+H%C3%A0n,+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+H%C3%B2a+C%C6%B0%E1%BB%9Dng,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x314219006c8924e7:0xcc26cdbd4d824438?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIJhAA&hl=vi&gl=vn"
+      },
+      "place_id": "14710671445785199672",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=14710671445785199672&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11zbqc2d31",
+      "gps_coordinates": {
+        "latitude": 16.050397,
+        "longitude": 108.223924
+      },
+      "title": "Bến Du Thuyền Sông Hàn",
+      "type": "Điểm thu hút khách du lịch",
+      "address": "362F+GFQ, Bạch Đằng"
+    },
+    {
+      "position": 9,
+      "rating": 4.3,
+      "reviews": 93,
+      "reviews_original": "(93)",
+      "description": "\"highly recommend\"",
+      "links": {
+        "website": "https://benduthuyendanang.com/",
+        "directions": "https://www.google.com/maps/dir//B%E1%BA%BFn+Du+Thuy%E1%BB%81n+%C4%90%C3%A0+N%E1%BA%B5ng,+34+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x314219b1bf0819e7:0xdcd36893ba08940d?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIJRAA&hl=vi&gl=vn"
+      },
+      "place_id": "15912176892120699917",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=15912176892120699917&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11hzv0yw9h",
+      "gps_coordinates": {
+        "latitude": 16.078066,
+        "longitude": 108.224562
+      },
+      "title": "Bến Du Thuyền Đà Nẵng",
+      "type": "Bến du thuyền",
+      "phone": "0325 464 996",
+      "address": "34 Bạch Đằng",
+      "hours": "Mở cả ngày"
+    },
+    {
+      "position": 10,
+      "rating": 3.8,
+      "reviews": 119,
+      "reviews_original": "(119)",
+      "description": "\"Vé đã bao gồm nước suối và trái cây.\"",
+      "links": {
+        "website": "https://benduthuyensonghan.com/",
+        "directions": "https://www.google.com/maps/dir//Du+Thuy%E1%BB%81n+S%C3%B4ng+H%C3%A0n+M%E1%BB%B9+Xu%C3%A2n+02,+B%E1%BA%BFn+t%C3%A0u+S%C3%B4ng+H%C3%A0n+%C4%90%E1%BB%91i+di%E1%BB%87n,+26+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x314219b1c5525cf3:0x5a112c5903e56c26?sa=X&ved=2ahUKEwi01sPrnJGVAxXSHTQIHS8tHFIQ48ADegQIIxAA&hl=vi&gl=vn"
+      },
+      "place_id": "6490017298846673958",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=vn&google_domain=google.com&hl=vi&ludocid=6490017298846673958&q=du+thuyen+song+han+da+nang",
+      "provider_id": "/g/11j4rvc0st",
+      "gps_coordinates": {
+        "latitude": 16.079237,
+        "longitude": 108.224446
+      },
+      "title": "Du Thuyền Sông Hàn Mỹ Xuân 02",
+      "type": "Đại lý du lịch bằng thuyền",
+      "phone": "0938 485 438",
+      "years_in_business": "Đã hoạt động hơn 7 năm",
+      "address": "Bến tàu Sông Hàn Đối diện, 26 Bạch Đằng",
+      "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 6"
+    }
+  ]
+}

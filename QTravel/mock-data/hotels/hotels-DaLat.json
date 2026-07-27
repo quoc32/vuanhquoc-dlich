@@ -1,0 +1,3546 @@
+{
+  "search_parameters": {
+    "engine": "google_hotels",
+    "q": "Da Lat",
+    "gl": "vn",
+    "hl": "en",
+    "currency": "VND",
+    "check_in_date": "2026-08-20",
+    "check_out_date": "2026-08-22",
+    "adults": 2,
+    "children": 0
+  },
+  "search_information": {
+    "total_results": 15000
+  },
+  "properties": [
+    {
+      "type": "vacation rental",
+      "name": "Palm Cove Vietnam Villa-beachfront pool river view and jacuzzi",
+      "property_token": "ChkQg-KGo4zPwvgHGg0vZy8xMXNzZ2NmMnNnEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkQg-KGo4zPwvgHGg0vZy8xMXNzZ2NmMnNnEAI&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 15.907509803771973,
+        "longitude": 108.34651184082031
+      },
+      "check_in_time": "4:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₫4,054,798",
+        "extracted_lowest": 4054798,
+        "before_taxes_fees": "₫4,054,798",
+        "extracted_before_taxes_fees": 4054798
+      },
+      "total_rate": {
+        "lowest": "₫8,109,596",
+        "extracted_lowest": 8109596,
+        "before_taxes_fees": "₫8,109,596",
+        "extracted_before_taxes_fees": 8109596
+      },
+      "prices": [
+        {
+          "source": "Vrbo.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/icon_1850600648__vrbo.com.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₫4,054,798",
+            "extracted_lowest": 4054798
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Jul 21",
+          "free_cancellation_until_time": "11:59 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Danang International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "43 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/yQP1KDu9Lg2m49PaArkpdWePhHWYUa0F38Vl0AXZYSlPvWaRmoJp-eadO08h75rBFqmBPGEWl70SULJrbN1kbExS_JdR0FlFeTacdTDcUBzEoerB0fJVlhC1nKeNSjfMr7cKedaAtHD2-7oZKHnR1-Wsl14rsQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/32000000/31540000/31538000/31537917/29b04155.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/aMNyBesoeb7AmQTfi_LmBxe4KCWoyThNumtZr9CO64SikDIq5KHtxNZMYByX-akDU0kS9ONhH4vzkoLwpj6O20_wLAE2nrZ6rS3Yy1OoKSXLx07vxzL38vMAA0vObpCOn2jCojuNWZ1qrFLcN2l3-21UXvYfaiQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/32000000/31540000/31538000/31537917/60f85570.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/U9Bre_YtIwRk0ujNzGa8gejXqcoo9gUlc9dXRkYcQHOXept7ZDMCRiecmB-UrpfCnZ5w4ZCB1dCC1AKUOQkZxh_CB2pVQIrAK5-klN_JItYJcT8pT8rBKl4HFO9OrlDUojU6u9vxk2MeHlvCzfKepxnJaP65Vg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/media.vrbo.com/lodging/32000000/31540000/31538000/31537917/d09f9c67.jpg?impolicy=ccrop&w=1000&h=666&q=medium&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/RUC_2OYFxFn3agSlfA-Z1hxOovez2o6TJr_CIy82ekGFRnFb9UwcOfPt4yhoA7G2AL7Xs1gUJVHAJH0QjdpiYpQrt9moZlT-s31s-ZGUc0J_cSEDRiYPzYW5HDYvd2lLOIp2MC0-pTYeBGrEqFa0OoPq3YFlJw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/32000000/31540000/31538000/31537917/9dec9784.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/dDad-iFCqs9YuKqRhlylZqf8Gw_2WSOUCPGl1Zya9sdEK65nGuLjc-Plr6g4YpKKDfG0PLTzWgQMwwrAwgxLx-u4FpiSkY_n3eAYpjDfKgefN3PPm0Qg-Ma9SXJFbQEFoQMqfQRqwErbJ4EsEvIyiyg634Vzsw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/32000000/31540000/31538000/31537917/b4610569.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/v2T0K5Cz7ReIrjgAGSBExRnJYfw65zpi3NAFDyzamzRfNYiE3chMYMQo_FzmTnIiyJAxeWw0MIfCOua9NZ7g0fwTkzhaR8jSFADtR0E60kx012-TYxis6It0GJ7DBR5XrYJP4Si-_43cwOe9hKEsJS2uXA9Kgn8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/32000000/31540000/31538000/31537917/98dcd5f4.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/nH8SX5Zla8Z4n4FP7ERGWvACwV7wtamDWCm-TurnQp3Ws-PcHNxlebMZGKNtb86WsVOWKraxQU3DKTmwO1da2gJV4XGsQB-2cVkYhFjIEvxjt_BAq2nTeItEMQKabDKK9Uu63Mf7fiElklTLpc13vMFdEYnw1Jk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/32000000/31540000/31538000/31537917/38f5a3b8.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/vap7k8I65nZo1-yWdDaKlgF4untBYoD8oR8HgjZkQxITsqokYFdXeXbE_W863qukiD0VHXUAlRzNRw_LwA5oNZ6MaNaQzbxH-OkuP5yJKeF2bVRRUUu3__h3GNaP7FDvdQJpTwJFHsYWI2j59iZwybxVcqjn9vM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZgJPyvxY713AzGByPY8B6zAmeqCmPT6uHpir6dqHOi52fLABc-a-iOWXFKTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPmUvBhQ3nG9m-EPX9zU2WQNa_hO30Ey8p3nq5tLbUiv-8O4z7ydYlhusf1XtqiZDXI8F0tgBzSlfL4oDMd7awtI-XJidwhiUkY3uL11gO1bExlQLS79Kg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/21gSovEHa2vwn5MuHktFbg0OjeU3TFe3ocpY1bJOd3RvL3y3tT9ygHw4YeSqVBlooiAUZnU9h7bNLFXfxokSnM-eiG-hWZiJWHRcqdEOnTE-wEBKvAK1bjj5G7CeP8fPeA9Ck_c8JDBI-os041ORkK_FRKIIZw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/32000000/31540000/31538000/31537917/449206bd.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        }
+      ],
+      "overall_rating": 4.68,
+      "reviews": 130,
+      "location_rating": 3.7,
+      "amenities": [
+        "Air conditioning",
+        "Balcony",
+        "Hot tub",
+        "Kitchen",
+        "Microwave",
+        "Outdoor grill",
+        "Oven stove",
+        "Patio",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Paid Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No beach access",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not pet-friendly",
+        "Not wheelchair accessible",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 8",
+        "4 bedrooms",
+        "4 bathrooms",
+        "4 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQg-KGo4zPwvgHGg0vZy8xMXNzZ2NmMnNnEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQg-KGo4zPwvgHGg0vZy8xMXNzZ2NmMnNnEAI"
+    },
+    {
+      "type": "hotel",
+      "name": "Mơ Stay - Forest Resort",
+      "link": "https://rungthongmo.com/",
+      "property_token": "ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.886597199999999,
+        "longitude": 108.4089393
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫2,661,435",
+        "extracted_lowest": 2661435,
+        "before_taxes_fees": "₫2,464,292",
+        "extracted_before_taxes_fees": 2464292
+      },
+      "total_rate": {
+        "lowest": "₫5,322,870",
+        "extracted_lowest": 5322870,
+        "before_taxes_fees": "₫4,928,583",
+        "extracted_before_taxes_fees": 4928583
+      },
+      "nearby_places": [
+        {
+          "name": "Rừng thông",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 37 min"
+            }
+          ]
+        },
+        {
+          "name": "Nhà hàng Đất Sét",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/kxMfgV4YN2A6HBULS__FXzwLGwmT-m0gK709Dc-W31cSOe6mw_6MU_KWMyWtbC2MGd8wyLEKQyUoGnRPRI1R9rn-U2qXQrMpgGRsXtgYCNR_ds6_FmPECCwzD015voKnRtnAqnKVZig1KlXdzJ9RrCuXQMlhTe4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c2/99/21/mo-stay-forest-resort.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxyaQ9dDp0XWhZmP2h2LXBBkJdgk-Vx1tIzMMOOUG5TS46upGZ_foBzAv_34MvU3gOSN1dKLPptqmA_k5rFjF4vQOHdq2UmqYk099Z8kLgLKsxYFVzLPtXSJXmiuBei3MPqwGhpQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxyaQ9dDp0XWhZmP2h2LXBBkJdgk-Vx1tIzMMOOUG5TS46upGZ_foBzAv_34MvU3gOSN1dKLPptqmA_k5rFjF4vQOHdq2UmqYk099Z8kLgLKsxYFVzLPtXSJXmiuBei3MPqwGhpQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEad3uIhRdo_CZV9KjYnEKBpifAA8jgdaoQW2zUoeWIx0h_3pcsb9UNMz15cbQvIsv9IA5ntYRy5CB-t6meHW1CGv-7cdEE4e96lFz_-HAtEpv-SMesZToohXokxj8XUMpAqLY2=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEad3uIhRdo_CZV9KjYnEKBpifAA8jgdaoQW2zUoeWIx0h_3pcsb9UNMz15cbQvIsv9IA5ntYRy5CB-t6meHW1CGv-7cdEE4e96lFz_-HAtEpv-SMesZToohXokxj8XUMpAqLY2=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHvdeKTufpzpSYMz-kRQSO36Q8fknUoO52bpet_F1IooJQpgTXlXUa51xl8FahXgE3F_hWbVImYea8Dr6-65t7pbgx0G2fpAKs-Zh_M4TCT915fifnG02EhcIhWI25XxFVPZWA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHvdeKTufpzpSYMz-kRQSO36Q8fknUoO52bpet_F1IooJQpgTXlXUa51xl8FahXgE3F_hWbVImYea8Dr6-65t7pbgx0G2fpAKs-Zh_M4TCT915fifnG02EhcIhWI25XxFVPZWA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlRtv23pacSXAOgvD5khwlWWRQlhs1a5V8CVvF8-5HvQYL0B8tJNmMR_6l4IjrPud2y3BhpLPcJExbwbpJpuBJ90iUijrHOXkr01D4htTBFuRGTAGcyDaSGR3TksbJ8xTfMEM_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlRtv23pacSXAOgvD5khwlWWRQlhs1a5V8CVvF8-5HvQYL0B8tJNmMR_6l4IjrPud2y3BhpLPcJExbwbpJpuBJ90iUijrHOXkr01D4htTBFuRGTAGcyDaSGR3TksbJ8xTfMEM_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdVGE-4-3do9BuyidMI4BghGrQzpY9eT22wYeCc0YFRxuMofkq2gTZjDPZDPxRCT-2QaYCtQ9C0qzgcZXEkBVX-E_6V_1tlp72__WnZnGZthDTJ5X_vEhkugahtSZqx6cU1Qs4ChAoPOGg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdVGE-4-3do9BuyidMI4BghGrQzpY9eT22wYeCc0YFRxuMofkq2gTZjDPZDPxRCT-2QaYCtQ9C0qzgcZXEkBVX-E_6V_1tlp72__WnZnGZthDTJ5X_vEhkugahtSZqx6cU1Qs4ChAoPOGg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGs72r5F_DS6ogrtvHxsV32gLdGqZ-hS3053cz2pBx13Q7_MTU1lxQqZD3kxmnrLEJLkJ0cdtZh7Llm68y6d7mlpNdm2mgjrj2Xz4k-p5dBZdVhg8QSoU5LAkx4axiESSuTOafbww-Ze_g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGs72r5F_DS6ogrtvHxsV32gLdGqZ-hS3053cz2pBx13Q7_MTU1lxQqZD3kxmnrLEJLkJ0cdtZh7Llm68y6d7mlpNdm2mgjrj2Xz4k-p5dBZdVhg8QSoU5LAkx4axiESSuTOafbww-Ze_g=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmVjIsSwO9AUGUnqhsTugDgc4kpXRnv16Tpfc9RBgfcgwXToOrlq2TLTKGWiFLEXlb-UqG4IyqdFH0MWtqyfRgOEEaYEx7LnhMMWM-zBFctivuTAtRY9fwCkdOZ8Qap-Q2on3m=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmVjIsSwO9AUGUnqhsTugDgc4kpXRnv16Tpfc9RBgfcgwXToOrlq2TLTKGWiFLEXlb-UqG4IyqdFH0MWtqyfRgOEEaYEx7LnhMMWM-zBFctivuTAtRY9fwCkdOZ8Qap-Q2on3m=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESwerOc2IZdQ-WAZdim_-LxA1dYivAtGoSvwT4e7BFS178V7WYe2yUClxDrn5Y8ThlrTCFh5FWBFcgPbcdUPiIENmV9PneueaybfoXjZrEnI2Ypl4UjyBHLXXFNrMvV6s28Abs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESwerOc2IZdQ-WAZdim_-LxA1dYivAtGoSvwT4e7BFS178V7WYe2yUClxDrn5Y8ThlrTCFh5FWBFcgPbcdUPiIENmV9PneueaybfoXjZrEnI2Ypl4UjyBHLXXFNrMvV6s28Abs=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 362,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 318
+        },
+        {
+          "stars": 4,
+          "count": 27
+        },
+        {
+          "stars": 3,
+          "count": 7
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 8
+        }
+      ],
+      "location_rating": 2.2,
+      "reviews_breakdown": [
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 19,
+          "positive": 18,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx&engine=google_hotels_reviews&hl=en&property_token=ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 42,
+          "positive": 38,
+          "negative": 4,
+          "neutral": 0,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 45,
+          "positive": 41,
+          "negative": 4,
+          "neutral": 0,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 19,
+          "positive": 18,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB"
+        },
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 13,
+          "positive": 11,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg&engine=google_hotels_reviews&hl=en&property_token=ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB"
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 15,
+          "positive": 13,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A&engine=google_hotels_reviews&hl=en&property_token=ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoI_af9-NffwemWARoNL2cvMTFzZDFyeGdyMBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "MerPerle Dalat Hotel",
+      "link": "http://www.merperledalat.vn/",
+      "property_token": "ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.9411183,
+        "longitude": 108.4583036
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫1,749,117",
+        "extracted_lowest": 1749117,
+        "before_taxes_fees": "₫1,619,553",
+        "extracted_before_taxes_fees": 1619553
+      },
+      "total_rate": {
+        "lowest": "₫3,498,234",
+        "extracted_lowest": 3498234,
+        "before_taxes_fees": "₫3,239,106",
+        "extracted_before_taxes_fees": 3239106
+      },
+      "nearby_places": [
+        {
+          "name": "Crazy House - Hang Nga Villa",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Đà Lạt Văn phòng Xe Tiến Oanh",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 14 min"
+            }
+          ]
+        },
+        {
+          "name": "Tiệm nướng Chiếc Rương",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-r7TRLKdvDcPaYNAwj3Mxvk2cZiniOWDsBdrIfiBzuoYYz3tYsea4AFhp0-6hEhQ1Ng8w_tJ-m71aOn-D0_lUmjiySeSv_eYl5mro6rC4fqCgiWi9fE2AG1OFtAmEUUSeJehwIg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-r7TRLKdvDcPaYNAwj3Mxvk2cZiniOWDsBdrIfiBzuoYYz3tYsea4AFhp0-6hEhQ1Ng8w_tJ-m71aOn-D0_lUmjiySeSv_eYl5mro6rC4fqCgiWi9fE2AG1OFtAmEUUSeJehwIg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMTIznPXXjLy2-txgwqYvYtAA5TMuJZCR6ubnG3d6ftskdW40QK0IijFbYgeNWApIOMC9ZhAufInSiOtM-KciVAe4bU3sWDumwJb6aQ4jXUbgLi5szXnkzJJp38TrTp6i9dEuN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMTIznPXXjLy2-txgwqYvYtAA5TMuJZCR6ubnG3d6ftskdW40QK0IijFbYgeNWApIOMC9ZhAufInSiOtM-KciVAe4bU3sWDumwJb6aQ4jXUbgLi5szXnkzJJp38TrTp6i9dEuN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGu4HJXD7KS4O466CBIMexKwmmRVbLPyF49T3KuI_7md7Raimebsaqc-a1JEZ4Y5YfBc97y4ALH0qYjjUHtPpchTSdLv5jHCgIqcPrSOvNaOgLOK2sPLg1xLD8HFbsReP_ZuLtV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGu4HJXD7KS4O466CBIMexKwmmRVbLPyF49T3KuI_7md7Raimebsaqc-a1JEZ4Y5YfBc97y4ALH0qYjjUHtPpchTSdLv5jHCgIqcPrSOvNaOgLOK2sPLg1xLD8HFbsReP_ZuLtV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFV8-ewRMIo8C8ECY-jU9UQvoY7PJoltSGwoJ3yBRfDhO_sDPdy-OZsxQdSiJnWOkRX99MRWvfQQlqUwjQ7CF3_7EAB3mxCTKdF32OW9ds52H9h_m9fCbtcFIeKrb7w-0K53TbwLSSP8e8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFV8-ewRMIo8C8ECY-jU9UQvoY7PJoltSGwoJ3yBRfDhO_sDPdy-OZsxQdSiJnWOkRX99MRWvfQQlqUwjQ7CF3_7EAB3mxCTKdF32OW9ds52H9h_m9fCbtcFIeKrb7w-0K53TbwLSSP8e8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7Yb8u0XYqd9oYBf0QgD7xsa7U-OWVkoFflEbFHU2S9YfljBx5lK2lH0__MY8mNyldAz5YfRvYovGlKva-BTtwWi_FkMr_C3rDpOmsPooECIGQ12mHCzI2g08kdxvuJqn_Xox02w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7Yb8u0XYqd9oYBf0QgD7xsa7U-OWVkoFflEbFHU2S9YfljBx5lK2lH0__MY8mNyldAz5YfRvYovGlKva-BTtwWi_FkMr_C3rDpOmsPooECIGQ12mHCzI2g08kdxvuJqn_Xox02w=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNU6py_aneuxKlKIcbGZqVsDg23zAgXV2dPhJRjg7LZh74BCdznlLa_Vu74TWc50QqoFfHlOihg9_aqu_DDxyO_TIl_kw3u6kQHdhWtSA4_5Czr_CJ6K4AyYT82CNKJcB8_mjmoA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNU6py_aneuxKlKIcbGZqVsDg23zAgXV2dPhJRjg7LZh74BCdznlLa_Vu74TWc50QqoFfHlOihg9_aqu_DDxyO_TIl_kw3u6kQHdhWtSA4_5Czr_CJ6K4AyYT82CNKJcB8_mjmoA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFgD5JCjL7aT3bkuPuPzmB_H4dJLIYO63GzbwLYrKXX4wyp07pZy--IyUj-bkkY-B8Z6QE8sTdvjUu9CtDDKf4j7UHlKrsh_NRMO6lCio-Iv_HWuftW2Tgyj46OD8rXNB0a-5E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFgD5JCjL7aT3bkuPuPzmB_H4dJLIYO63GzbwLYrKXX4wyp07pZy--IyUj-bkkY-B8Z6QE8sTdvjUu9CtDDKf4j7UHlKrsh_NRMO6lCio-Iv_HWuftW2Tgyj46OD8rXNB0a-5E=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEnuG8DOkobTSxZvCzvudF9KM3cvxcXX6ftGeQoLe5MGGAA1tGXAuJFs3ipycBmtetyIcxxeEVWX76I6mLBOzI3QYuhbyrTrjX7Ric0CSwOumzF0r8BOVA2_kcgZ5BQ6IR0kpfSyg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEnuG8DOkobTSxZvCzvudF9KM3cvxcXX6ftGeQoLe5MGGAA1tGXAuJFs3ipycBmtetyIcxxeEVWX76I6mLBOzI3QYuhbyrTrjX7Ric0CSwOumzF0r8BOVA2_kcgZ5BQ6IR0kpfSyg=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/iCkZ8khasz8TBN3fZ9U9WoteCVnDTNkF-2gLAHIiYmdgxdtuui26X6lhWzGTz8q11X8gFnRNufQNTi6ziLRcQlLXkskMtZxkhh9I4tvddjh54AtIhdSI55rQnQS-shaUXr2CbgJly-ohSEFQD5YapHQ-b-C-wjQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1036157/1036157a_hb_w_014.jpg"
+        }
+      ],
+      "overall_rating": 4.9,
+      "reviews": 5816,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 5519
+        },
+        {
+          "stars": 4,
+          "count": 166
+        },
+        {
+          "stars": 3,
+          "count": 51
+        },
+        {
+          "stars": 2,
+          "count": 21
+        },
+        {
+          "stars": 1,
+          "count": 59
+        }
+      ],
+      "location_rating": 3.8,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 289,
+          "positive": 276,
+          "negative": 7,
+          "neutral": 6,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 345,
+          "positive": 335,
+          "negative": 9,
+          "neutral": 1,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 66,
+          "positive": 59,
+          "negative": 2,
+          "neutral": 5,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE"
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 61,
+          "positive": 57,
+          "negative": 3,
+          "neutral": 1,
+          "category_token": "2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A&engine=google_hotels_reviews&hl=en&property_token=ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE"
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 64,
+          "positive": 63,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "1EvKb3ica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSojEhsACBsOoA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=1EvKb3ica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSojEhsACBsOoA&engine=google_hotels_reviews&hl=en&property_token=ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE"
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 26,
+          "positive": 23,
+          "negative": 1,
+          "neutral": 2,
+          "category_token": "PXioD3ica1yRnFiSmp5fVDl5uVtmSV5qcTEjjAEAtXQMIg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PXioD3ica1yRnFiSmp5fVDl5uVtmSV5qcTEjjAEAtXQMIg&engine=google_hotels_reviews&hl=en&property_token=ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Indoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIse6t-YC9p8woGg0vZy8xMXNwbDZwYmZkEAE"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Lahome Boutique Villa and Apartment",
+      "property_token": "ChoQg-uet-PCqIS0ARoNL2cvMTF5bjFyd2wxMRAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoQg-uet-PCqIS0ARoNL2cvMTF5bjFyd2wxMRAC&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 16.073869705200195,
+        "longitude": 108.24420166015625
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₫1,288,846",
+        "extracted_lowest": 1288846,
+        "before_taxes_fees": "₫1,193,532",
+        "extracted_before_taxes_fees": 1193532
+      },
+      "total_rate": {
+        "lowest": "₫2,577,693",
+        "extracted_lowest": 2577693,
+        "before_taxes_fees": "₫2,387,065",
+        "extracted_before_taxes_fees": 2387065
+      },
+      "prices": [
+        {
+          "source": "Vrbo.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/icon_1850600648__vrbo.com.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₫1,288,846",
+            "extracted_lowest": 1288846,
+            "before_taxes_fees": "₫1,193,532",
+            "extracted_before_taxes_fees": 1193532
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Aug 15",
+          "free_cancellation_until_time": "6:00 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Công Viên Biển Đông Võ Nguyên Giáp",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Danang International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 10 min"
+            }
+          ]
+        },
+        {
+          "name": "Tâm Ngon Garden - Hồ Nghinh",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/3kW4zPa2HyTd3nztPqAvLOWSKDGjfaQgTROgGmIFtUzfBbz_T7LDYwqE0oLqakvv1ib7-gCkk3u9je-60mxxMCr4SrPt_N4d4wVFfH1CG-PdqYGI3U08dhjyfRYX_4TfXR4DeSGEDs98e0bmC_Ns5LtyyTkB-Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/27000000/26700000/26695100/26695050/b6f44a86.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ts3bTWi-mL6lGN5s_zUoVg1RDRBTjcufOhlYsMZKNBdhz7d-qb-KAktgVK2xKPfZSlIOTVHMuyg7W_NV1woyreWOy0-8uuZoS-ftod-N-BA99f82552FZQCHxUJpuYGOS_fPZBGIvkpnO69ag91Bcc1djfBllFo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/27000000/26700000/26695100/26695050/95f80477.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/nmrz1odYNA9HWTnYPrnmHxwnC0Ajnczl45ypIWvbszB9LU1rt6RVhl1DUMUK4rjIETBcRVuHu9QEhxFhZI206h2LPecpOMY3yGFEN_EMZA_IbYcVh09Y7A9bfCW2Um5biLCctN1oMqXd8voaJxy3FNeF7uJCQw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/27000000/26700000/26695100/26695050/c9064e0f_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/I4904cqd_Dvw3pFTJhVWombEN1aizDsX1eV4VIaYvy4lAmiAj07MwzjyfwsnWtDgnDRtbMYghl5Iv1NjleoxMXPB76n7QnTzV9lU1oREFarQrzXwac39B_vZQiS1c5xdCNVAjDTPJRzFjeEMErDj5lTt5g_1wg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/27000000/26700000/26695100/26695050/0879db7a_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/2wBGE11MoqbZCKI-95o69hXd-EiRWFOrdG38fWo20sKLEY5QKOm8Ia7mkMPKmO9_7XWb0Gc-RbHlPDV1WKPxelfI1tQHOu7Bmoo3RWeRiMlGYeIxKGHqGtHZqsvEd_AM6VOoad9LoXoI29yYfysx__47qxftaA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/27000000/26700000/26695100/26695050/b54ecb03.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/0lnKbHXACTHZQooPQGVgr7QudzTkVBaAKmT5JzUrY2WHqvWBhPiSnZkdD9Y0eQ7vhKqOpyyL5yDqGS9tMJQcJi-zLJ5rAOAISM_iD9G0ODaRvYHJHtty6xT0i8XCUFadwZI3q1b-_rdl_ED8sIdAL07VEyOE5A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/27000000/26700000/26695100/26695050/a3e9f66c.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Z_XhHVHjnh72_cV3jESDSK32cINHedSlT8Fag9YwiJcte7_8F-QvwpAoPy-2QrdWN1wjnt9n4SG-uN95MSo6_F4RoijNigAwKyBsCXhjdT_VCB8iKtz1Dl0EyK3ikIa5cHY21pUSKY165eQ-NYDzpopEeZyCAO0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/27000000/26700000/26695100/26695050/0ed218af_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Wrlj--P_wpMnWi2k0JY_mBhZQ4TmwgUKYuA3FRcOEBnE2wJygQ8RHBCz1qnmheJjGGfNM8DSpRcB0vzWheWvQQG-5U0Wzj1qjE0oN3KvC0dEYTMbB5csKS42gdvJxlCuuzRPRuw8_ylbzJVS9DZdkgNPOOzL8w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/images.trvl-media.com/lodging/27000000/26700000/26695100/26695050/d2acb6e0.jpg?impolicy=ccrop&w=1000&h=666&q=medium&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/bhoLVYH7MI_mBUaRXh5P0VPZhdQ0oJ9Rmts8giUcg0zVvfm6O9xT8YRYtUwGuwcLUGO8O-7HscvmuWxgTmFnF9nU1po4a3nXEyVjEAlUSiRKoPU3VhgUYxFA5fIJA4ZLpBMAQUKZa1WDYsc2CrZiaFGUpR68bnM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/27000000/26700000/26695100/26695050/09a52485_z.jpg"
+        }
+      ],
+      "overall_rating": 4.6148834,
+      "reviews": 215,
+      "location_rating": 4.3,
+      "amenities": [
+        "Air conditioning",
+        "Elevator",
+        "Indoor pool",
+        "Kitchen",
+        "Oven stove",
+        "Washer",
+        "Wheelchair accessible",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No outdoor pool",
+        "Not pet-friendly"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Enhanced cleaning",
+            "list": [
+              {
+                "title": "Enhanced cleaning of the property",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 3",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQg-uet-PCqIS0ARoNL2cvMTF5bjFyd2wxMRAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQg-uet-PCqIS0ARoNL2cvMTF5bjFyd2wxMRAC"
+    },
+    {
+      "type": "hotel",
+      "name": "Da Nang Mikazuki Japanese Resorts & Spa",
+      "description": "Relaxed quarters, some with sea views, in a choice resort offering water parks, a spa & a bathhouse.",
+      "link": "https://mikazuki.com.vn/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+      "property_token": "ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 16.0934007,
+        "longitude": 108.14468749999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫4,167,753",
+        "extracted_lowest": 4167753,
+        "before_taxes_fees": "₫3,867,329",
+        "extracted_before_taxes_fees": 3867329
+      },
+      "total_rate": {
+        "lowest": "₫8,335,506",
+        "extracted_lowest": 8335506,
+        "before_taxes_fees": "₫7,734,659",
+        "extracted_before_taxes_fees": 7734659
+      },
+      "nearby_places": [
+        {
+          "name": "Danang International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 26 min"
+            }
+          ]
+        },
+        {
+          "name": "The Blue Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/gKdXc3fxWd6cRbauprgFoG2c-YpUtq52kX4cGiwfwS_bh6odnpXCxcH8yHuX3W63hXixDp_Q2g6eYck4HzK62RtfmlujwkgmQ5r_9SqFqaGay3kUaDNdrdEx7eXMThXMRfvqAA_AmntK1CrbEFf96jA-dinS9A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/153/302/259/Suite_4(3)_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEww5dFGRsnRg92On7TqX6TW3d0caM-0MPeK5iTVY2gzyhdKTBV6UM8y6UIzBRcHdjHr3pq5zResC8p-NwPRlqv0lAPfrzgKMnYls5XE91tx1IzvR8t-mSBOgRgIU5VBPYquv7Big=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEww5dFGRsnRg92On7TqX6TW3d0caM-0MPeK5iTVY2gzyhdKTBV6UM8y6UIzBRcHdjHr3pq5zResC8p-NwPRlqv0lAPfrzgKMnYls5XE91tx1IzvR8t-mSBOgRgIU5VBPYquv7Big=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtGB5wewK2gvQCkLkJkJi-GCITmEhnwFzF52WVPl9-adce_nhmGz6Rba0OHjGY91eurRy60E08NbhFVy-4FZcJO_hghAMbJ7LmoN0Jto-WrCQzXQcVf9C5jHI2OqnJEvJyf0YE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtGB5wewK2gvQCkLkJkJi-GCITmEhnwFzF52WVPl9-adce_nhmGz6Rba0OHjGY91eurRy60E08NbhFVy-4FZcJO_hghAMbJ7LmoN0Jto-WrCQzXQcVf9C5jHI2OqnJEvJyf0YE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGs2uPwR9NlOPfhETIGwmgozyu_nsVAa_mailLpAjLmxAdvVmjNN9CXIfUF5QE4MdNVugsmYxoPFz9KxzJjZa6o0Xt6AmHqy4_zCBIh54i8uPfriCSh7_Q8CTS9_plyjHkali0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGs2uPwR9NlOPfhETIGwmgozyu_nsVAa_mailLpAjLmxAdvVmjNN9CXIfUF5QE4MdNVugsmYxoPFz9KxzJjZa6o0Xt6AmHqy4_zCBIh54i8uPfriCSh7_Q8CTS9_plyjHkali0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHBVDrpgzmoWHE1lTldrCOjKhh5W4wRX232VKXvjMD3CiDLOk0RL9nX-h6zrixNWXjrDqXzfcOy1FzYz-0U1Tuc7bguk8afnfPNg1aRDqU32Okeursvyp1lHZQrNQRy7gp6UJwTAw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHBVDrpgzmoWHE1lTldrCOjKhh5W4wRX232VKXvjMD3CiDLOk0RL9nX-h6zrixNWXjrDqXzfcOy1FzYz-0U1Tuc7bguk8afnfPNg1aRDqU32Okeursvyp1lHZQrNQRy7gp6UJwTAw=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/w6JDrsyvkZeym7Hw_jSmM93btZl1ABlsH-80d0Np9Vd-OsG1Skc6F7z3ZAmkLxkksKuy-BW0q4aHihOon6rR-qVLWQ0Jz1NacXwxzoDbzxIgWSZo7ggtWbitHQ9sLs6GOiKY05Vt6cdt8v_fav38vJJpB3IP1A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/127000000/126410000/126403900/126403823/2c835b31_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4ps1L7yOToTY9WAtrdhbZ3QRCFBOHquxlpgK8Yabzpi1GsfYmholmYod_GsMVyirqvuZy-wimT8_CjWNfuEtB341gGqFcYRiS_GWIA61lKk7p9269f8XDB9Z-Y60KPi8ZQI3IMA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4ps1L7yOToTY9WAtrdhbZ3QRCFBOHquxlpgK8Yabzpi1GsfYmholmYod_GsMVyirqvuZy-wimT8_CjWNfuEtB341gGqFcYRiS_GWIA61lKk7p9269f8XDB9Z-Y60KPi8ZQI3IMA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwKEHF1k2j1JJvUtQyvuQJZKR-ztl62p_U6Xs-R6mnLBhMWwYJDaEqrytjf_VFsYH4sd52IR1DE4R5Kd77yR----O32Ge1YBeH-ZXr6v40Fkrq1y6i9bWfqFqUl0HxmOfBw2Uo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwKEHF1k2j1JJvUtQyvuQJZKR-ztl62p_U6Xs-R6mnLBhMWwYJDaEqrytjf_VFsYH4sd52IR1DE4R5Kd77yR----O32Ge1YBeH-ZXr6v40Fkrq1y6i9bWfqFqUl0HxmOfBw2Uo=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/f0_zAmt0T_4GT7-C5wzc3qXIVXkluprEMJFXCgZ1Lkfzp3CslB5Y1hTjyFfPLY6i7x5I_73sRxhq8IHmTPzgK4q_n5jXsq88-tIGnFwa53TeyU3_Z3eycQMOnv099YSAd7ECHQHs-8DCBYKMt_rbg2zYhBtsDQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/47/479742/479742a_hb_p_003.JPG"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 5108,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 4324
+        },
+        {
+          "stars": 4,
+          "count": 465
+        },
+        {
+          "stars": 3,
+          "count": 102
+        },
+        {
+          "stars": 2,
+          "count": 56
+        },
+        {
+          "stars": 1,
+          "count": 161
+        }
+      ],
+      "location_rating": 2.4,
+      "reviews_breakdown": [
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 202,
+          "positive": 178,
+          "negative": 18,
+          "neutral": 6,
+          "category_token": "kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg&engine=google_hotels_reviews&hl=en&property_token=ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 502,
+          "positive": 445,
+          "negative": 38,
+          "neutral": 19,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE"
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 193,
+          "positive": 168,
+          "negative": 12,
+          "neutral": 13,
+          "category_token": "PXioD3ica1yRnFiSmp5fVDl5uVtmSV5qcTEjjAEAtXQMIg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PXioD3ica1yRnFiSmp5fVDl5uVtmSV5qcTEjjAEAtXQMIg&engine=google_hotels_reviews&hl=en&property_token=ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 327,
+          "positive": 289,
+          "negative": 24,
+          "neutral": 14,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE"
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 135,
+          "positive": 105,
+          "negative": 18,
+          "neutral": 12,
+          "category_token": "2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A&engine=google_hotels_reviews&hl=en&property_token=ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE"
+        },
+        {
+          "name": "Pool",
+          "description": "Pool",
+          "total_mentioned": 100,
+          "positive": 94,
+          "negative": 4,
+          "neutral": 2,
+          "category_token": "ysOZZnica1yRnFiSmp5fVDl5SUB-fg4jmAQAcoYJmA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ysOZZnica1yRnFiSmp5fVDl5SUB-fg4jmAQAcoYJmA&engine=google_hotels_reviews&hl=en&property_token=ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pools",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Beach access",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Accessible",
+        "Business center",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI7tuTiY_l7PYhGg0vZy8xMWh6djBrc2djEAE"
+    },
+    {
+      "type": "vacation rental",
+      "name": "We Young Apartments by HOFs - Fireworks & Ocean view",
+      "property_token": "ChkQwO-Xn-bMotwQGg0vZy8xMW1reXJueG1sEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkQwO-Xn-bMotwQGg0vZy8xMW1reXJueG1sEAI&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 10.02886962890625,
+        "longitude": 104.00914764404297
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₫760,933",
+        "extracted_lowest": 760933,
+        "before_taxes_fees": "₫704,587",
+        "extracted_before_taxes_fees": 704587
+      },
+      "total_rate": {
+        "lowest": "₫1,521,866",
+        "extracted_lowest": 1521866,
+        "before_taxes_fees": "₫1,409,174",
+        "extracted_before_taxes_fees": 1409174
+      },
+      "prices": [
+        {
+          "source": "Vrbo.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/icon_1850600648__vrbo.com.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₫760,933",
+            "extracted_lowest": 760933,
+            "before_taxes_fees": "₫704,587",
+            "extracted_before_taxes_fees": 704587
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Aug 19",
+          "free_cancellation_until_time": "6:00 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Phú Quốc International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "35 min"
+            }
+          ]
+        },
+        {
+          "name": "푸꾸옥 한국식당 김가네김밥 KIMGANE 한식당 한식 분식점 분식 korean restaurants kimbap nhà hàng Hàn Quốc 韩国 餐厅",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/rQFSMCSLGFb65-s3GtToWc0SJFOc7ro_aUorsPE-YFOJVX4l6rtqq6uqJCwpPcMmkQil1G4vjGAyyrbM4AuRzeXsAUFVIPzZxadlHewLwEDEWW3KfC8l1TxskEFo5darpuUHP1FLnV9sqOC89IVdwRMxmnl-EA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/118000000/117820000/117814200/117814182/4bbcfbf0.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/x9088ACtiBbZ2FgwgHze4YlAyI_LI91U1qzohXsly4fak0cSplEPE8B3hq5Dts0_WE5qMXnGXACIiT3SVLdRrm08iZvjYL2rg0QyeAGQ3BsYJJ5VH85hIiHlv0MOLJ4ukJq98F4vYD_LV964BFs8HlYjnwl_-OI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zj8HttXhz_3kQFzaOZIB62i7-qlbKRK6q_B_gdbbFvLuCFhMcp6nhIkDtKTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPGVvhhQ3nG9m-EOZqnU2mQ_KPhg30EzzJHpqJtDakqv_4S537CSYHZm-vx5lOObe3o8FxALATSIUeE_e8RkRDMzoRBldxpfcmu2e1QPtzBu2CJd8cdxw-HHjfNKmQ"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/2MGlN8juiJa6fg_AkGetOdS5addyoZqDclHA1PFcGsu4HHeEE3io-51ohEO95AyANPqkU0sSFWfNtB7KGpResM2-oz6BiGpbRH3ta8EnvPcbQeWT48PrAIhKgQl3B-CWSGfmUG0OrNl95ktjPHGZIPF5RKcwnw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/118000000/117820000/117814200/117814182/5642a269.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/GyTT8A_7KokSCuXlvZz7nhlMv9xsKzSbxYmQTqyjtolBFxipNhXXU9uOgrKYLJsm-weQAalj3iV7MDZxKhsSzkybL9qfzz_TpDBWFbxRuBzD9eVXfAebRMw3g_beU-ULE1Qk6K9q5FV-sK_--sFIY7ooiJS3JXE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/118000000/117820000/117814200/117814182/74759dd7.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/0RTiLNgn6TNSC1H-JRDC7JaUTIrL5wJkw2Ff-bOix-tLLL1ZM2_ST1htmlePaHlTU-Hrm-in1KaJuIDBCSnOmL-yidZD424ky7ScTmRzujCIuPE7u9E2oP5Z1xzHmT4ZW6lp7NxJGB57b-7i4xrNd04Pg34Fpw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZhIXqliQs42wUNAeGZpNn5TOS7CH1IIakg0GFEbPCnKW2ERJcqJvFV0i0AzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPGVvhhQ3nG9m-EOZqnU2mQ_KPhg30EzzJHpqJtDakqv_4S537CSYHZm-vx5lOObe3o8FxALASPQb-Y9Ve09RDMzoRBldxpfcmu2e1QPgkKMU8X5n-VW-PnO_KFphA"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/nYfMZWj4PwoExumlDnO-qOvfTgDLmGu_3fLPfsoJTCEPY8-v_FP4WPZwiEKpy_NA0s9IyzNn_N31WZ8JVdaFFrAII77R578KQ6g0HGiURflkpVQMKNUt9hnJEyQWs2JkFFJ_nsdFgX9D_nOG0C9DxC1fA9IEnQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZkpG-uyp280dmZy-BSpFltyuatFz-G5GMqh3iCLXA_ZihCCRK7uW2DlHRKTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPGVvhhQ3nG9m-EOZqnU2mQ_KPhg30EzzJHpqJtDakqv_4S537CSYHZm-vx5lOObe3o8FxAKXjW2UvYpVcN0UzMzoRBldxpfcmu2e1QPTlW4BTcSML4Z1amKCPdTjw"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEPsWSX7k1Gkt1PfEo1t21o5WZoH2MEBj_S6Hqug5vBG8E1fHz6ixdUjLd0COKoLkcvSCN3j4y_lwVYnPW0ulI6P1M_TfAWSjU79wXiDFauWbjznMUJepWDFRh4k-rUFUtwogUfz6MK8iOz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEPsWSX7k1Gkt1PfEo1t21o5WZoH2MEBj_S6Hqug5vBG8E1fHz6ixdUjLd0COKoLkcvSCN3j4y_lwVYnPW0ulI6P1M_TfAWSjU79wXiDFauWbjznMUJepWDFRh4k-rUFUtwogUfz6MK8iOz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/44pf00pNwtgXtBFA79L2QnzzOhsqA6YDpO73Ym-56vAUjnY-4S8LJZIAWXAmyEVIXEXIfbM-dYenc-vHWa_NgpRP3-xrPHytj3zLB43EqB1Gz9EbpfV2BlKgFZmSKd0_lFn7td-rzWOkbq1YpU5H23w73dvnFA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/118000000/117820000/117814200/117814182/5cdf02c2.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/QxiLh7F9ZmMBhycCI0rCjZxXob9nrlbal2KiW3cLWJwQ30r56muCvKhpmck8U-bESy5dDvOP1FBZ2XDMwBs4XkOKL_8tIYEUGPuz01OvxkjWJL4OZRIYx1pDLxMIHTi4w-gjxF4UEjnEeyN4kxTr8mn4CdKmpQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZhoWzkmIJskkHaCeXR6BusDzSoHqMB-y4pQHkfoLQlpOECillq4_EJ1PTLTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPGVvhhQ3nG9m-EOZqnU2mQ_KPhg30EzzJHpqJtDakqv_4S537CSYHZm-vx5lOObe3o8FxAKEyC1bLw9Rcs8UCMzoRBldxpfcmu2e1QPYLGP1zvD8d8UXgnF63V80Q"
+        }
+      ],
+      "overall_rating": 4.546983,
+      "reviews": 116,
+      "location_rating": 3.7,
+      "amenities": [
+        "Air conditioning",
+        "Kitchen",
+        "Outdoor pool",
+        "Smoke-free",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No beach access",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No microwave",
+        "Not pet-friendly",
+        "No cable TV",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQwO-Xn-bMotwQGg0vZy8xMW1reXJueG1sEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQwO-Xn-bMotwQGg0vZy8xMW1reXJueG1sEAI"
+    },
+    {
+      "type": "hotel",
+      "name": "Hôtel Colline",
+      "description": "Streamlined rooms in a contemporary hotel featuring 2 restaurants, 2 bars & a fitness center.",
+      "link": "http://hotelcolline.com/",
+      "property_token": "ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.9439482,
+        "longitude": 108.4381016
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:30 AM",
+      "rate_per_night": {
+        "lowest": "₫1,631,487",
+        "extracted_lowest": 1631487,
+        "before_taxes_fees": "₫1,510,636",
+        "extracted_before_taxes_fees": 1510636
+      },
+      "total_rate": {
+        "lowest": "₫3,262,974",
+        "extracted_lowest": 3262974,
+        "before_taxes_fees": "₫3,021,272",
+        "extracted_before_taxes_fees": 3021272
+      },
+      "deal": "27% less than usual",
+      "deal_description": "Great Deal",
+      "nearby_places": [
+        {
+          "name": "Da Lat Market",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Chợ đêm Đà Lạt",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 20 min"
+            }
+          ]
+        },
+        {
+          "name": "Lien Hoa Bakery",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/9CwbL4O7n7DqNNSXUrUoqOSzrdFVYMvmClqmoLcgFs2dbqU4GrK9JhDoz8y5jyd523QbpHBp8VkhJSo3twjpmMhbsyZRbMSjfYZ_1z8SpyECK9U9v9B8kI4Et-38922t9FZWj3RKs0Nq7enrEdm8iRjiwMiVWmQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/34000000/33380000/33375600/33375518/f6861d10_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGjC9e5Apfk0p9Yab0KysJm0tBxO5-yygZJLXKAxuV_cRM6jvTcvB-oCLcp4UtULPS5W76ianx2f6W1CgN59mAb3F_mF9fOg5z2YxFig0oWg82c1iRcwfu3gG27KMgK-P1N2qrV9g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGjC9e5Apfk0p9Yab0KysJm0tBxO5-yygZJLXKAxuV_cRM6jvTcvB-oCLcp4UtULPS5W76ianx2f6W1CgN59mAb3F_mF9fOg5z2YxFig0oWg82c1iRcwfu3gG27KMgK-P1N2qrV9g=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXjD6l5K4b5VvxlVOclL67iG-gOqEx3OzavFA08dej9KSCqvkB-bZ6p6px--yYAJkJt1cYHGou89CtMfyrU7MS3dQuxiS87cp5xOF5cmxY2JlSlj4--YJSZ0I3cF1vUq2G86Fh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXjD6l5K4b5VvxlVOclL67iG-gOqEx3OzavFA08dej9KSCqvkB-bZ6p6px--yYAJkJt1cYHGou89CtMfyrU7MS3dQuxiS87cp5xOF5cmxY2JlSlj4--YJSZ0I3cF1vUq2G86Fh=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEiZKc7Sf3ZgWGkxQpreN40oNCcKiJLuee60WTy1Vz4yCIwKnyE-gyWL3CfCTv29w-gmsyLPBT_KNrHzYROIckekfd2BwLIa-hACcBxwiHJagKwQHG7m33hxhMB5GEJduLp8RD_ww=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEiZKc7Sf3ZgWGkxQpreN40oNCcKiJLuee60WTy1Vz4yCIwKnyE-gyWL3CfCTv29w-gmsyLPBT_KNrHzYROIckekfd2BwLIa-hACcBxwiHJagKwQHG7m33hxhMB5GEJduLp8RD_ww=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcUf0BqHY5JW708o2AAbrJWLi_dIleAX5lmLYpecJGvZqca6FmbM35boG23OMLxjK7SU8X2Q2o4Q_400sxn-cmmTVLppX0S78zKG1YUDJWS8g7umGVCo25_xcEAK_NKKSSNrUo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcUf0BqHY5JW708o2AAbrJWLi_dIleAX5lmLYpecJGvZqca6FmbM35boG23OMLxjK7SU8X2Q2o4Q_400sxn-cmmTVLppX0S78zKG1YUDJWS8g7umGVCo25_xcEAK_NKKSSNrUo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENDZrcHGbdplX4B0S3CP44HbJDJDRe_clUlI7zGP02shCMwxSjYVaLOPVrr0_c528fsuQtVVXUgoPZO_wPsjZhcAr-lmuES6sq25A7F2isB1F1WhB9n7LgRLFm3FO7-UYER0BpOQheiGZv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENDZrcHGbdplX4B0S3CP44HbJDJDRe_clUlI7zGP02shCMwxSjYVaLOPVrr0_c528fsuQtVVXUgoPZO_wPsjZhcAr-lmuES6sq25A7F2isB1F1WhB9n7LgRLFm3FO7-UYER0BpOQheiGZv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbcp6RoPqHmXvJnqQv6BIR2WqFW9pgypKJj3uXYCOioC8lM_Cm6Ihels1D7jA0H02J7z6h409VDGom-3Wxbi4MRi_uze0YvoDbejiAzIFsa3lkZNu3txKkRRlCQu-f6b1RAad8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbcp6RoPqHmXvJnqQv6BIR2WqFW9pgypKJj3uXYCOioC8lM_Cm6Ihels1D7jA0H02J7z6h409VDGom-3Wxbi4MRi_uze0YvoDbejiAzIFsa3lkZNu3txKkRRlCQu-f6b1RAad8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0647xH0mFU8OPPcjq5mVv2wvRzdfahHDa8V1s8FH-PYmCs22wWJTWey4hgbS5lP4vg-bK5vRu21hA2FvXN1q71E0SwRXXPD_ZPVBeEMHWMUbT8TWxDnPKq3Bje2cAQvBSxEMJTReKduzJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0647xH0mFU8OPPcjq5mVv2wvRzdfahHDa8V1s8FH-PYmCs22wWJTWey4hgbS5lP4vg-bK5vRu21hA2FvXN1q71E0SwRXXPD_ZPVBeEMHWMUbT8TWxDnPKq3Bje2cAQvBSxEMJTReKduzJ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFF99VXyuhSQLha7nwwY9TL4FiLS9VtrvbFfe5MGe-XOARRIRWWz7dALYmps-DqsKsFOyLlKmPQ9SCQUxDRTxFC2YO8jKXSSMVnA_SrSCNDPXLHgWYTNJpSzJjobp7RNf5OVIsm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFF99VXyuhSQLha7nwwY9TL4FiLS9VtrvbFfe5MGe-XOARRIRWWz7dALYmps-DqsKsFOyLlKmPQ9SCQUxDRTxFC2YO8jKXSSMVnA_SrSCNDPXLHgWYTNJpSzJjobp7RNf5OVIsm=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 2180,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1422
+        },
+        {
+          "stars": 4,
+          "count": 438
+        },
+        {
+          "stars": 3,
+          "count": 138
+        },
+        {
+          "stars": 2,
+          "count": 54
+        },
+        {
+          "stars": 1,
+          "count": 128
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 106,
+          "positive": 81,
+          "negative": 18,
+          "neutral": 7,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 87,
+          "positive": 74,
+          "negative": 6,
+          "neutral": 7,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 103,
+          "positive": 72,
+          "negative": 28,
+          "neutral": 3,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 50,
+          "positive": 34,
+          "negative": 9,
+          "neutral": 7,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB"
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 39,
+          "positive": 9,
+          "negative": 24,
+          "neutral": 6,
+          "category_token": "qkWVwHica1yRnFiSmp5fVDl5aXBOamoBE4QCAIa4Clk",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qkWVwHica1yRnFiSmp5fVDl5aXBOamoBE4QCAIa4Clk&engine=google_hotels_reviews&hl=en&property_token=ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB"
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 34,
+          "positive": 5,
+          "negative": 27,
+          "neutral": 2,
+          "category_token": "ygg_b3ica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox0wqYBAC6zRKr",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ygg_b3ica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox0wqYBAC6zRKr&engine=google_hotels_reviews&hl=en&property_token=ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIm8v9zen4w7vvARoNL2cvMTFnMW5wYjlmaBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Golden Sun Hotel - Dalat",
+      "link": "http://goldensun.vn/",
+      "property_token": "ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.937919299999999,
+        "longitude": 108.4465365
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫1,973,714",
+        "extracted_lowest": 1973714,
+        "before_taxes_fees": "₫1,827,514",
+        "extracted_before_taxes_fees": 1827514
+      },
+      "total_rate": {
+        "lowest": "₫3,947,428",
+        "extracted_lowest": 3947428,
+        "before_taxes_fees": "₫3,655,027",
+        "extracted_before_taxes_fees": 3655027
+      },
+      "deal": "31% less than usual",
+      "deal_description": "Great Deal",
+      "nearby_places": [
+        {
+          "name": "Lâm Viên Square",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Trạm xe Bus Đài Truyền Hình",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 15 min"
+            }
+          ]
+        },
+        {
+          "name": "DALHA (Don Ha) Complex Khu phức hợp nghỉ dưỡng, ẩm thực & mua sắm 24/7",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFCBqoz2DaV-XAU_2EHWLThdYzNvbfEH78Vax9epnUHkUsUhCsjQalDOuIN_XMCqbfXn9KQfyfK5kcpGe0NYT5ooao1brsVol8UzfkqjoKlGEUvjpAqXykpFsEVoXQtXQA6VEo8xQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFCBqoz2DaV-XAU_2EHWLThdYzNvbfEH78Vax9epnUHkUsUhCsjQalDOuIN_XMCqbfXn9KQfyfK5kcpGe0NYT5ooao1brsVol8UzfkqjoKlGEUvjpAqXykpFsEVoXQtXQA6VEo8xQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/csvCW3P-VdV698KS5seZH_9z0_l9qBjehO4qkOuMZltynYfLrYIOQWzi9g2mpZH4ZQyG7Nu1Zlg0liQo4-clA-SO-wMFw0FSLsp5h0akyutQ1MfiO5MnASUrxGBkMuI8kpXlsf3eYL7Fos27DNA2W5OwnuNJtg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/39/a3/e9/caption.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnDGBu2mybCNZCZ72nngtoTJ0qn64f-fik6cJSf7kQgglEozisAl6soCYgheDebfPtP4SpNI6JXwAehHSCgI4kURAYumb33UPIo7u56Nru7OlS18nOra7ylrAsKc4BUdC5_RbD=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnDGBu2mybCNZCZ72nngtoTJ0qn64f-fik6cJSf7kQgglEozisAl6soCYgheDebfPtP4SpNI6JXwAehHSCgI4kURAYumb33UPIo7u56Nru7OlS18nOra7ylrAsKc4BUdC5_RbD=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdF-cyD2tah95dCjQdHa68daRcGdMCeOWyqk5dZlJdu70-bN0uIm69KNvDZSPbgUVqCyMguIydkyEsRCfUgY1R6ILkwqGT2zqoYPY-bTeKCm-t3idQbg0fFlxzHh-x2YC8X7uDYF9NonQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdF-cyD2tah95dCjQdHa68daRcGdMCeOWyqk5dZlJdu70-bN0uIm69KNvDZSPbgUVqCyMguIydkyEsRCfUgY1R6ILkwqGT2zqoYPY-bTeKCm-t3idQbg0fFlxzHh-x2YC8X7uDYF9NonQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIdmyDEW7nROzanxBU8cjQsUde2_Knvcp4QJ4fVB8Op-e-4YJNvdjTLIjATDdu2AIvskiQSQ7GWDatbn2t_IeX--bStDFxySAq75iOLWoAkvEmUVtO2J135hUsauj2-RousOtIrxSiBTY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIdmyDEW7nROzanxBU8cjQsUde2_Knvcp4QJ4fVB8Op-e-4YJNvdjTLIjATDdu2AIvskiQSQ7GWDatbn2t_IeX--bStDFxySAq75iOLWoAkvEmUVtO2J135hUsauj2-RousOtIrxSiBTY=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Da90kmdJ9HTF_alhVH_9FKxqYTPoPfIhcB6qrxhzZgEuevVRx0qEAGUUs16Ogc2Iaq54t6L_OWFhE3N3uQP13vw3LPMT3kX1IvYWj43ao0tj1knMB3YhtwdBUDHrIdJ95roLMhfok02b37VRCvbCQDU8hlbswg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/96000000/95980000/95977100/95977006/w6072h3420x0y0-b87c0585_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/fjZWPA6uliOxMr9NaS-V9OB3OeVgmmmZtxpqBVffYz8WGgRQmqiKwmA3uraOpWugNQD-GUcyHwxWdQzC_fYAR5UeWzDh5HrR-hkznHADcGBQyqejooW4ysyIKqOKmYko8N97hUh1W_I2r0kY1KaVxTAw_J_7DA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/96000000/95980000/95977100/95977006/8c4bcde3_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/KU7f8hk8zI988baetxVlnkI5RkFYIvrg5aJTWjeON7yPsPwzmJYJa-YFq4rpxr3DMhqI1TlfbOF56Zciz-xyFiV83BK9Q-JvRYC0gfhuTXAaGFDnfuEvGPJDmRZg74ZxNJagPaxXSmgf3UlAO3hO-6u4bqS3OQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/43/ce/b4/spa.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6Y4a-3VJgn1FFSKWu0emsNIhDtJ3FxRlbQGGY7lihhqIxafhzKNp8cLZyG9th2VZSkP0slb4R-_j0-oueFNgr1uzyNv9V5UDRW-gY-p7oq-AyY5pd7STFObrjTOP-nAIdCXTRObFTkbmt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6Y4a-3VJgn1FFSKWu0emsNIhDtJ3FxRlbQGGY7lihhqIxafhzKNp8cLZyG9th2VZSkP0slb4R-_j0-oueFNgr1uzyNv9V5UDRW-gY-p7oq-AyY5pd7STFObrjTOP-nAIdCXTRObFTkbmt=s10000"
+        }
+      ],
+      "overall_rating": 4.9,
+      "reviews": 4341,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 4220
+        },
+        {
+          "stars": 4,
+          "count": 71
+        },
+        {
+          "stars": 3,
+          "count": 10
+        },
+        {
+          "stars": 2,
+          "count": 10
+        },
+        {
+          "stars": 1,
+          "count": 30
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 376,
+          "positive": 371,
+          "negative": 3,
+          "neutral": 2,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 275,
+          "positive": 266,
+          "negative": 2,
+          "neutral": 7,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 100,
+          "positive": 97,
+          "negative": 1,
+          "neutral": 2,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 98,
+          "positive": 93,
+          "negative": 0,
+          "neutral": 5,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB"
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 67,
+          "positive": 64,
+          "negative": 1,
+          "neutral": 2,
+          "category_token": "2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A&engine=google_hotels_reviews&hl=en&property_token=ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB"
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 76,
+          "positive": 76,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "1EvKb3ica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSojEhsACBsOoA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=1EvKb3ica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSojEhsACBsOoA&engine=google_hotels_reviews&hl=en&property_token=ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIzNyPntWPuY_xARoNL2cvMTFzdHpzZHg0bBAB"
+    },
+    {
+      "type": "vacation rental",
+      "name": "The Metropole Opera Deluxe Residence",
+      "property_token": "ChoQwZujjbfOzsaYARoNL2cvMTF5dzJ3NXEyXxAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoQwZujjbfOzsaYARoNL2cvMTF5dzJ3NXEyXxAC&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 10.7771577835083,
+        "longitude": 106.71302032470703
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₫3,811,247",
+        "extracted_lowest": 3811247,
+        "before_taxes_fees": "₫3,522,672",
+        "extracted_before_taxes_fees": 3522672
+      },
+      "total_rate": {
+        "lowest": "₫7,622,494",
+        "extracted_lowest": 7622494,
+        "before_taxes_fees": "₫7,045,343",
+        "extracted_before_taxes_fees": 7045343
+      },
+      "prices": [
+        {
+          "source": "Expedia.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/12590129945800583137.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₫3,811,247",
+            "extracted_lowest": 3811247,
+            "before_taxes_fees": "₫3,522,672",
+            "extracted_before_taxes_fees": 3522672
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Aug 6",
+          "free_cancellation_until_time": "6:00 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Tan Son Nhat International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "40 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "50 min"
+            }
+          ]
+        },
+        {
+          "name": "Ngon Restaurant"
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/g5nVrXQdVxYCv-FcHEhUO1ua1o92nn3GEZAynUG2j1Gt6Ur1YtobFIBc4WF2db0kvEOahjgyF_6Uf7bjzV9MDypldyp1Dj3yCWYlaJFXRIbwBhI82XcGiOlrE5oPf42I55SPRTw1CQ8Eag9b1Fsi_v_QfU329E4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/121000000/120150000/120144200/120144185/e60dd48d_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ZXUW6b3Ei5NpfmnjzF9GxJPhpFBVUdLLxgSgkvvafP0MV6LS908tFRXjCqd1GJe4w_r2oLPuYIAPcgDpWRJoWrCI4P0URFNYlokBiwzsf3QdsZ3olixVi8Ux48UZo_Jqm0YHHskOgbW-ZkBorY3UMbpkKB85Sfc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/121000000/120150000/120144200/120144185/5b5cfe6c_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/GaTTNKyRcFT_uMlWu41bIJKAfjJtuKViot2t75LmKRsv0CUkkJBfLWBd_4cuuyrwoHgbfQa1vk8Ba93FlihQN1RYJYUhBeg6QTbBOHvwCjTfeqECISPuRICQeK53DVmXzI3nHCwElIvrFaEZ7Zi2uzqZsEKA_w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/121000000/120150000/120144200/120144185/bcd18d19_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/8JYJGjS5JKlLE0J9LvJDzc5cI9L2bfTSHtS8D6uudx77J4smK09Rj2wrcqxbUZOeIwa4-bSzlwiljQUBIQghJEN3LouVq2G90zlyYbffT1rlbrb0-HhKO-bMdssaZN1tTlRnrCg-lWYUhpQMSuasxt4hGK0a8A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/121000000/120150000/120144200/120144185/c859a7e0_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/laAGemivdre4hHdO_E3Y3vdHZrTaAjiogExpZzZoC10XfBZc_I0ZIXIs8TyAcMFDboL6zFPWItOP6FY8VALX3DrnyGnxP89OL-qKDqla7yvEU848q5NBXygq6gSuu6txAvmPsbQsZps75JTThiUfaw70j0LhVw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/121000000/120150000/120144200/120144185/fb482bcc_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/hZvHf8ZTSobL9yBnhrQIZ2zNYXesBBsLds-oO2EeDmWhNnklVHVbxfbNPginE9QWVMCm1v7Vg921b9eBxzhrThlxQACh7hLvKvL37-BNH5m3Ivfjd2COIoetxCphgRYOt_EH03rIMjJHulpm7AkqccOE3ddJYA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/121000000/120150000/120144200/120144185/w1090h726x0y0-a1b31e9c_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/FHIRsEWfRaGrB2eG2tWOIazyrPqA94hWC5QbF9qFhQ190RLrRD-KCIqw_0l_PPXD-4zfhAHt3X2WLbiCPyNts5o7tngAnjfbE-ErlMmGUCyCG_820zWPA7hWKG3rDYo7-CP1WyW-FiYqJ2abKZoQB5b8ht-p_m0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/121000000/120150000/120144200/120144185/2db8e339_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/McsI9BmLerJMzp8qYY_cnwoRJvsKzOQL5uYblh8ovFWqtOWnCZxYeD0akboRMFosQQLG7hkAZLE_RFeyxHPy4UxnqTW8KUSYdMNFSHGF0mfPdmmTu5TW5um-LRW-K4a-rn5Jb5uePIcjn38aJ3eH0-hFz9o8Sjk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/121000000/120150000/120144200/120144185/8d3a1d55_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/xJOxsB4uDzR6cGYZDhGqoUInGOs6OTtXw1zQHea13LzDSRLPl8ESgoGshApnEiLgm0SGafBN5y_3MwfB9CW2XX__0BH8JZ3PSs4RpllDVf4B9Fv9odXH0bg8wSmgkyS8KHPqUxCKAAYlWRgrgcHP_i4Lx9ESiw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/121000000/120150000/120144200/120144185/6072198c_z.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 278,
+      "location_rating": 3.2,
+      "amenities": [
+        "Crib",
+        "Elevator",
+        "Ironing board",
+        "Kitchen",
+        "Pet-friendly",
+        "Smoke-free",
+        "Cable TV",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No indoor pool",
+        "No outdoor pool"
+      ],
+      "essential_info": [
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bed"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQwZujjbfOzsaYARoNL2cvMTF5dzJ3NXEyXxAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQwZujjbfOzsaYARoNL2cvMTF5dzJ3NXEyXxAC"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Fairy Mountain Retreat",
+      "property_token": "ChkQ3IuBoY2r6M4qGg0vZy8xMXgzYjNzNzRqEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkQ3IuBoY2r6M4qGg0vZy8xMXgzYjNzNzRqEAI&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 20.270788192749023,
+        "longitude": 105.94729614257812
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₫1,322,285",
+        "extracted_lowest": 1322285,
+        "before_taxes_fees": "₫1,224,338",
+        "extracted_before_taxes_fees": 1224338
+      },
+      "total_rate": {
+        "lowest": "₫2,644,571",
+        "extracted_lowest": 2644571,
+        "before_taxes_fees": "₫2,448,677",
+        "extracted_before_taxes_fees": 2448677
+      },
+      "prices": [
+        {
+          "source": "Expedia.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/12590129945800583137.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₫1,322,285",
+            "extracted_lowest": 1322285,
+            "before_taxes_fees": "₫1,224,338",
+            "extracted_before_taxes_fees": 1224338
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Tho Xuan airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 40 min"
+            }
+          ]
+        },
+        {
+          "name": "Cơm Nhà Chuồn Chuồn Xưa",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/TiV7y6lHTGTWDxgWxm2wJZyXEj8ei_wALtrzQypxLQTLTmay8tGZB1YfWJb7EeAktgVLfoiDkBnc6GUBjMqDGo4L1q7Bio-Y1DglrYTvDdAkksM54gg2J_PrU5r98FD1OPcxlXop2dYv-hCBP_cFn0LxJQJBMA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/102000000/101850000/101841400/101841310/11ba6b61_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/w8Q-cmvsxXEIntBqQ7qBAdHS7sI7F11JcuNrNSQ0DfKKjA9UJiYcFwTXn_Ow7qUmh4u9B-qVFnwx2ZDnB0de2x5fYj8R_SN7QOekOstZKuCznKiNxS-d4QkzwYD_OgTwVcyNvbOhGujx6tjciECbt83L6qAbrz0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/102000000/101850000/101841400/101841310/f8c63fb1_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/iSc1wds2T5CPNUxxADt4VpBqKk59F8-259mdmeUyaIcEInjkC0Ya7IOeb3PIUAgOxd7ncouH_ZUEGjqu5j9pTOar0NZIa8Ss06unZPthGBkJFkq5CxNjDmaZzVQWvZCRGqh5VtECJoiG1uFfECF9i-jncINiiA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/102000000/101850000/101841400/101841310/757ffb27.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/B7VJcNaDBi856vNeOr3qR2susP299C2zM-yCKpWSvpZfmGWW3zaQHFuzi6ic8PG9YA3-U9LtBY8PjPf4AJZvdH9Flb96zeAWROWtLuOZoMK4cNFPCshQMZyW7aBTpojzkudJjT_viWslwe7DtIxXu0MKewQi8g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/102000000/101850000/101841400/101841310/23aac274_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/j9b5eMKrM2XbleMCQ0jvsQ-3Vp4jsuY89zb4ADdPicHWiT1QpEqFpZc67b_78O8qs4hvLWNlLP3L3qAEHzFfZ-KH7EyhXgGVnyCfzE14s9hMAaYTRxOC1WDy7tD4GizJ1nE2M4S2SMV6IM2ibb-iVueEQOAI8w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/102000000/101850000/101841400/101841310/08275575_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/luR52XQkauJJSqrJfcP8D4qCPsttI-mi1ipyHzGE2hYh7rQlZelztxKgQYc7KPj_Q6UI_2xEGvaDPgpZzc9YXZNnpDkzAtK74WK00PxJJIAcbAgrusB5EtSqgsLdbeFr4YjFA0MDlg0tPrZ88mr_z_rtuR_7Kaw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/102000000/101850000/101841400/101841310/dd86cc66_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/vQ9eDLVJH2NmoaHDrDy04YuUSeW29kz86ENv04gc2hFZrb8Y-820rea-QOBziNdZmoBs2l3uEqqdQhraSo5mnXpT_2kUbG_bf4Ct_hfTNxdDULCehoMI0ow-ZAL7rQ9VvuqY3mItenanEb44-GMiAODVbMjvjOE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/102000000/101850000/101841400/101841310/5b3fc501_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/kAt8xGi4oibUP7QnbeXvMGdjM9ma-ow-zVpW7hHyjYc_Nr5ZVg_CDN1pL5YglLZ3-gS5d6QsP2gxJ13PnxpimQwS0fzlGM-x-AuEY91M_7knB6DTVOlvQwyob7-abJXwFJ4NT6JHEmcWoqbnmi5I2SSY1oziXw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/102000000/101850000/101841400/101841310/f68d9f83_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/oSq7JgDOckYst34MfQ0Oe8KlHLf9O4ZFqWDBZVD2-JJxv9fe1DdjUdNgk7CpYTQFVjZ2e3tc022x2ltsW6lFRX8ibfgD6Z3v7Iq9dtXuowkrld4ykdGvzoHflzED2MJSGZrI2vjmRdnfblNsOIxDgSbLm64=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/102000000/101850000/101841400/101841310/5a454477_z.jpg"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 246,
+      "location_rating": 3.4,
+      "amenities": [
+        "Air conditioning",
+        "Crib",
+        "Heating",
+        "Outdoor grill",
+        "Outdoor pool",
+        "Patio",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No indoor pool",
+        "Not pet-friendly"
+      ],
+      "essential_info": [
+        "Entire cottage",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bed"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQ3IuBoY2r6M4qGg0vZy8xMXgzYjNzNzRqEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQ3IuBoY2r6M4qGg0vZy8xMXgzYjNzNzRqEAI"
+    },
+    {
+      "type": "hotel",
+      "name": "Ana Mandara Villas Dalat Resort & Spa",
+      "description": "Upscale resort offering Vietnamese/French cuisine, a spa & a poolside bar, plus mini-golf & yoga.",
+      "link": "http://anamandara-resort.com/",
+      "property_token": "ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.944039,
+        "longitude": 108.4236
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫1,974,260",
+        "extracted_lowest": 1974260,
+        "before_taxes_fees": "₫1,828,018",
+        "extracted_before_taxes_fees": 1828018
+      },
+      "total_rate": {
+        "lowest": "₫3,948,519",
+        "extracted_lowest": 3948519,
+        "before_taxes_fees": "₫3,656,035",
+        "extracted_before_taxes_fees": 3656035
+      },
+      "nearby_places": [
+        {
+          "name": "Crazy House - Hang Nga Villa",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 25 min"
+            }
+          ]
+        },
+        {
+          "name": "Nhà Hàng Cá Tầm Cá Hồi Đà lạt - Chivo",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEc45CX8GWDMWySLxGkwsvtj26fSvm16w_KOy-CjdFT7u2SRo2-UM6ETV3OAkHDkvPtGtP0gbTEyrZ48rfmadXQrVyU5BpckBzI_DLPPHuHRMk6_GU8vtRUOGkGT4IYP5NMWB8QqPHNU7b5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEc45CX8GWDMWySLxGkwsvtj26fSvm16w_KOy-CjdFT7u2SRo2-UM6ETV3OAkHDkvPtGtP0gbTEyrZ48rfmadXQrVyU5BpckBzI_DLPPHuHRMk6_GU8vtRUOGkGT4IYP5NMWB8QqPHNU7b5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELoiSjZgJYdiOk-i6AhquXswRJ3dmgdzF07ykd4YNryB_CPBHboN0T1RoJHmo6ITOFnqG2I24xlhKblmyefRfT7-2PWnDbQPlo_SnbCYge3A2zfhzZz3xrvnEaN5x7PpXJ1vVVbg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELoiSjZgJYdiOk-i6AhquXswRJ3dmgdzF07ykd4YNryB_CPBHboN0T1RoJHmo6ITOFnqG2I24xlhKblmyefRfT7-2PWnDbQPlo_SnbCYge3A2zfhzZz3xrvnEaN5x7PpXJ1vVVbg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBYN5HpntFNVHXAD73N_Qc2BW_tVTiJx7FAHsK4EYQxggJ1BP3Qwpfz-V-AMs84spV86CcuJ3BJGrV1IFjLH9dsWgR9cpTnPsNMx7YgHEWst6S_5S_B9TqdY2FFmC3AJYAbZN-Aw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBYN5HpntFNVHXAD73N_Qc2BW_tVTiJx7FAHsK4EYQxggJ1BP3Qwpfz-V-AMs84spV86CcuJ3BJGrV1IFjLH9dsWgR9cpTnPsNMx7YgHEWst6S_5S_B9TqdY2FFmC3AJYAbZN-Aw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlecDPKs18TMQK84eL7NFJVF5uAf0tuD0CrGhFY_cwxaNyPafb9g7-NQPCZmfUmco4m7X43MCL23HvW-kCWymxKJyu1z7GPt75wQotBrlXOPysStLkEpNbVienLKUYdHtMFKvS=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlecDPKs18TMQK84eL7NFJVF5uAf0tuD0CrGhFY_cwxaNyPafb9g7-NQPCZmfUmco4m7X43MCL23HvW-kCWymxKJyu1z7GPt75wQotBrlXOPysStLkEpNbVienLKUYdHtMFKvS=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDeVVHsiNozWEyY3fSk5Doi21OLFdAnF8eX0rYydyXaBKPgeRUlM7JM7hRMyy26Bf_kj1AEjlp5Hw6MqGwuteSb5l1AmUDDGEBK28kIKXwI_qJu9bf706D2cdobc0k4vZF9loY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDeVVHsiNozWEyY3fSk5Doi21OLFdAnF8eX0rYydyXaBKPgeRUlM7JM7hRMyy26Bf_kj1AEjlp5Hw6MqGwuteSb5l1AmUDDGEBK28kIKXwI_qJu9bf706D2cdobc0k4vZF9loY=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFlc4i4WnJremQL6O04EXEkfmritJ76QzFHFLTH0BTVSCEV31ESX43piZl4SzyUeX6hP98Lr75ZGlgZ6FI9O-t80whikoHhRHlPQ_sJdG08IfXVjz_IRxilkhkZbaoYeW8heQN7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFlc4i4WnJremQL6O04EXEkfmritJ76QzFHFLTH0BTVSCEV31ESX43piZl4SzyUeX6hP98Lr75ZGlgZ6FI9O-t80whikoHhRHlPQ_sJdG08IfXVjz_IRxilkhkZbaoYeW8heQN7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEeifNvnq8Dr6fVYhwsRIC5iL4ZQ4hPFWl4YgtP6VnEiOmtOR8twbRBCxADV4SA6nPjBvqpnaQ4-z2vTSAbkgkuCQvJO_JHfvOaaVrBxxsUONDqg37PflA33gXf8IcCO1NgHfMk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEeifNvnq8Dr6fVYhwsRIC5iL4ZQ4hPFWl4YgtP6VnEiOmtOR8twbRBCxADV4SA6nPjBvqpnaQ4-z2vTSAbkgkuCQvJO_JHfvOaaVrBxxsUONDqg37PflA33gXf8IcCO1NgHfMk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKdp0_aqa9miY41cXFQhCNQt60JM-PhZwXcIxQbg8cJXLTXjOKCVaVqwc-z1pBq9s4i43OK4x_6JkYn3Bdttf6eo1DfH4LTKsxNvwbQEqSs2VP5IOszQdegrpwi2j1baGvNaXK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKdp0_aqa9miY41cXFQhCNQt60JM-PhZwXcIxQbg8cJXLTXjOKCVaVqwc-z1pBq9s4i43OK4x_6JkYn3Bdttf6eo1DfH4LTKsxNvwbQEqSs2VP5IOszQdegrpwi2j1baGvNaXK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHg7NF1NcDQ8iIe8IXX6o_1Am66V3oIdX2Q1RFN3uCE3ykCUslIFb-mD7UDVp2DNSWFtgcViHSlNTf3N39lPtED21OPzO6an3ctdOEy5batlMM1K5uOKAHiIeos3QpZ5nU_znoe=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHg7NF1NcDQ8iIe8IXX6o_1Am66V3oIdX2Q1RFN3uCE3ykCUslIFb-mD7UDVp2DNSWFtgcViHSlNTf3N39lPtED21OPzO6an3ctdOEy5batlMM1K5uOKAHiIeos3QpZ5nU_znoe=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 2515,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1826
+        },
+        {
+          "stars": 4,
+          "count": 456
+        },
+        {
+          "stars": 3,
+          "count": 124
+        },
+        {
+          "stars": 2,
+          "count": 41
+        },
+        {
+          "stars": 1,
+          "count": 68
+        }
+      ],
+      "location_rating": 3.5,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 211,
+          "positive": 189,
+          "negative": 15,
+          "neutral": 7,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 181,
+          "positive": 164,
+          "negative": 13,
+          "neutral": 4,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE"
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 47,
+          "positive": 39,
+          "negative": 3,
+          "neutral": 5,
+          "category_token": "sp9xBHica1yRnFiSmp5fVDl5RXhqTk5eanExI5wFAM_4DQY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=sp9xBHica1yRnFiSmp5fVDl5RXhqTk5eanExI5wFAM_4DQY&engine=google_hotels_reviews&hl=en&property_token=ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE"
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 38,
+          "positive": 31,
+          "negative": 3,
+          "neutral": 4,
+          "category_token": "xb4k5nica1yRnFiSmp5fVDl5cXBBIiOIAABfNAiq",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=xb4k5nica1yRnFiSmp5fVDl5cXBBIiOIAABfNAiq&engine=google_hotels_reviews&hl=en&property_token=ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 67,
+          "positive": 51,
+          "negative": 9,
+          "neutral": 7,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 74,
+          "positive": 64,
+          "negative": 3,
+          "neutral": 7,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Golf",
+        "Full-service laundry",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChYIt-6W4NfApMxrGgovbS8wN2ZrbHBnEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "The Manor Villas Da Lat",
+      "description": "Refined hotel in a French Colonial-style building featuring warm rooms, city views & a lounge.",
+      "link": "https://www.facebook.com/TheManorVillasDaLat",
+      "property_token": "ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.925351,
+        "longitude": 108.444924
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫451,329",
+        "extracted_lowest": 451329,
+        "before_taxes_fees": "₫417,898",
+        "extracted_before_taxes_fees": 417898
+      },
+      "total_rate": {
+        "lowest": "₫902,658",
+        "extracted_lowest": 902658,
+        "before_taxes_fees": "₫835,796",
+        "extracted_before_taxes_fees": 835796
+      },
+      "nearby_places": [
+        {
+          "name": "Crazy House - Hang Nga Villa",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Bến Xe Đà Lạt",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 24 min"
+            }
+          ]
+        },
+        {
+          "name": "tiệm nướng trong rừng",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFa6Z9R96HgfXpIuIIHp2giLQDfKtf-RbqEUrlKzqX6-E0x4QPQgKwf476IunKaSGBOlXN2IVpqaiwXnZgZgkaZCQIDH64tQx_5LtxjZCDNHlvPaTJargmPaNsYPEmqBKJvb6CIHQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFa6Z9R96HgfXpIuIIHp2giLQDfKtf-RbqEUrlKzqX6-E0x4QPQgKwf476IunKaSGBOlXN2IVpqaiwXnZgZgkaZCQIDH64tQx_5LtxjZCDNHlvPaTJargmPaNsYPEmqBKJvb6CIHQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHl75x9a5hu-5qC36Q52BUYkBDTo9vHKMQg34IUfsfhjPr3OPQsXHg8P364WAaTNhdefW_eGHI7MI467_uBSFLqD4gcIlXjsgt-oB0FWSIcXbKgkDe708udsk3qVF6SXTW0YxU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHl75x9a5hu-5qC36Q52BUYkBDTo9vHKMQg34IUfsfhjPr3OPQsXHg8P364WAaTNhdefW_eGHI7MI467_uBSFLqD4gcIlXjsgt-oB0FWSIcXbKgkDe708udsk3qVF6SXTW0YxU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESrAi762oLBjwqhastZNkZ80MFdNNQpry-c3fBaGri3xS6p9TP4BKQj6ISFJFd6Wmq-p9xZh6aEPYDgvKazICcne7cgbt5mtyimri-4mPh4Z1fR4f_tWyXuZZOaFCtnYtW8L3w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESrAi762oLBjwqhastZNkZ80MFdNNQpry-c3fBaGri3xS6p9TP4BKQj6ISFJFd6Wmq-p9xZh6aEPYDgvKazICcne7cgbt5mtyimri-4mPh4Z1fR4f_tWyXuZZOaFCtnYtW8L3w=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUWQlR4L7Tv_6-dLFl09M0j7K2YyUUThWDMg1clGex4b9cMfT8fdeWHC0IhpsF6T7vZ3FCEnPHg51g3UJgLgxo9OWc1oBcEaUdmM0F3N7Io0i5g-MN9pQaPx096zke3Gsobvuv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUWQlR4L7Tv_6-dLFl09M0j7K2YyUUThWDMg1clGex4b9cMfT8fdeWHC0IhpsF6T7vZ3FCEnPHg51g3UJgLgxo9OWc1oBcEaUdmM0F3N7Io0i5g-MN9pQaPx096zke3Gsobvuv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFw65aIJ7MLQXoYJr_Z0K3JTmvBTEhO2RovvhSr6oqSfdG4wzIr_7NgBKmpJBaydra0MD9we22iSTe5UVM4uWPo4QCYRtZWhIao-tvUeXZlwHvNIPsQkgYh6nina7tjPVAOEFe7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFw65aIJ7MLQXoYJr_Z0K3JTmvBTEhO2RovvhSr6oqSfdG4wzIr_7NgBKmpJBaydra0MD9we22iSTe5UVM4uWPo4QCYRtZWhIao-tvUeXZlwHvNIPsQkgYh6nina7tjPVAOEFe7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUB3HPy7yvRmAUqmwd71TfaKl4FVRgtkB9lMtULjUxHIg3_oXukt-4T4OCLSVeqFwllIwXhtk2X8DDozt60B7aJ4qEz3bhob2-nTgDcd6z79aFHAO4fYHSn47ffalEfAiC1hYz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUB3HPy7yvRmAUqmwd71TfaKl4FVRgtkB9lMtULjUxHIg3_oXukt-4T4OCLSVeqFwllIwXhtk2X8DDozt60B7aJ4qEz3bhob2-nTgDcd6z79aFHAO4fYHSn47ffalEfAiC1hYz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEyUCLxpJuPhBWONl7Mf6Qhow8eZIaOfs7GjcVythzgrk_kcOmjby4kfZUyqyCfM7UJnK5xEKFzJGRRtKS7z3x1NiF2bzEERmyoRWnBeyUIu0dTxFNADyHtm-QsVn5cxpcSCrlJoIRC6n8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEyUCLxpJuPhBWONl7Mf6Qhow8eZIaOfs7GjcVythzgrk_kcOmjby4kfZUyqyCfM7UJnK5xEKFzJGRRtKS7z3x1NiF2bzEERmyoRWnBeyUIu0dTxFNADyHtm-QsVn5cxpcSCrlJoIRC6n8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8OzW0er3p04hoB_r-RGL_gLF_tRX1L_lKWWRhttS5KTHDmlcMaANxOptjU8cW7Bw22SW9lzqg-OY0tST9VQBairpSfBjFO465kxoRpRH3zoMMztcv-v5UGXOsZV1M5MH7QhU1WA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8OzW0er3p04hoB_r-RGL_gLF_tRX1L_lKWWRhttS5KTHDmlcMaANxOptjU8cW7Bw22SW9lzqg-OY0tST9VQBairpSfBjFO465kxoRpRH3zoMMztcv-v5UGXOsZV1M5MH7QhU1WA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9oY2HbZbMY-LRJum3iIHqrlhFFWurTCQKWe3fdcX2ffKZ_geaA7h68RG-R31kCwUaIa1YfO8fSqh6Yo0X8vcLq-FDj4ULHaj4qx_qu8-8z3L8-a_q3PAQb9QPfZ3VPdqqRC9k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9oY2HbZbMY-LRJum3iIHqrlhFFWurTCQKWe3fdcX2ffKZ_geaA7h68RG-R31kCwUaIa1YfO8fSqh6Yo0X8vcLq-FDj4ULHaj4qx_qu8-8z3L8-a_q3PAQb9QPfZ3VPdqqRC9k=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 750,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 545
+        },
+        {
+          "stars": 4,
+          "count": 80
+        },
+        {
+          "stars": 3,
+          "count": 55
+        },
+        {
+          "stars": 2,
+          "count": 21
+        },
+        {
+          "stars": 1,
+          "count": 49
+        }
+      ],
+      "location_rating": 3.7,
+      "reviews_breakdown": [
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 13,
+          "positive": 4,
+          "negative": 7,
+          "neutral": 2,
+          "category_token": "CStECHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxwwqYBAC6uRKp",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=CStECHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxwwqYBAC6uRKp&engine=google_hotels_reviews&hl=en&property_token=ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 18,
+          "positive": 12,
+          "negative": 5,
+          "neutral": 1,
+          "category_token": "Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H&engine=google_hotels_reviews&hl=en&property_token=ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 32,
+          "positive": 26,
+          "negative": 4,
+          "neutral": 2,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 33,
+          "positive": 22,
+          "negative": 8,
+          "neutral": 3,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 15,
+          "positive": 11,
+          "negative": 4,
+          "neutral": 0,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 14,
+          "positive": 8,
+          "negative": 6,
+          "neutral": 0,
+          "category_token": "3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M&engine=google_hotels_reviews&hl=en&property_token=ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Hot tub",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIz_CxiLe4z6fuARoNL2cvMTFiNmQ2bHFoMxAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Zen Valley Dalat",
+      "description": "Quaint French colonial-style villas with hill views, plus a restaurant/bar & spa with a hot tub.",
+      "property_token": "ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.929509,
+        "longitude": 108.459361
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫1,104,783",
+        "extracted_lowest": 1104783,
+        "before_taxes_fees": "₫1,022,947",
+        "extracted_before_taxes_fees": 1022947
+      },
+      "total_rate": {
+        "lowest": "₫2,209,566",
+        "extracted_lowest": 2209566,
+        "before_taxes_fees": "₫2,045,894",
+        "extracted_before_taxes_fees": 2045894
+      },
+      "nearby_places": [
+        {
+          "name": "Da Lat Night Market",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Dalat Railway Station",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 17 min"
+            }
+          ]
+        },
+        {
+          "name": "DALHA (Don Ha) Complex Khu phức hợp nghỉ dưỡng, ẩm thực & mua sắm 24/7",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTYToz9fx0o0Ajib9en74pwXm2_Ai-C-Q1I6b6GAJYOnsATC01p5ZspGN5e4GORUe-pCQ41WIFw_SdkVd3BnncIKbiGjFxD15QlSMXuAbNoy2bIWAMOMxTogAaICoyF3XpBeGUWA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTYToz9fx0o0Ajib9en74pwXm2_Ai-C-Q1I6b6GAJYOnsATC01p5ZspGN5e4GORUe-pCQ41WIFw_SdkVd3BnncIKbiGjFxD15QlSMXuAbNoy2bIWAMOMxTogAaICoyF3XpBeGUWA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH388BHKiG-yjwDAMZT6zUeB_GuIBqMbXvp5Jr-Ytt7F9_SPJhCHsBnCUZbOjg0CYLtu6q5Qb5X1f7e0bl6E66DQrFQRJ-BapLOC1XHvFPk_xoX6vbNFcSofJKYA0zCX7JMHViw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH388BHKiG-yjwDAMZT6zUeB_GuIBqMbXvp5Jr-Ytt7F9_SPJhCHsBnCUZbOjg0CYLtu6q5Qb5X1f7e0bl6E66DQrFQRJ-BapLOC1XHvFPk_xoX6vbNFcSofJKYA0zCX7JMHViw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE7UlTKL3Hb4oyA-UcjIBxlgB01P8dySa46zb75vbpmDSZJ72Vn1ZVlfY80a2WjFnRWHz0g3YzH6E97krOtT7jtUByc5UJvIFsPFS6w8D31-cwEudJ6DbnQ0pPkRBZ3kosPerf8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE7UlTKL3Hb4oyA-UcjIBxlgB01P8dySa46zb75vbpmDSZJ72Vn1ZVlfY80a2WjFnRWHz0g3YzH6E97krOtT7jtUByc5UJvIFsPFS6w8D31-cwEudJ6DbnQ0pPkRBZ3kosPerf8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWOhjEkxdeQ_tFwk6UU-uL17HQR_yJ4FaY1ywl1lu79ha0aE6ZnY5A8AkGfqo7ja45q_bj1HvGx0bRGJV6TgrbRkaZKjJY8Zg_iogbZW8_yDJVyWENLXz5XsOEGrHXYo1ouf0NdA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWOhjEkxdeQ_tFwk6UU-uL17HQR_yJ4FaY1ywl1lu79ha0aE6ZnY5A8AkGfqo7ja45q_bj1HvGx0bRGJV6TgrbRkaZKjJY8Zg_iogbZW8_yDJVyWENLXz5XsOEGrHXYo1ouf0NdA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTDg6K-e-vQ-6Xl-rw2M-D2QTY8w-bciMaB9vy7lNNmpNgh0gKk71AqEnsDrP47S-_kNqSSxawWaHO6B1BnkOtJDrCcQL17GhIexzZTrKwyalwF71ETwKrBJZqFtrg2tKS1Rsn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTDg6K-e-vQ-6Xl-rw2M-D2QTY8w-bciMaB9vy7lNNmpNgh0gKk71AqEnsDrP47S-_kNqSSxawWaHO6B1BnkOtJDrCcQL17GhIexzZTrKwyalwF71ETwKrBJZqFtrg2tKS1Rsn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8Ze0mDAw1X4JiOQc1Wro9JMSHLf0cq4KqJ8_DjEsmPEnh2H91xk_zKv4ni0fmBJC_oy9SVmz2xwjX_KmelCUs_RDGy2coranh8l1lKx_YvDJ1EQJRKxk7LwTLRaRtIHUDsiRP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8Ze0mDAw1X4JiOQc1Wro9JMSHLf0cq4KqJ8_DjEsmPEnh2H91xk_zKv4ni0fmBJC_oy9SVmz2xwjX_KmelCUs_RDGy2coranh8l1lKx_YvDJ1EQJRKxk7LwTLRaRtIHUDsiRP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8Z8Q3LutEFdBNj7uMIQUwxmjSiFPDdVwnDg4Ms1GB5EAM3Lt0xl8SYSfW0-vbDJGL_TuXqI5vEGx0kx1NMAZZUHZf8Li-VRGe1p03BNjipy1aadhKByPusvOno62vcZyrGmo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8Z8Q3LutEFdBNj7uMIQUwxmjSiFPDdVwnDg4Ms1GB5EAM3Lt0xl8SYSfW0-vbDJGL_TuXqI5vEGx0kx1NMAZZUHZf8Li-VRGe1p03BNjipy1aadhKByPusvOno62vcZyrGmo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEEKwLW4UJf45x9M9kO6o4vaqbdtmQ1IeVENbIDtsruxAla-azXouN0c7zx-n6mUq_EZQdh9UhMf8EhzI1rYRaMnXEWVUq6S01DxFV73zmomZSjYeitOwq0B9Etyvs4YBAx6Qwx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEEKwLW4UJf45x9M9kO6o4vaqbdtmQ1IeVENbIDtsruxAla-azXouN0c7zx-n6mUq_EZQdh9UhMf8EhzI1rYRaMnXEWVUq6S01DxFV73zmomZSjYeitOwq0B9Etyvs4YBAx6Qwx=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHsbZ4c0bdx_SbneO76kygkE1dGyZq9MisQBAaIl85_eK6q1ZA-0SCMJ_Wm_wcg5WcUIoOa_0obj4eIlnPQfTt4Q7O8cgTpTvoSpW93AB038id-b_x5XGkYr--iv-8z9MiqagAF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHsbZ4c0bdx_SbneO76kygkE1dGyZq9MisQBAaIl85_eK6q1ZA-0SCMJ_Wm_wcg5WcUIoOa_0obj4eIlnPQfTt4Q7O8cgTpTvoSpW93AB038id-b_x5XGkYr--iv-8z9MiqagAF=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 835,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 578
+        },
+        {
+          "stars": 4,
+          "count": 171
+        },
+        {
+          "stars": 3,
+          "count": 39
+        },
+        {
+          "stars": 2,
+          "count": 11
+        },
+        {
+          "stars": 1,
+          "count": 36
+        }
+      ],
+      "location_rating": 3.1,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 37,
+          "positive": 33,
+          "negative": 3,
+          "neutral": 1,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 63,
+          "positive": 55,
+          "negative": 6,
+          "neutral": 2,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB"
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 19,
+          "positive": 15,
+          "negative": 4,
+          "neutral": 0,
+          "category_token": "PXioD3ica1yRnFiSmp5fVDl5uVtmSV5qcTEjjAEAtXQMIg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PXioD3ica1yRnFiSmp5fVDl5uVtmSV5qcTEjjAEAtXQMIg&engine=google_hotels_reviews&hl=en&property_token=ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 62,
+          "positive": 55,
+          "negative": 5,
+          "neutral": 2,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 34,
+          "positive": 24,
+          "negative": 5,
+          "neutral": 5,
+          "category_token": "Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H&engine=google_hotels_reviews&hl=en&property_token=ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB"
+        },
+        {
+          "name": "Pool",
+          "description": "Pool",
+          "total_mentioned": 14,
+          "positive": 13,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "ysOZZnica1yRnFiSmp5fVDl5SUB-fg4jmAQAcoYJmA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ysOZZnica1yRnFiSmp5fVDl5SUB-fg4jmAQAcoYJmA&engine=google_hotels_reviews&hl=en&property_token=ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoI9LOko7m22Y-GARoNL2cvMTFiNzNuNTJfaxAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Le Soleil Boutique Hotel",
+      "link": "https://www.facebook.com/lesoleilhotelvn/",
+      "property_token": "ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.964622199999999,
+        "longitude": 108.4437177
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫387,049",
+        "extracted_lowest": 387049,
+        "before_taxes_fees": "₫387,049",
+        "extracted_before_taxes_fees": 387049
+      },
+      "total_rate": {
+        "lowest": "₫774,098",
+        "extracted_lowest": 774098,
+        "before_taxes_fees": "₫774,098",
+        "extracted_before_taxes_fees": 774098
+      },
+      "nearby_places": [
+        {
+          "name": "Xuan Huong Lake",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 20 min"
+            }
+          ]
+        },
+        {
+          "name": "Cardinal Bistro_Wedding-Dalat",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1EQYTk6-ExZi9ZspELaxptXOH0KCi5ZQD3eDFnzTI-WHm3-0aCX2GRnz30g8hgQex1rgUUP-bMj87DoLoboV_CmDPCVD1uIUAEkXV2bKa936N0aztEl7n8sVLE43lUdz2DAQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1EQYTk6-ExZi9ZspELaxptXOH0KCi5ZQD3eDFnzTI-WHm3-0aCX2GRnz30g8hgQex1rgUUP-bMj87DoLoboV_CmDPCVD1uIUAEkXV2bKa936N0aztEl7n8sVLE43lUdz2DAQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI5c3puWQvw92xmirkFeOTJvO8FmksFHYYKDVefI66bvdkIq4Dg79VAIB-mgblaD0IbeO4giLZTZrrckgvYWeuJDpnGKLM9bl-XDde3AqgOLrTgbPX0kKDKx2VpYvTPoP6wTFbRg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI5c3puWQvw92xmirkFeOTJvO8FmksFHYYKDVefI66bvdkIq4Dg79VAIB-mgblaD0IbeO4giLZTZrrckgvYWeuJDpnGKLM9bl-XDde3AqgOLrTgbPX0kKDKx2VpYvTPoP6wTFbRg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEip9GkrOt5ccWkUyLERBWXBgJGavnEJrW9p97QMbru6gFrM9SdCELgLix-khqe90bS1y_mHSfpfUjG3nYCBZg0NAlrJs1j5Qyo1Jr7iskRKuPoMrKHlqP53-stZP87gZ43DnyReA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEip9GkrOt5ccWkUyLERBWXBgJGavnEJrW9p97QMbru6gFrM9SdCELgLix-khqe90bS1y_mHSfpfUjG3nYCBZg0NAlrJs1j5Qyo1Jr7iskRKuPoMrKHlqP53-stZP87gZ43DnyReA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeeehwFeN-axrYJEj6xNPmBC4QGFJtOrsVq2KZBju91vxaBbwuBNQCAhAZgwNgT1YEmEL-BxMLsQRxsBiqyKS70ntxMXWwrutHA-llfFy2yvPfRc15zdg0wPQY7ZfwCF531yOt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeeehwFeN-axrYJEj6xNPmBC4QGFJtOrsVq2KZBju91vxaBbwuBNQCAhAZgwNgT1YEmEL-BxMLsQRxsBiqyKS70ntxMXWwrutHA-llfFy2yvPfRc15zdg0wPQY7ZfwCF531yOt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvWlYJUDpqOxyKkz10C18FMS4TkUp5LGm5jM4RpV1d0daLZZWyu7BDcpwk0N3V5fe-_qTn33O6OaXlcLDfFivVTsA2KTl-GJMse9ya9HpmjlQqpn1huXv9YoAdHwi_W5m-XiLG1w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvWlYJUDpqOxyKkz10C18FMS4TkUp5LGm5jM4RpV1d0daLZZWyu7BDcpwk0N3V5fe-_qTn33O6OaXlcLDfFivVTsA2KTl-GJMse9ya9HpmjlQqpn1huXv9YoAdHwi_W5m-XiLG1w=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEClqY8-Qtih-xfBBLEV7veLu4v7uPACl3O4n6BHe9m6uI_zNNLlFc1PqPw0gHs41e6unTDIbDn32Nczx2b0Th9NQvm21SdhrCy1Bp9HGQqsYcabbAukr5RnEVqts--npI7YqE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEClqY8-Qtih-xfBBLEV7veLu4v7uPACl3O4n6BHe9m6uI_zNNLlFc1PqPw0gHs41e6unTDIbDn32Nczx2b0Th9NQvm21SdhrCy1Bp9HGQqsYcabbAukr5RnEVqts--npI7YqE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGidXqG01pV-qWKBQUM06vRrBD02a29o9oqsTDm0ELNvra3iRNSiykKwW1Aq9GogUFvWyijSAYctaZe8hKVjRI_xVjC3O-5tD3H0t3vfFyYhmqyxuY8omnH0FMzO2o_vB8LB4aDzw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGidXqG01pV-qWKBQUM06vRrBD02a29o9oqsTDm0ELNvra3iRNSiykKwW1Aq9GogUFvWyijSAYctaZe8hKVjRI_xVjC3O-5tD3H0t3vfFyYhmqyxuY8omnH0FMzO2o_vB8LB4aDzw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGDJD_HzvnlY8X6OjOUOyzll-AzR4-0DI3ZtPbZFWNvvIdkKRMyBKr1Y4C2w1G5h4LMKGX5nGHWK6HzJzF8SqYMnObpD0yam-c9vJhNKfKxx0DrYddF6WjwHSS1ykKETg06YW03=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGDJD_HzvnlY8X6OjOUOyzll-AzR4-0DI3ZtPbZFWNvvIdkKRMyBKr1Y4C2w1G5h4LMKGX5nGHWK6HzJzF8SqYMnObpD0yam-c9vJhNKfKxx0DrYddF6WjwHSS1ykKETg06YW03=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKGLRhQ-QQ3klYTwWAimK1tJM9nKNmXMZU9X6-fB7dCO0jNsRCEIMfUflMahDXBYruDjPVuXPWP5lzFCORTB1bAzpfeWmMtSmwzlYMoxKEH0ktTICiQHcGQ0resJPX6bd6GhHi6g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKGLRhQ-QQ3klYTwWAimK1tJM9nKNmXMZU9X6-fB7dCO0jNsRCEIMfUflMahDXBYruDjPVuXPWP5lzFCORTB1bAzpfeWmMtSmwzlYMoxKEH0ktTICiQHcGQ0resJPX6bd6GhHi6g=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 188,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 157
+        },
+        {
+          "stars": 4,
+          "count": 18
+        },
+        {
+          "stars": 3,
+          "count": 8
+        },
+        {
+          "stars": 2,
+          "count": 3
+        },
+        {
+          "stars": 1,
+          "count": 2
+        }
+      ],
+      "location_rating": 3.2,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 31,
+          "positive": 29,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 32,
+          "positive": 29,
+          "negative": 2,
+          "neutral": 1,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 17,
+          "positive": 14,
+          "negative": 2,
+          "neutral": 1,
+          "category_token": "Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H&engine=google_hotels_reviews&hl=en&property_token=ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 18,
+          "positive": 16,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB"
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 12,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "WYlIUnica1yRnFiSmp5fVDl5aXBOamoBI4QCAIaxClg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=WYlIUnica1yRnFiSmp5fVDl5aXBOamoBI4QCAIaxClg&engine=google_hotels_reviews&hl=en&property_token=ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB"
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 11,
+          "positive": 11,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "qI-Rpnica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirjYiAXAMhXDEE",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qI-Rpnica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirjYiAXAMhXDEE&engine=google_hotels_reviews&hl=en&property_token=ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIqZue0sSok7n4ARoNL2cvMTFqa3FnY3B3dhAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Crazy House - Hang Nga Villa",
+      "description": "Offbeat guest house with architecture reminiscent of a tree trunk & city views from the roof.",
+      "link": "http://crazyhouse.vn/",
+      "property_token": "ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.9347331,
+        "longitude": 108.4308805
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫627,172",
+        "extracted_lowest": 627172,
+        "before_taxes_fees": "₫580,715",
+        "extracted_before_taxes_fees": 580715
+      },
+      "total_rate": {
+        "lowest": "₫1,254,344",
+        "extracted_lowest": 1254344,
+        "before_taxes_fees": "₫1,161,430",
+        "extracted_before_taxes_fees": 1161430
+      },
+      "nearby_places": [
+        {
+          "name": "Xuan Huong Lake",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Đà Lạt Pasteur",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 20 min"
+            }
+          ]
+        },
+        {
+          "name": "Hoan Kiet restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE7R3EmJv_x5UHXVG-cgWgfuWqeReQzpHOZ4BBNYIhdbSJlr7hCCrcZ_rQ237PTlwoC9MbtEa0CkrDdO7teT3oRoa5ASELD19fzx2EX-NgQ9ujWFwpUhVaGlOTujhPUxYGZutUs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE7R3EmJv_x5UHXVG-cgWgfuWqeReQzpHOZ4BBNYIhdbSJlr7hCCrcZ_rQ237PTlwoC9MbtEa0CkrDdO7teT3oRoa5ASELD19fzx2EX-NgQ9ujWFwpUhVaGlOTujhPUxYGZutUs=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpGaekmBehdCHJ1vQHgwPMXPsuFruS99MSscFCKF2HmeelNHY16xCvAjxrvwiBQ0zwPzeZ72qH9ibhcDgVmRYn1TQw1TiCSnWc5yB2d9yizCWO0cj8lvqqcX4-Y7_VdIZwAi8V=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpGaekmBehdCHJ1vQHgwPMXPsuFruS99MSscFCKF2HmeelNHY16xCvAjxrvwiBQ0zwPzeZ72qH9ibhcDgVmRYn1TQw1TiCSnWc5yB2d9yizCWO0cj8lvqqcX4-Y7_VdIZwAi8V=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEja5hAPWgL7ln5aCmmk01ULlI4Ir6JqbBb7NQIH4AxnbY1DyoKrlPfz7yboMe0aYEd06IObXG0UMTYOrpApw-bkJSFBSYIi487uO2--FxVh5MRvecJ02T8EA7g3l4G_j5wo-iO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEja5hAPWgL7ln5aCmmk01ULlI4Ir6JqbBb7NQIH4AxnbY1DyoKrlPfz7yboMe0aYEd06IObXG0UMTYOrpApw-bkJSFBSYIi487uO2--FxVh5MRvecJ02T8EA7g3l4G_j5wo-iO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHCe33nTL2x80JEtKQy9XD68Qr775OcQMRCK5hT-88uIOjPMuew3Oh-qYncC6KnEoDaxOneYSqtS96p0OGBmfCoC1IxHF0XXHF8t_vzorOX_MzrUWQJdUn8dpNpmz-sHKEKMA0pFkQ10PGm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHCe33nTL2x80JEtKQy9XD68Qr775OcQMRCK5hT-88uIOjPMuew3Oh-qYncC6KnEoDaxOneYSqtS96p0OGBmfCoC1IxHF0XXHF8t_vzorOX_MzrUWQJdUn8dpNpmz-sHKEKMA0pFkQ10PGm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI3W6vZYwsPGyUexmkCAgZ-_41ypnows3qryo6rSxondcX3lWxzwNhfQtZyzs00mvgm9aQmTOa1nsiQHl9k_I5pryI9o4rLFu0Wb5gELKNtas9lrVlmE8xYQO3qZmfcoc4uAA8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI3W6vZYwsPGyUexmkCAgZ-_41ypnows3qryo6rSxondcX3lWxzwNhfQtZyzs00mvgm9aQmTOa1nsiQHl9k_I5pryI9o4rLFu0Wb5gELKNtas9lrVlmE8xYQO3qZmfcoc4uAA8=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/dSDneqxtmNoyr1erLg5DIM8a8fSubZvUCID822dlT2hADMVgqTojD-kmg45lLTXf09oH1C0lssdjazoFAXllmpEELNH81IfXFRxxrQ0hndlBzMLAZLBsRQaAqKNiBODbVLwhIsgzkNLx03o9KY3DIiBu53t3vQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/ea/69/ea69a49bc629451845442573a6c3e48b6e71681f.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH2FuNJ-FlmOKGWv1NO2khDxjwyrd7C86lBGGRJM68fXDHR3ldfQ1FGHkkhbr4ffaT5UpE8jCvPBVIWeAUXjflajP5MS8pF6Qr0CkRt_cV8lCFPRLxYg3Idh16wzYsOJkEpUAc8tw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH2FuNJ-FlmOKGWv1NO2khDxjwyrd7C86lBGGRJM68fXDHR3ldfQ1FGHkkhbr4ffaT5UpE8jCvPBVIWeAUXjflajP5MS8pF6Qr0CkRt_cV8lCFPRLxYg3Idh16wzYsOJkEpUAc8tw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJpfCAMBV9LnRYTyvto1DYLKI-wRYNPzlZrhlJ6m3laBV5cBy5MP5m2oIAt4PdwSCxjcxAy3fHAk__FLsWBw8vUy05tC3Lbq9pAFCKh569s8e6_5zojqU4am84CY4H5H6Txx-6Jw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJpfCAMBV9LnRYTyvto1DYLKI-wRYNPzlZrhlJ6m3laBV5cBy5MP5m2oIAt4PdwSCxjcxAy3fHAk__FLsWBw8vUy05tC3Lbq9pAFCKh569s8e6_5zojqU4am84CY4H5H6Txx-6Jw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEySoIEtGiLtrMFaxq_XM0-F4HXWuhEseshJ1M9iw-xp1ewNnL7OuD1PjFR8v5JiVgKtF7g0U6uP5c3hUTvBEcZ6rPoVECZJYWjwkk5h6Qyji1JvCBrtQ6Nlt0-wkDpcGJAiEmd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEySoIEtGiLtrMFaxq_XM0-F4HXWuhEseshJ1M9iw-xp1ewNnL7OuD1PjFR8v5JiVgKtF7g0U6uP5c3hUTvBEcZ6rPoVECZJYWjwkk5h6Qyji1JvCBrtQ6Nlt0-wkDpcGJAiEmd=s10000"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 16194,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 9356
+        },
+        {
+          "stars": 4,
+          "count": 3955
+        },
+        {
+          "stars": 3,
+          "count": 1912
+        },
+        {
+          "stars": 2,
+          "count": 502
+        },
+        {
+          "stars": 1,
+          "count": 469
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 947,
+          "positive": 716,
+          "negative": 116,
+          "neutral": 115,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE"
+        },
+        {
+          "name": "Accessibility",
+          "description": "Accessibility",
+          "total_mentioned": 185,
+          "positive": 60,
+          "negative": 99,
+          "neutral": 26,
+          "category_token": "RQHLCHica1yRnFiSmp5fVDl5rWNycmpxcWZSZk5mSSUDKhcAZcgRBQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=RQHLCHica1yRnFiSmp5fVDl5rWNycmpxcWZSZk5mSSUDKhcAZcgRBQ&engine=google_hotels_reviews&hl=en&property_token=ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE"
+        },
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 177,
+          "positive": 98,
+          "negative": 58,
+          "neutral": 21,
+          "category_token": "fLxeNnica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJcMyiAAAEmQOsQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=fLxeNnica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJcMyiAAAEmQOsQ&engine=google_hotels_reviews&hl=en&property_token=ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE"
+        },
+        {
+          "name": "Safety",
+          "description": "Safety",
+          "total_mentioned": 71,
+          "positive": 8,
+          "negative": 53,
+          "neutral": 10,
+          "category_token": "G9Eg33ica1yRnFiSmp5fVDl5WXBiWmpJJROUBgCdFAtB",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=G9Eg33ica1yRnFiSmp5fVDl5WXBiWmpJJROUBgCdFAtB&engine=google_hotels_reviews&hl=en&property_token=ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE"
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 58,
+          "positive": 53,
+          "negative": 2,
+          "neutral": 3,
+          "category_token": "2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx&engine=google_hotels_reviews&hl=en&property_token=ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 95,
+          "positive": 79,
+          "negative": 7,
+          "neutral": 9,
+          "category_token": "Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H&engine=google_hotels_reviews&hl=en&property_token=ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChYIhvncu62Xm7s_GgovbS8wYmJ2a3J2EAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Swiss-BelResort Tuyền Lâm",
+      "description": "Sophisticated property with 2 restaurants & 2 pools, plus a spa, a gym & an 18-hole golf course.",
+      "link": "https://samtuyenlamhotel.com.vn/",
+      "property_token": "ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.8824243,
+        "longitude": 108.4518585
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫1,146,033",
+        "extracted_lowest": 1146033,
+        "before_taxes_fees": "₫1,061,142",
+        "extracted_before_taxes_fees": 1061142
+      },
+      "total_rate": {
+        "lowest": "₫2,292,065",
+        "extracted_lowest": 2292065,
+        "before_taxes_fees": "₫2,122,283",
+        "extracted_before_taxes_fees": 2122283
+      },
+      "nearby_places": [
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 28 min"
+            }
+          ]
+        },
+        {
+          "name": "Mimosa Restaurant"
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHN26Yuaf2IMMKF1SUDRh0pwQgNAQXxfofrznCxlGQBXACjjuxD7mO4IkBLOzd_3J1czpe80_GsKz0fkTkiwvvj0k1FDg_RRsb4HKJGS10s_IYpoyNBtlSv89z80Dt7PGbWJEaqYbLtjaG7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHN26Yuaf2IMMKF1SUDRh0pwQgNAQXxfofrznCxlGQBXACjjuxD7mO4IkBLOzd_3J1czpe80_GsKz0fkTkiwvvj0k1FDg_RRsb4HKJGS10s_IYpoyNBtlSv89z80Dt7PGbWJEaqYbLtjaG7=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/PySYnccCXXBxy9JiiYFsLiIQiVQL-KLjRrhd-8u0eirQqKS0P_OQmMpKLehTN-Sa6E0CI25Kl7HHVwn4R3UxpdVjIfaLPkF61YYJS-llcrGjhmy2rKOBcSugjzcC2kDnr7dhq5dzg6nkh2NbYeWUDWqpDxlrWc0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/43/436818/436818a_hb_ro_009_20250722_100642.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHuZenX52Gj2CZWXw6B0iLK2nVbg9omw3pdLwtgBlYCbrRYMl2E0oP0Uk74Nt_dTFXR-4kRp0Ynv91x_rUittLvYrxGheMUvk2obJzjaoWgjTtPgRXoWsR38rJPbJnTOLZfDMV0UA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHuZenX52Gj2CZWXw6B0iLK2nVbg9omw3pdLwtgBlYCbrRYMl2E0oP0Uk74Nt_dTFXR-4kRp0Ynv91x_rUittLvYrxGheMUvk2obJzjaoWgjTtPgRXoWsR38rJPbJnTOLZfDMV0UA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE3sqEkI46VJdWU-bLLKZsSWgM8VTG9w92y-k2_td3c5_TLdop3pntIOexU6lRNJxgpF6hRonaF4tuwv49K6Ht2TbLlydL7b7lDXyRpF6NNByir_nWw4m8qcL-m1TJJ8hFELIxQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE3sqEkI46VJdWU-bLLKZsSWgM8VTG9w92y-k2_td3c5_TLdop3pntIOexU6lRNJxgpF6hRonaF4tuwv49K6Ht2TbLlydL7b7lDXyRpF6NNByir_nWw4m8qcL-m1TJJ8hFELIxQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/bexb-15wf6a6p7JlTNCKLKvJjdiXNDSbgYuZi5XZrLLq6AS0RDtQy8isGgWUJArUgLOPseHSk2ieaCs9XRMcMPG4brRIv72hapv4JfEhp6v4lTQVvf3X7klNFhirbKezVrnwL0-mMd8VNwyCPt8zRDF7lh6KBJs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/43/436818/436818a_hb_ro_002_20250722_100454.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFT4EUbDKPbI8gBtCFrXDMhxZstkdaVwsoT4A-KQCJ2t1s8UyJP-yqdCJuVqxa2WysI8KrHcZhYJpA8gKALwN20T4RabA_g7n88LpIst5nTI9XvKpDChAnCqospFc_wPI4PrHs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFT4EUbDKPbI8gBtCFrXDMhxZstkdaVwsoT4A-KQCJ2t1s8UyJP-yqdCJuVqxa2WysI8KrHcZhYJpA8gKALwN20T4RabA_g7n88LpIst5nTI9XvKpDChAnCqospFc_wPI4PrHs=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/DtP2sXS_piR9OKQLAfgvvxGywh3jeyJHl5lDoSstq9lENl54H0K0RbTG6N_bpHAPuOeXRgN5jeCJiS1YuRtEiQFOEOlKPYHWWK48zni9yFT1j5ybygAcN67jzb_O5jZTRxd-9fc6578iZqfCz47l_x19_Nnbci0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/43/436818/436818a_hb_ro_003_20250722_100543.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/l72fVRBcprNvFhrAiNFzgq3AtAvGip5CCBeQ4wX-8PUC9QkP4_SOPQLVjLBn2bsR5mjvhbWuo_fXTpKlOgYz6wiSVYRjaUUwF0vgJ5slraVCJvSzHk0etLCxnPQt6umKgPQYDmmRp7xfmbix2lk5FJDX_19_Bw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/43/436818/436818a_hb_ro_006_20250722_100514.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0qAkx0woqBEB98oB3wk_ldJybU67ApbPWVZ9CHPu3Xo34PZt6M-xG89hiPtJTQhnfLQtOPJAVaicAOXt4W2SifCpJIFnDSSvYaPOSCZt0tv1hMkPguzbQoXrlRHJp7qD1y2dx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0qAkx0woqBEB98oB3wk_ldJybU67ApbPWVZ9CHPu3Xo34PZt6M-xG89hiPtJTQhnfLQtOPJAVaicAOXt4W2SifCpJIFnDSSvYaPOSCZt0tv1hMkPguzbQoXrlRHJp7qD1y2dx=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 3064,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1910
+        },
+        {
+          "stars": 4,
+          "count": 822
+        },
+        {
+          "stars": 3,
+          "count": 180
+        },
+        {
+          "stars": 2,
+          "count": 52
+        },
+        {
+          "stars": 1,
+          "count": 100
+        }
+      ],
+      "location_rating": 2.4,
+      "reviews_breakdown": [
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 90,
+          "positive": 68,
+          "negative": 13,
+          "neutral": 9,
+          "category_token": "PXioD3ica1yRnFiSmp5fVDl5uVtmSV5qcTEjjAEAtXQMIg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PXioD3ica1yRnFiSmp5fVDl5uVtmSV5qcTEjjAEAtXQMIg&engine=google_hotels_reviews&hl=en&property_token=ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 120,
+          "positive": 86,
+          "negative": 31,
+          "neutral": 3,
+          "category_token": "nHbA-nica1yRnFiSmp5fVDl5eXBqUVlmcioDjAEAtXYMCw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=nHbA-nica1yRnFiSmp5fVDl5eXBqUVlmcioDjAEAtXYMCw&engine=google_hotels_reviews&hl=en&property_token=ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB"
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 47,
+          "positive": 43,
+          "negative": 1,
+          "neutral": 3,
+          "category_token": "2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx&engine=google_hotels_reviews&hl=en&property_token=ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 80,
+          "positive": 54,
+          "negative": 17,
+          "neutral": 9,
+          "category_token": "Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H&engine=google_hotels_reviews&hl=en&property_token=ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 139,
+          "positive": 122,
+          "negative": 10,
+          "neutral": 7,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 90,
+          "positive": 48,
+          "negative": 22,
+          "neutral": 20,
+          "category_token": "xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q&engine=google_hotels_reviews&hl=en&property_token=ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pools",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Golf",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIwLKvyY-hhZ_oARoNL2cvMTFiNnM4ZHo4dBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "De Ma’at hôtel",
+      "description": "Warm, stylish rooms with floor-to-ceiling windows in an upmarket hotel featuring Wi-Fi.",
+      "link": "https://m.facebook.com/De-Maat-H%C3%B4tel-%C4%90%C3%A0-L%E1%BA%A1t-111346818123824",
+      "property_token": "ChkI9fGd8pOIqP1CGg0vZy8xMXNxa3Z4MzdzEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkI9fGd8pOIqP1CGg0vZy8xMXNxa3Z4MzdzEAE&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.9404576,
+        "longitude": 108.435651
+      },
+      "check_in_time": "2:00 PM",
+      "rate_per_night": {
+        "lowest": "₫936,501",
+        "extracted_lowest": 936501,
+        "before_taxes_fees": "₫867,130",
+        "extracted_before_taxes_fees": 867130
+      },
+      "total_rate": {
+        "lowest": "₫1,873,001",
+        "extracted_lowest": 1873001,
+        "before_taxes_fees": "₫1,734,260",
+        "extracted_before_taxes_fees": 1734260
+      },
+      "nearby_places": [
+        {
+          "name": "Da Lat Market",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Chợ đêm Đà Lạt",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 20 min"
+            }
+          ]
+        },
+        {
+          "name": "Cơm Niêu Việt Nam",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH5KMf6ZznqjEb9v-W9QJNL1FLJeyleZSRZ4qGy5sRwEv2mt8h9k1Y6YKaGIhYIoL2l47Ydog72Td61XwvWxvy23O-ayJZho63hzJcPLvKHdkG-enWHCesiOy-ZRGIH7nuNeUTYo4wBAPVQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH5KMf6ZznqjEb9v-W9QJNL1FLJeyleZSRZ4qGy5sRwEv2mt8h9k1Y6YKaGIhYIoL2l47Ydog72Td61XwvWxvy23O-ayJZho63hzJcPLvKHdkG-enWHCesiOy-ZRGIH7nuNeUTYo4wBAPVQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERz96GkBDDdNE73GFrwMVIqv9z_QvUmOGdX7edNzGnEiYV3TblTGwH8u2-BJP6bfO3iVxHOIi3MVdGsvGF-ZV6Tj0rD5h0QL878TyltyDkiTMcBmoODtu4T96mnJIDGCsejypjEWJ9yLc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERz96GkBDDdNE73GFrwMVIqv9z_QvUmOGdX7edNzGnEiYV3TblTGwH8u2-BJP6bfO3iVxHOIi3MVdGsvGF-ZV6Tj0rD5h0QL878TyltyDkiTMcBmoODtu4T96mnJIDGCsejypjEWJ9yLc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHqtAx5uj23sQXwkWw1y2N4E5pr3UtveOVWjgMwV-sGrAO9k4IhqHYE1swrY_xaeQxnjEZyD57EAK3YGJddQ-9qIQit6PKLT4jv5DQUGRpezvenMHyv0IRsFM1AtF8JhSnyQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHqtAx5uj23sQXwkWw1y2N4E5pr3UtveOVWjgMwV-sGrAO9k4IhqHYE1swrY_xaeQxnjEZyD57EAK3YGJddQ-9qIQit6PKLT4jv5DQUGRpezvenMHyv0IRsFM1AtF8JhSnyQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvm1SFvt-UpupJ1ZZ6kNuYGDrrwBgihbiV5XjNZrOLeYi-7EE85hjfTxuA0s6zjNovzl8bhBwUwKrmD-cBUXVuzdB9NbypVDtt93Gz-o2zrPdIpa73H6BaEREcQ_mET_KSowEy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvm1SFvt-UpupJ1ZZ6kNuYGDrrwBgihbiV5XjNZrOLeYi-7EE85hjfTxuA0s6zjNovzl8bhBwUwKrmD-cBUXVuzdB9NbypVDtt93Gz-o2zrPdIpa73H6BaEREcQ_mET_KSowEy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZrDBYsNo4fChm0qU_IBtOgoGUQBZ4Xj33eDaE9usI2Bl2tBO8szek3b9RTVvtPnZ5iC0M6PgBwJOUTiuRkIZZG5hiAxyJ4JRpaLCq4hli4tKTlJulzzE1v4JVXx31KF9Z-XHsmhe6u3tv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZrDBYsNo4fChm0qU_IBtOgoGUQBZ4Xj33eDaE9usI2Bl2tBO8szek3b9RTVvtPnZ5iC0M6PgBwJOUTiuRkIZZG5hiAxyJ4JRpaLCq4hli4tKTlJulzzE1v4JVXx31KF9Z-XHsmhe6u3tv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFaruujTvvaITGZ4x1qOOgeS-pH4svDpt6T7duPZT64uUwMkhBJ1QXiKmOEzu7XGET7BH7O2An9qiUqMc42MsQbs_naTIBulI-ktIq67Lbl-KsXIqFTQHtmUs1mO5O78mgjomLs77e9kfke=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFaruujTvvaITGZ4x1qOOgeS-pH4svDpt6T7duPZT64uUwMkhBJ1QXiKmOEzu7XGET7BH7O2An9qiUqMc42MsQbs_naTIBulI-ktIq67Lbl-KsXIqFTQHtmUs1mO5O78mgjomLs77e9kfke=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxpxnZeW5AdTfkrA-11sgMNOBblR5c9YEBHXLU-Gu-bK6fGbuf64zgCz6R0gLPHcJdvXbq0ANi4JUMH1nxpOOP1af2lbfLlJq4GA4RXEUP9hYrjE6muJ7oH2ZYo7tYcc8ZZ08=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxpxnZeW5AdTfkrA-11sgMNOBblR5c9YEBHXLU-Gu-bK6fGbuf64zgCz6R0gLPHcJdvXbq0ANi4JUMH1nxpOOP1af2lbfLlJq4GA4RXEUP9hYrjE6muJ7oH2ZYo7tYcc8ZZ08=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwxHqZWhZeySwOMaeDxxHlKdNLlN04FhiBrFZZCPU0YRRGcS3bQQRdkOcCdZ3ILYZH-PbxBBvMZtf42j8l3rJXakrxrFJPKJ7fP2uAEqSztzKr6wGhG6weJYteaRDqamcDyxv4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwxHqZWhZeySwOMaeDxxHlKdNLlN04FhiBrFZZCPU0YRRGcS3bQQRdkOcCdZ3ILYZH-PbxBBvMZtf42j8l3rJXakrxrFJPKJ7fP2uAEqSztzKr6wGhG6weJYteaRDqamcDyxv4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGlLQhEJyKLx9Z2O0Xy5LwNzH2UY7bqP3wziuyIV6Tpe6IMvxKPuOP-DjqQJg3_zmBAhRabgTxq5q9VX-0FJJQ17I6SBB7UirrXI7txM6e6kI18c5ZMdujNcpJSp8LRpjOWtLxnMQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGlLQhEJyKLx9Z2O0Xy5LwNzH2UY7bqP3wziuyIV6Tpe6IMvxKPuOP-DjqQJg3_zmBAhRabgTxq5q9VX-0FJJQ17I6SBB7UirrXI7txM6e6kI18c5ZMdujNcpJSp8LRpjOWtLxnMQ=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 430,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 333
+        },
+        {
+          "stars": 4,
+          "count": 23
+        },
+        {
+          "stars": 3,
+          "count": 14
+        },
+        {
+          "stars": 2,
+          "count": 12
+        },
+        {
+          "stars": 1,
+          "count": 48
+        }
+      ],
+      "location_rating": 4.7,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI9fGd8pOIqP1CGg0vZy8xMXNxa3Z4MzdzEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI9fGd8pOIqP1CGg0vZy8xMXNxa3Z4MzdzEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Lavender Dalat Tourist Area",
+      "link": "https://lavenderdalat.com/",
+      "property_token": "ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.896462,
+        "longitude": 108.4200723
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫1,122,442",
+        "extracted_lowest": 1122442,
+        "before_taxes_fees": "₫1,122,442",
+        "extracted_before_taxes_fees": 1122442
+      },
+      "total_rate": {
+        "lowest": "₫2,244,884",
+        "extracted_lowest": 2244884,
+        "before_taxes_fees": "₫2,244,884",
+        "extracted_before_taxes_fees": 2244884
+      },
+      "nearby_places": [
+        {
+          "name": "Sculpture Tunnel",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 34 min"
+            }
+          ]
+        },
+        {
+          "name": "Nhà hàng hấp thuỷ nhiệt - Bina Bina"
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaVfNKn8uFgcORv5pTCFfSjnvYjXGFTyiNxXfN6wTeGtJ51fpccpfgNvdO2cu4DVEAPRzY7QgQZRd1m54nyLa6_ENrz_Taz7Geyu3D3Gh-mginriIjhSAG-WDFSP3cFrC7xdCc8Tq8YaE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaVfNKn8uFgcORv5pTCFfSjnvYjXGFTyiNxXfN6wTeGtJ51fpccpfgNvdO2cu4DVEAPRzY7QgQZRd1m54nyLa6_ENrz_Taz7Geyu3D3Gh-mginriIjhSAG-WDFSP3cFrC7xdCc8Tq8YaE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHaC8Nmq-JzRcf1XAvTXI4mceCHvoS8aodbaDfLRoit0xdrC7dFZlzRpgIPofGgWy4_ovg9Em-nbmWU5BYonXg2v_s-OByqTGmj_1_lSXnrxpDXiBViJLf2yev3jnTRSvyJixptrg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHaC8Nmq-JzRcf1XAvTXI4mceCHvoS8aodbaDfLRoit0xdrC7dFZlzRpgIPofGgWy4_ovg9Em-nbmWU5BYonXg2v_s-OByqTGmj_1_lSXnrxpDXiBViJLf2yev3jnTRSvyJixptrg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwwtufce5Frtatd_-93cE96aeTSODEmaA_ts0HSAU3ZBpK4yGZOsAHoPB5e_C5LHbYzQEzews70NZNTJmgA7bZDbLK2MsdkO1Ap__oujzVxWD66FsUFl2ravSP0Pyq5Pntfmi7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwwtufce5Frtatd_-93cE96aeTSODEmaA_ts0HSAU3ZBpK4yGZOsAHoPB5e_C5LHbYzQEzews70NZNTJmgA7bZDbLK2MsdkO1Ap__oujzVxWD66FsUFl2ravSP0Pyq5Pntfmi7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuuPGGE46wCoYhVV9F37Prk_kmzlZj37SXwVc5fEoSB1BGhfaY2tL5xC26JcWDt4l97FguRSH-2XiCwMd0cEiEe0PNfsuma70PzDsm1KMnQzO4NldEqnjt3DKM-Dv9J1eFfrcaARFFpmo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuuPGGE46wCoYhVV9F37Prk_kmzlZj37SXwVc5fEoSB1BGhfaY2tL5xC26JcWDt4l97FguRSH-2XiCwMd0cEiEe0PNfsuma70PzDsm1KMnQzO4NldEqnjt3DKM-Dv9J1eFfrcaARFFpmo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEq6D8U46uTnvWcXybYrOtoD1eV4sDWtgNDgNcYQDN2CnKK2xkJj3wi56R8_uL5fBAEzfwwMZuiwMOjV_SJbj2hE8I3DcAvJ1FWFTjiF9WTnayEdQGe1hGVjYnrWMZjT72KlnYBIp2p6_4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEq6D8U46uTnvWcXybYrOtoD1eV4sDWtgNDgNcYQDN2CnKK2xkJj3wi56R8_uL5fBAEzfwwMZuiwMOjV_SJbj2hE8I3DcAvJ1FWFTjiF9WTnayEdQGe1hGVjYnrWMZjT72KlnYBIp2p6_4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFbymRbvebhbSQv8Hdd62VB_Spug0HflpuZpN5iqwJuuyvaePgS3LA-wsElW4PyagkLolfVDtTpoSBkDzBWu4fJmda-XVUAmIi73sQliNYwd5mIgCjAbypXib3MiVRbFmOBFtcU2A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFbymRbvebhbSQv8Hdd62VB_Spug0HflpuZpN5iqwJuuyvaePgS3LA-wsElW4PyagkLolfVDtTpoSBkDzBWu4fJmda-XVUAmIi73sQliNYwd5mIgCjAbypXib3MiVRbFmOBFtcU2A=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOv1tdTOlPM3n3got9g0M4GClFQt9bkdeAxg2_XdipY0NW7tPwMC3FJB-2OD4W06No8qgAxjtfcMZ27VRNskCBTabG2uAUhNJzfbaF-O0YT5n4m10YMUkCIHF2uwRgLaP1LKj08V2TXBc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOv1tdTOlPM3n3got9g0M4GClFQt9bkdeAxg2_XdipY0NW7tPwMC3FJB-2OD4W06No8qgAxjtfcMZ27VRNskCBTabG2uAUhNJzfbaF-O0YT5n4m10YMUkCIHF2uwRgLaP1LKj08V2TXBc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFxmS0SbVEkfX6loVeDV0s2lIEfyi5jnVbB1l1qOeGal2ErdDmFzfe13OZxALE7CuMTltnh2WbOBhfRcyzw7tQ3PHF1NJDsEZiVp6utys0eudhphjEGZIEeGvgTRNytbt8ng78252iVrfyK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFxmS0SbVEkfX6loVeDV0s2lIEfyi5jnVbB1l1qOeGal2ErdDmFzfe13OZxALE7CuMTltnh2WbOBhfRcyzw7tQ3PHF1NJDsEZiVp6utys0eudhphjEGZIEeGvgTRNytbt8ng78252iVrfyK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFb-74SoP6gK9pNYOLIUS9aPXFWilPhCpWJiytbFFHyKSk-xvmijzHpCrSCOjjQ9heCmvGbzSrf3X6lX2kJfY7QfBsl8Fte5NBfMoNpjWWriC5GEfdrjo98hdyJV90qZVnppV8mWaM7EHlI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFb-74SoP6gK9pNYOLIUS9aPXFWilPhCpWJiytbFFHyKSk-xvmijzHpCrSCOjjQ9heCmvGbzSrf3X6lX2kJfY7QfBsl8Fte5NBfMoNpjWWriC5GEfdrjo98hdyJV90qZVnppV8mWaM7EHlI=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 1113,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 587
+        },
+        {
+          "stars": 4,
+          "count": 248
+        },
+        {
+          "stars": 3,
+          "count": 124
+        },
+        {
+          "stars": 2,
+          "count": 55
+        },
+        {
+          "stars": 1,
+          "count": 99
+        }
+      ],
+      "location_rating": 2.4,
+      "reviews_breakdown": [
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 23,
+          "positive": 20,
+          "negative": 0,
+          "neutral": 3,
+          "category_token": "2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx&engine=google_hotels_reviews&hl=en&property_token=ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE"
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 15,
+          "positive": 7,
+          "negative": 5,
+          "neutral": 3,
+          "category_token": "L4-to3ica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirDYiAXAMhSDEA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=L4-to3ica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirDYiAXAMhSDEA&engine=google_hotels_reviews&hl=en&property_token=ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 37,
+          "positive": 31,
+          "negative": 4,
+          "neutral": 2,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 19,
+          "positive": 13,
+          "negative": 5,
+          "neutral": 1,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 11,
+          "positive": 8,
+          "negative": 1,
+          "neutral": 2,
+          "category_token": "Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H&engine=google_hotels_reviews&hl=en&property_token=ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE"
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 11,
+          "positive": 11,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "1EvKb3ica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSojEhsACBsOoA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=1EvKb3ica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSojEhsACBsOoA&engine=google_hotels_reviews&hl=en&property_token=ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Restaurant",
+        "Airport shuttle",
+        "Full-service laundry"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIgIuAraKD-uQDGg0vZy8xMWM1NmhnMjBjEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "CEREJA HOTEL & RESORT",
+      "link": "http://cerejahotel-resort.vn/",
+      "property_token": "ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.8886638,
+        "longitude": 108.43475009999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫973,020",
+        "extracted_lowest": 973020,
+        "before_taxes_fees": "₫973,020",
+        "extracted_before_taxes_fees": 973020
+      },
+      "total_rate": {
+        "lowest": "₫1,946,040",
+        "extracted_lowest": 1946040,
+        "before_taxes_fees": "₫1,946,040",
+        "extracted_before_taxes_fees": 1946040
+      },
+      "nearby_places": [
+        {
+          "name": "Khu du lịch Thác Datanla",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 30 min"
+            }
+          ]
+        },
+        {
+          "name": "Nhà hàng Túi Mơ To Garden Restaurant"
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwEElWfPSjipZ68wZuZvu7PdQp0QUcV7OLP7BZtFFsfU7N5q_Xbhy_LKzuZOKQdbgyGHz4LclUmL1rrxi6eyyJrQmGD3Ub7DnDuhzW8k0z6gs9ByNFZSGV4U5jwGBQ2d1odgA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwEElWfPSjipZ68wZuZvu7PdQp0QUcV7OLP7BZtFFsfU7N5q_Xbhy_LKzuZOKQdbgyGHz4LclUmL1rrxi6eyyJrQmGD3Ub7DnDuhzW8k0z6gs9ByNFZSGV4U5jwGBQ2d1odgA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFboalPchn6DWFjwnRfwJ871cs2f7TJYlvm_lyyMflUUEYFdxoI5hO0lH-YbfTqJXJwDgJa_q4egi8PauTdgVw9-X2hFh2s_e8QiQWBlUtfXCW6MPpoNH7J4WzSg2wlR_e78-F_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFboalPchn6DWFjwnRfwJ871cs2f7TJYlvm_lyyMflUUEYFdxoI5hO0lH-YbfTqJXJwDgJa_q4egi8PauTdgVw9-X2hFh2s_e8QiQWBlUtfXCW6MPpoNH7J4WzSg2wlR_e78-F_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGI_5kTNEOx5P_yLYsZo5TKZG_MVR7a_U2r2FHNE1dZtc-vD6YZomhIadCK1J9WFa7nvfS_g5uqSgVjbF8ILpCJIhkXI1bV8z0Svil_9lx25MoiNZsUU1Wq8xzI-CubuSir7BmwpQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGI_5kTNEOx5P_yLYsZo5TKZG_MVR7a_U2r2FHNE1dZtc-vD6YZomhIadCK1J9WFa7nvfS_g5uqSgVjbF8ILpCJIhkXI1bV8z0Svil_9lx25MoiNZsUU1Wq8xzI-CubuSir7BmwpQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE98r95kunnhEa0Nb0bhL5p7bbQsiWJ90N1LhFoRyhFlE61uJORZaPUFK9Ho7R7J0S514QBdsBBB1A53tis1Q2K6ipSryI-XDds12cQ4mWO0f2sOSzdzxqYO8Bm9pxz6G_-XTt3Vw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE98r95kunnhEa0Nb0bhL5p7bbQsiWJ90N1LhFoRyhFlE61uJORZaPUFK9Ho7R7J0S514QBdsBBB1A53tis1Q2K6ipSryI-XDds12cQ4mWO0f2sOSzdzxqYO8Bm9pxz6G_-XTt3Vw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFubgiGEvHgiACTFCwHz_KsCvbRD9hzefZYuorjwwc8L-B1rn9Jl-eiae-8qlEd1S_AdZM0yBrTp4c-IAVydtnhzW-g-qGosZHgRVb9vjkCDGvMkeIZ_uo4pT0Rxwe3ad5Hq_u=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFubgiGEvHgiACTFCwHz_KsCvbRD9hzefZYuorjwwc8L-B1rn9Jl-eiae-8qlEd1S_AdZM0yBrTp4c-IAVydtnhzW-g-qGosZHgRVb9vjkCDGvMkeIZ_uo4pT0Rxwe3ad5Hq_u=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPxis3YY9CX5YPbgmqmgmMiONDaPcn3gcf31Tn6D8yIvsxK5-DobfujOeRqsmG6lIzfpVEBzZ2CMeLIJdN-AcUNG92i1U-WHjMgmNCe6N5p17Hf7OFkpSqckb2eGt7ljzRGNQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPxis3YY9CX5YPbgmqmgmMiONDaPcn3gcf31Tn6D8yIvsxK5-DobfujOeRqsmG6lIzfpVEBzZ2CMeLIJdN-AcUNG92i1U-WHjMgmNCe6N5p17Hf7OFkpSqckb2eGt7ljzRGNQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAETxwH9Sh8SCRGBIYfzB48kdV89tv5Z7jWUNci36DbKlcPZ3HkSRcjKBr8iUPe0SRTu7jaSsrGQf3pZI4QfWuXmEqYPsOsGLsNyBtxMjnK9MP9TZtaiBD3R4JJUMMZW-LANKO-QHQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAETxwH9Sh8SCRGBIYfzB48kdV89tv5Z7jWUNci36DbKlcPZ3HkSRcjKBr8iUPe0SRTu7jaSsrGQf3pZI4QfWuXmEqYPsOsGLsNyBtxMjnK9MP9TZtaiBD3R4JJUMMZW-LANKO-QHQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcQb90HXq5OIJY12lw5LZ-sE1rpy8slOs0xB1Oa1SWVdFU8wrNUkCYiFqcdY_3O4pQk_xOlWcTFLfaQagd5soUagn2-7oO3_S1pyhwgiLycGUxA_fAto7GExEe3fFpRsOwZYrvCQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcQb90HXq5OIJY12lw5LZ-sE1rpy8slOs0xB1Oa1SWVdFU8wrNUkCYiFqcdY_3O4pQk_xOlWcTFLfaQagd5soUagn2-7oO3_S1pyhwgiLycGUxA_fAto7GExEe3fFpRsOwZYrvCQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNTrfvFc6YrwEMCezH85ngXs3cI1k89K6ZZ4-E_HsvZtSOI2yCNRSN5w_AKYxDc9coaYjoJXvAshy6zF5YWjJwMq9GJjvbQ3Ax6-AxLofP_G8j5409Rxu22Thd9Z2U1GKW54t44g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNTrfvFc6YrwEMCezH85ngXs3cI1k89K6ZZ4-E_HsvZtSOI2yCNRSN5w_AKYxDc9coaYjoJXvAshy6zF5YWjJwMq9GJjvbQ3Ax6-AxLofP_G8j5409Rxu22Thd9Z2U1GKW54t44g=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 796,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 455
+        },
+        {
+          "stars": 4,
+          "count": 164
+        },
+        {
+          "stars": 3,
+          "count": 81
+        },
+        {
+          "stars": 2,
+          "count": 20
+        },
+        {
+          "stars": 1,
+          "count": 76
+        }
+      ],
+      "location_rating": 2.8,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 15,
+          "positive": 10,
+          "negative": 5,
+          "neutral": 0,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 20,
+          "positive": 15,
+          "negative": 5,
+          "neutral": 0,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE"
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 9,
+          "positive": 9,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "3xjAEHica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmoxwzKINAAIXRQw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=3xjAEHica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmoxwzKINAAIXRQw&engine=google_hotels_reviews&hl=en&property_token=ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 20,
+          "positive": 13,
+          "negative": 5,
+          "neutral": 2,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE"
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 8,
+          "positive": 6,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "WfYe73ica1yRnFiSmp5fVDl5VVBqcUliaVFiXgkDEhsACWcOwQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=WfYe73ica1yRnFiSmp5fVDl5VVBqcUliaVFiXgkDEhsACWcOwQ&engine=google_hotels_reviews&hl=en&property_token=ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Hot tub",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI-ML96YDLxeB9Gg0vZy8xMWd5eWsxcjg4EAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Binh An Village Da Lat Resort",
+      "description": "Serene lakefront resort with casual rooms & 3-story villas, plus golf, yoga, a restaurant & a bar.",
+      "link": "http://www.binhanvillage.com/index.php/en/mmenu-binhan-dalat",
+      "property_token": "ChgIooqd-Z7k-iwaDS9nLzExYjYzNnhkd3EQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-08-20&check_out_date=2026-08-22&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChgIooqd-Z7k-iwaDS9nLzExYjYzNnhkd3EQAQ&q=Da+Lat",
+      "gps_coordinates": {
+        "latitude": 11.8877595,
+        "longitude": 108.4176396
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫3,019,832",
+        "extracted_lowest": 3019832,
+        "before_taxes_fees": "₫2,636,826",
+        "extracted_before_taxes_fees": 2636826
+      },
+      "total_rate": {
+        "lowest": "₫6,039,664",
+        "extracted_lowest": 6039664,
+        "before_taxes_fees": "₫5,273,651",
+        "extracted_before_taxes_fees": 5273651
+      },
+      "nearby_places": [
+        {
+          "name": "Sculpture Tunnel",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Cam Ranh International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "3 hr 36 min"
+            }
+          ]
+        },
+        {
+          "name": "Nhà hàng Đất Sét",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5aay2xhflXwc2T109hOXzixgztjdM1g0SZB1IikC0BsUaejFnvOsdXyLATXHfv5uwQXEbWHPXvufNImvSLGGRdHIBKARnn0Bh2LalzYpY2GYS4z_L3-4tyz3znk6gyf7yusuLMiWiYZk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5aay2xhflXwc2T109hOXzixgztjdM1g0SZB1IikC0BsUaejFnvOsdXyLATXHfv5uwQXEbWHPXvufNImvSLGGRdHIBKARnn0Bh2LalzYpY2GYS4z_L3-4tyz3znk6gyf7yusuLMiWiYZk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhhhHwT6P4pNWWcCJscvR9gLZeXGr6Ei2O_NF6hKDZyOXCCtqGh69SMlHfc5FxZrU-LxIrHubw6TGqCD7MzMUZtLlMUEadEKGT0jDZzjGvoneyDnlwuKLNwtL24xNj-YMF0A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhhhHwT6P4pNWWcCJscvR9gLZeXGr6Ei2O_NF6hKDZyOXCCtqGh69SMlHfc5FxZrU-LxIrHubw6TGqCD7MzMUZtLlMUEadEKGT0jDZzjGvoneyDnlwuKLNwtL24xNj-YMF0A=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEpEFmEskbFZneZ0x2TwKXOIOBLD4nq3bnUqqp1aCUl1ZS4y7EivhMOjuEijQQHF71VnEEJcYmCh8sYNhrId8QuPhIvwN16TfEhxZN6Sll2UtJnCHqr6EKyhwKHZvaKurEypQjq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEpEFmEskbFZneZ0x2TwKXOIOBLD4nq3bnUqqp1aCUl1ZS4y7EivhMOjuEijQQHF71VnEEJcYmCh8sYNhrId8QuPhIvwN16TfEhxZN6Sll2UtJnCHqr6EKyhwKHZvaKurEypQjq=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZExeCkdxQvgv0LlxUbj4CLRYYb14G6fZzKwj5kwpF_9Z2YshphcnXGweIR4S_UjNovzvyPdRzNVT_zpApHf-vO_f_2x7Ib2sIH246OAm1NmXeBnWAzy-FzEn2e5zLcgveZJzjM1sj0s6G=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZExeCkdxQvgv0LlxUbj4CLRYYb14G6fZzKwj5kwpF_9Z2YshphcnXGweIR4S_UjNovzvyPdRzNVT_zpApHf-vO_f_2x7Ib2sIH246OAm1NmXeBnWAzy-FzEn2e5zLcgveZJzjM1sj0s6G=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHK-l1spMUWsQJSVQgKmA47WOlbf5nv44W9X64Brt7iAoSLSlZ3K2Ceqkf3e3JQgAZomdYKbnzydQ2Ypx5HQqkms4K0tIa_-OtPrZ5geXWxBx7-pYE8j9IVXjHA1sqkS5JINrT4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHK-l1spMUWsQJSVQgKmA47WOlbf5nv44W9X64Brt7iAoSLSlZ3K2Ceqkf3e3JQgAZomdYKbnzydQ2Ypx5HQqkms4K0tIa_-OtPrZ5geXWxBx7-pYE8j9IVXjHA1sqkS5JINrT4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHYVirQWl169aTp2HuHYCa0y8qDKIu2n35o6jv8Zm91WmDtT05XYGp674mhj6hyjIse0eleutD2eYPJtm7pX-B-AI5yc0wIL2DRByv7UA38Cx9kcsbqWPRDQSgbawNV7SR8z8XVMm0_-b0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHYVirQWl169aTp2HuHYCa0y8qDKIu2n35o6jv8Zm91WmDtT05XYGp674mhj6hyjIse0eleutD2eYPJtm7pX-B-AI5yc0wIL2DRByv7UA38Cx9kcsbqWPRDQSgbawNV7SR8z8XVMm0_-b0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEoZghFIhaULmaXgS_PYhYEpRemFNlQXJz-gJmRz6Ru-1GseOdGXNkImSWplrNyEh5rpla_1_A5IDMCnMC8xCqLqN3GO5kDLRQi5vBvVhKhwno69xD0fWh7SR-poZdW9TcZWFPExA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEoZghFIhaULmaXgS_PYhYEpRemFNlQXJz-gJmRz6Ru-1GseOdGXNkImSWplrNyEh5rpla_1_A5IDMCnMC8xCqLqN3GO5kDLRQi5vBvVhKhwno69xD0fWh7SR-poZdW9TcZWFPExA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtTvsbZ8pXoueRbMgAkBrOWkfjDUf4s9pQ6ukL_UviZmf73TMFZoGUl5UCQdudorwyWQ0337pSKO92ScNa1POi1ngbv2iM6f14aD9E_H4pXDQtu3pK0zNXM9Wb1zye0RKwldwQwPBO53nV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtTvsbZ8pXoueRbMgAkBrOWkfjDUf4s9pQ6ukL_UviZmf73TMFZoGUl5UCQdudorwyWQ0337pSKO92ScNa1POi1ngbv2iM6f14aD9E_H4pXDQtu3pK0zNXM9Wb1zye0RKwldwQwPBO53nV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHHVzJgTxAWxDptDY9RDHSH0R0f2eS6NEhrKHwrHt7EsV74-k04fBhWFREuc5CRZj3pv8PK8Cf80w0zw9sY91pCCd1eKJPPXFDb4rJ-DN_eQ0zgHxAx6DFdwOYBW-ZKLepmCati5e7NaJ16=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHHVzJgTxAWxDptDY9RDHSH0R0f2eS6NEhrKHwrHt7EsV74-k04fBhWFREuc5CRZj3pv8PK8Cf80w0zw9sY91pCCd1eKJPPXFDb4rJ-DN_eQ0zgHxAx6DFdwOYBW-ZKLepmCati5e7NaJ16=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 329,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 223
+        },
+        {
+          "stars": 4,
+          "count": 67
+        },
+        {
+          "stars": 3,
+          "count": 16
+        },
+        {
+          "stars": 2,
+          "count": 8
+        },
+        {
+          "stars": 1,
+          "count": 15
+        }
+      ],
+      "location_rating": 2.2,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 23,
+          "positive": 21,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChgIooqd-Z7k-iwaDS9nLzExYjYzNnhkd3EQAQ"
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 15,
+          "positive": 14,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx&engine=google_hotels_reviews&hl=en&property_token=ChgIooqd-Z7k-iwaDS9nLzExYjYzNnhkd3EQAQ"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 16,
+          "positive": 13,
+          "negative": 2,
+          "neutral": 1,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChgIooqd-Z7k-iwaDS9nLzExYjYzNnhkd3EQAQ"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIooqd-Z7k-iwaDS9nLzExYjYzNnhkd3EQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgIooqd-Z7k-iwaDS9nLzExYjYzNnhkd3EQAQ"
+    }
+  ]
+}

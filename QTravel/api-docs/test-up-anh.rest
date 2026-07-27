@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:3000/api/v1
+@hotelId = YOUR_HOTEL_ID
+@token = YOUR_ACCESS_TOKEN
+
+### Test Upload Image cho Review (multipart/form-data)
+POST {{baseUrl}}/hotels/{{hotelId}}/reviews
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="comment"
+
+Đây là review test upload ảnh bằng REST Client!
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="images"; filename="sample.jpg"
+Content-Type: image/jpeg
+
+< ./sample.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--

@@ -1,0 +1,53 @@
+[
+  {
+    "cityId": "7697553",
+    "name": "Tour Lặn Biển Cù Lao Chàm trong ngày từ Đà Nẵng",
+    "category": "Du ngoạn đảo",
+    "description": "Trải nghiệm lặn biển tuyệt vời tại Cù Lao Chàm, khám phá hệ sinh thái biển phong phú.",
+    "price": 598355,
+    "originalPrice": 701471,
+    "rating": 2.9,
+    "reviewCount": 7,
+    "bookingCount": 20,
+    "freeCancellation": true,
+    "isPopular": true,
+    "imageUrl": "https://pix8.agoda.net/hotelImages/agoda-homes/123/123_1.jpg",
+    "mediaUrls": [
+      "https://pix8.agoda.net/hotelImages/agoda-homes/123/123_1.jpg"
+    ]
+  },
+  {
+    "cityId": "7697553",
+    "name": "Cham Island Snorkeling Day Tour and Lunch From Da Nang or Hoi An",
+    "category": "Lặn biển",
+    "description": "Tour lặn biển ngắm san hô và dùng bữa trưa hải sản ngon miệng tại Cù Lao Chàm.",
+    "price": 676798,
+    "originalPrice": 923326,
+    "rating": 5.0,
+    "reviewCount": 2,
+    "bookingCount": 10,
+    "freeCancellation": true,
+    "isPopular": false,
+    "imageUrl": "https://pix8.agoda.net/hotelImages/agoda-homes/124/124_1.jpg",
+    "mediaUrls": [
+      "https://pix8.agoda.net/hotelImages/agoda-homes/124/124_1.jpg"
+    ]
+  },
+  {
+    "cityId": "7697553",
+    "name": "Cu Lao Cham Island Group Tour - Snorkeling and Swimming",
+    "category": "Du ngoạn đảo",
+    "description": "Tham gia tour ghép Cù Lao Chàm, thỏa sức bơi lội và lặn biển trong làn nước trong xanh.",
+    "price": 109634,
+    "originalPrice": 131614,
+    "rating": 0,
+    "reviewCount": 0,
+    "bookingCount": 5,
+    "freeCancellation": true,
+    "isPopular": false,
+    "imageUrl": "https://pix8.agoda.net/hotelImages/agoda-homes/125/125_1.jpg",
+    "mediaUrls": [
+      "https://pix8.agoda.net/hotelImages/agoda-homes/125/125_1.jpg"
+    ]
+  }
+]

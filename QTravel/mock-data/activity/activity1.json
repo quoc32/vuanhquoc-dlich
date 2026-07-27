@@ -1,0 +1,838 @@
+{
+  "top_sights": {
+    "sights": [
+      {
+        "title": "Ngũ Hành Sơn",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGRIXCgNwdnESEENnb3ZiUzh3TWpZeU0zRTUYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.4,
+        "reviews": 41000,
+        "price": "40.000 ₫",
+        "extracted_price": 40000,
+        "thumbnail": "https://serpapi.com/searches/6a341c7b868180fb9cae9caa/images/aO8H7ySG9K1CCa4sZTXZFRyjrU2unIpQF_DOZ1SqEQQ.jpeg"
+      },
+      {
+        "title": "Cầu Rồng",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGRIXCgNwdnESEENnb3ZiUzh3WWpjemNtcDQYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Mở cửa",
+        "rating": 4.5,
+        "reviews": 8500,
+        "price": "945.000 ₫",
+        "extracted_price": 945000,
+        "thumbnail": "https://serpapi.com/searches/6a341c7b868180fb9cae9caa/images/aO8H7ySG9K1CCa4sZTXZFXcmNQktlij7qoSau4WFdxg.jpeg"
+      },
+      {
+        "title": "Cầu Vàng",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSHRIbCgNwdnESFENnMHZaeTh4TVdZM2NqVjZNbXd4GAo",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.6,
+        "reviews": 13000,
+        "price": "945.000 ₫",
+        "extracted_price": 945000,
+        "thumbnail": "https://serpapi.com/searches/6a341c7b868180fb9cae9caa/images/aO8H7ySG9K1CCa4sZTXZFex7Armm9AoCX7U3kxkCYiY.jpeg"
+      },
+      {
+        "title": "Chùa Linh Ứng",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSHBIaCgNwdnESE0Nnd3ZaeTh4Y3pBMU4yUmZObUkYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.7,
+        "reviews": 7500,
+        "thumbnail": "https://serpapi.com/searches/6a341c7b868180fb9cae9caa/images/aO8H7ySG9K1CCa4sZTXZFfs0Itm8K1qfuU8DRkHhnQw.jpeg"
+      },
+      {
+        "title": "Tượng Quan Thế Âm Bồ Tát",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSHRIbCgNwdnESFENnMHZaeTh4TVhSck1ubHhNVFV3GAo",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.8,
+        "reviews": 4200,
+        "price": "Miễn phí",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8AkNOp0D-aX3Gyd2XXmExdL0auc5_GpAFmpxVtNbmDi-kEG1TGlGrL3EcLA60192MAJpre6ef2AkbuCqPwgO9tEUGTwtbML6cG3KYpEqBHnyiSmcZuEhX1fvWT79KKpWZzjw9=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Bảo tàng Điêu khắc Chăm Đà Nẵng",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGRIXCgNwdnESEENnb3ZiUzh3TW5CMlltcDAYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.2,
+        "reviews": 8000,
+        "price": "60.000 ₫",
+        "extracted_price": 60000,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEd6t4ZdkD71r96bh3XGeY2ZjS8Njw9fYuIOg_NoPd_ag1I3rTe05EZKvFLaPau4s3qMxKgQVFr4G-GSqInG49ybtma6vg2jOKfAlinnyWvC_3oRn5gleHS8HLu9I7O-p1XfS2cow=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Mỹ Sơn",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGBIWCgNwdnESD0Nna3ZiUzh3Tkd4aWFGOBgK",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.5,
+        "reviews": 13000,
+        "price": "150.000 ₫",
+        "extracted_price": 150000,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1BMxVWrZwgtlXAztXW2a4lOjbziOMT2VH6cUZI9B9s1f_ruJ1hatknOHc0zJb4msGFl-Bht20Pt9l4n9pR380jy-vEBtMwEDpEdE79TBlaOzETfe2QQbpbRj0bzOtWfk4ANdU=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Sun World Bà Nà Hills",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSHRIbCgNwdnESFENnMHZaeTh4TVdJMlgzcDVablprGAo",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.5,
+        "reviews": 69000,
+        "price": "1.000.000 ₫",
+        "extracted_price": 1000000,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEe--Z6RFiO7Bd58hpdd0rBueArsvygUnaWwrvhBx8IUoZW6kr63qJDAif7Wdkf7wC2bdvNRcYfEf4xzqxODcSEl7Rid5uH2pBDUnPmbdoN7_TZzu1u3QP3DDvjzoKmBZgHtNso=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Ba Na Hills",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGRIXCgNwdnESEENnb3ZiUzh3WjJaa2MzSnIYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.4,
+        "reviews": 100000,
+        "price": "950.000 ₫",
+        "extracted_price": 950000,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKlY0Obv7440U5vmJbhLEq57zPwcBjileU7s_cBMrzvdvwmEpCZWE9MsVpIerBgXPuFghSjRB1FStZQrACDq1AQR2L1ICMUZg_4RdqaUpKfO0uYHqnCzeYwHmHkFfViHGVDw365g=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Bãi biển Mỹ Khê",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGxIZCgNwdnESEkNnc3ZaeTh4TWpJemQzbHFhZxgK",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Bãi biển",
+        "rating": 4.7,
+        "reviews": 4300,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8EEWsUGorO308UWVAylXElqX7vXxEdyNLTCMxI8neTHkGkgjaExeEUHmxpWFKHE4iis8ca9cVob4neIKs2e6J7lQ029hxvetIyNLaBppEBJJbuWfRDAHksgLNL7Uyx7mgVBAo=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Giáo Xứ Chính Toà Đà Nẵng",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSHRIbCgNwdnESFENnMHZaeTh4TVdnMGFETXpkM05rGAo",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.5,
+        "reviews": 3400,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEySA3MltfAmbrh6enMWMKFop9GuraF4NEekzuMHJfUR2jeh0qPIU7E-9OX9pWvVy9W9wzwL1DEsZ2yRCizm_OXZP0vX39gtGSrqxySOMogzNWbyIR8A2Yf8bq_H7LLqg6IL1VT7A=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "DA NANG DOWNTOWN",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSHRIbCgNwdnESFENnMHZaeTh4TVdNeGN6QnVNbmg2GAo",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.4,
+        "reviews": 12000,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHz_q5g1Tt4U93y_bdXNxAJICRuZuVo3p-XBCPqP4ORy6Gw2WZ-a0OhhZ4cHAxDgCmPnTU9elh3Gr55dd2vVhRHknCcS1MmBArRvsYYjv-IssU043eyxcz0oph5e9EDe0aeklc=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Bãi biển Non Nước",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSHBIaCgNwdnESE0Nnd3ZaeTh4TW0xcmVYUXljR3MYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Bãi biển",
+        "rating": 4.4,
+        "reviews": 211,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLFPFAgxEL-hjt25ZGcI-GpkOsK5Ie1zicVzmDu8gUhOIkvGjLRrLxDods7KDqH11cA6qzzA9_lfRHAuKF8BEMEGJMZ4yAekBQ1-5q8pbcp3RMuE2X_inX9oMxdvU2mvbZ6qBFaA=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Sơn Trà",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGRIXCgNwdnESEENnb3ZiUzh3WjJaa05USmsYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đỉnh núi",
+        "rating": 4.3,
+        "reviews": 301,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNMYVqiVpH-X6LB1oIdfHGf33a9MM89u_zx0i0bHZWiEvkp8G2fqLSa5_peRFULA406arWrULsw1vEQWHWbwHKifGmkub0ZAgeruU_zOPrEe4TnTVD5mWU5ein_yDYRneaq3sMjhDltmEN=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Cầu Sông Hàn",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGRIXCgNwdnESEENnb3ZiUzh3TlhFMGJqRXkYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.6,
+        "reviews": 4800,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHa0HXC26hksUUSjKzpiVGuQP0e-4Ncw1WQjo1Xo4gGJjp7w3qss6ezCHhlSVOdNS-idV6fQeCEhDJdybj2B9QmoXyG35nmNHsz4t_vlsMD0Stm3f8bJHb4v1Rv_EC8x-OBaMOR=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Vé Cáp Treo Bà Nà Hills",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGxIZCgNwdnESEkNnc3ZaeTh4TWpCc1pHeHJjdxgK",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.6,
+        "reviews": 247,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_-LiLFht6I_a3R5XIUD5_zuMQtxlz-HhS6Ez5jkzh_MB3pOsQpNgfdp2Da4-_VggMqpT26diSZ1F7qlSoSlPHeY3kqDtdLrUOKK81fG-YjfZ9S8NyKdlWN9e8E-jYv9buAlTP=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Công viên Suối khoáng nóng Núi Thần Tài Đà Nẵng",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSHRIbCgNwdnESFENnMHZaeTh4TVdjNFh6RTJkalpmGAo",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.3,
+        "reviews": 4600,
+        "price": "465.500 ₫",
+        "extracted_price": 465500,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF3cCHC1KcWA8Fcd-nT4OgTg4eo9OFPZoV4vz2VKK22GfyvZH2t1_qKIJHMOK5KUcG7KmfM-mK70dleEaGlaebY5YkjponXg9IYPQnr9hDMHkgu8lNzDrlrJULp3VXd-349pDdV3w=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Đèo Hải Vân",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGRIXCgNwdnESEENnb3ZiUzh3TW5KdWF6bDUYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đường vượt núi",
+        "rating": 4.7,
+        "reviews": 2300,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH-U5vFX85cytOyCsdDoMQZwt6X7PQLrGa9cYoDcZPUaXxVY1AL3VFj7frNyrj6_dcQnQnNYBIiGkOmS8HZnshsQMDJXDNW9IVZBOHHW6MhUZCAf_jBJpRCPtPwrVig2yVSd6JY=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Bảo tàng 3D Art In Paradise",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSHRIbCgNwdnESFENnMHZaeTh4TVdSZlpETnRNSEJxGAo",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Đóng cửa",
+        "rating": 4.4,
+        "reviews": 3300,
+        "price": "200.000 ₫",
+        "extracted_price": 200000,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBDGMIuaFxPLwbRSp9c6khV7ZHMjSlWumyJ4wBz5VsgKd3N8SCjqNGynR2IX1cYrLloiAZiRNLDIbhRfeepYohg4IkwryXv_0CdXAYO3IJFPxU2rsgRDbrp8KveQFRGnbmq-Ny=s148-w148-h148-n-k-no"
+      },
+      {
+        "title": "Cù lao Chàm",
+        "link": "https://www.google.com/searchviewer/10?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&output=search&svid=CAwSGRIXCgNwdnESEENnb3ZiUzh3TlhwNE5HUmoYCg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang",
+        "description": "Quần đảo",
+        "rating": 4.7,
+        "reviews": 55,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-SYpI0uT9cZJ_DSkBGCWoNtWI-2oTBzR7D1EHg2BgmcfpKRvo7AeEJFtoXbqYpF2IeeXRy7G8IDR64-SUEpVbPvWurYoqPbaVYKXD6JAso54GWzehjyrpbp3Gwj3lApeXsiT2N9_FPMRE=s148-w148-h148-n-k-no"
+      }
+    ]
+  },
+  "ai_overview": {
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "Da Nang is Vietnam’s vibrant coastal hub, offering a perfect mix of pristine beaches, lush mountain resorts, and ancient cultural sites. Key highlights include relaxing on My Khe Beach, exploring the spectacular Golden Bridge at Ba Na Hills, and taking day trips to the lantern-lit streets of nearby Hoi An. Travels with Ingrid +3",
+        "snippet_links": [
+          {
+            "link": "https://travelswithingrid.com/vietnam/top-things-to-do-in-da-nang"
+          }
+        ],
+        "snippet_highlighted_words": [
+          "relaxing on My Khe Beach, exploring the spectacular Golden Bridge at Ba Na Hills, and taking day trips to the lantern-lit streets of nearby Hoi An"
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Top Attractions & Activities"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Ba Na Hills & The Golden Bridge: Located about an hour outside the city, this mountaintop amusement park is famous for the Golden Bridge, a surreal pedestrian walkway cradled by two giant stone hands. Your admission ticket covers the scenic cable car ride and entry to the French Village and theme park areas. Travels with Ingrid +2",
+            "snippet_links": [
+              {
+                "link": "https://travelswithingrid.com/vietnam/top-things-to-do-in-da-nang"
+              }
+            ]
+          },
+          {
+            "snippet": "My Khe Beach: Stretch out on miles of soft white sand. It is an ideal spot for early morning swims, beginner surfing, or simply relaxing with a fresh coconut at a beach bar."
+          },
+          {
+            "snippet": "Marble Mountains: A cluster of five limestone and marble hills just south of the city center. You can hike the stone steps or take an elevator to explore secret cave shrines, hidden viewpoints, and natural open-air caves where sunlight pours in."
+          },
+          {
+            "snippet": "Lady Buddha & Son Tra Peninsula: Perched on the mountains of the Son Tra Peninsula, Linh Ung Pagoda is home to a massive 67-meter-tall Lady Buddha statue. The surrounding area offers panoramic ocean views and the chance to spot rare, endangered red-shanked douc langur monkeys. Tripadvisor +1",
+            "snippet_links": [
+              {
+                "link": "https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html"
+              }
+            ]
+          },
+          {
+            "snippet": "Dragon Bridge Fire Show: You cannot miss this iconic bridge shaped like a dragon. If you are visiting on a weekend (typically Friday, Saturday, and Sunday nights at 9:00 PM), head to the riverfront to watch the dragon breathe massive plumes of fire and water. Little Birdie Travel +1",
+            "snippet_links": [
+              {
+                "link": "https://littlebirdietravel.com/7-things-to-do-in-da-nang/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "For tips and a visual tour of what to expect from these iconic spots:17:34The ULTIMATE Da Nang, Vietnam Travel Guide - Things to Do, Where to ...Wanderlust WellmanYouTube · 29 thg 9, 2025",
+        "snippet_links": [
+          {
+            "text": "The ULTIMATE Da Nang, Vietnam Travel Guide - Things to Do, Where to ...Wanderlust WellmanYouTube · 29 thg 9, 2025",
+            "link": "https://www.youtube.com/watch?v=T4IcTq9YQ8Y"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Local Dining & Nightlife"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Han River Promenade: Stroll along the riverfront in the evening to see the city lights and pass by the heart-shaped lanterns of the Love Bridge. Travels with Ingrid +1",
+            "snippet_links": [
+              {
+                "link": "https://travelswithingrid.com/vietnam/top-things-to-do-in-da-nang"
+              }
+            ]
+          },
+          {
+            "snippet": "Seafood & Local Markets: Treat yourself to a fresh seafood dinner along the beach road, or dive into local street food. Do not leave without trying local favorites like Mi Quang (turmeric noodles) and Banh Xeo (crispy Vietnamese pancakes). Hayley on Holiday +1",
+            "snippet_links": [
+              {
+                "link": "https://www.hayleyonholiday.com/what-to-do-in-da-nang-vietnam/"
+              }
+            ]
+          },
+          {
+            "snippet": "Café Culture: Da Nang has a thriving coffee scene. Whether you are looking for a minimalist specialty roaster or a tranquil garden café surrounded by koi ponds, you will find plenty of spots to relax. Travels with Ingrid +1",
+            "snippet_links": [
+              {
+                "link": "https://travelswithingrid.com/vietnam/top-things-to-do-in-da-nang"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Nearby Day Trips"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Hoi An Ancient Town: Just a 40-minute drive south, this UNESCO World Heritage site is famous for its preserved yellow merchant houses, lantern-lined streets, and riverside dining. Facebook",
+            "snippet_links": [
+              {
+                "link": "https://www.facebook.com/groups/vietnamtravelguideofficial/posts/1236229435359251/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "For ideas on how to plan out your itinerary to capture the best of Da Nang:1:415 Things You Need to Do in Da Nang — Vietnam's Coastal Gem! From ...Seni World TravelFacebook · 16 thg 12, 2025",
+        "snippet_links": [
+          {
+            "text": "1:41",
+            "link": "https://www.facebook.com/seniworldtravel/videos/-5-things-you-need-to-do-in-da-nang-vietnams-coastal-gemfrom-golden-beaches-and-/4076922512619752/"
+          },
+          {
+            "text": "5 Things You Need to Do in Da Nang — Vietnam's Coastal Gem! From ...Seni World TravelFacebook · 16 thg 12, 2025",
+            "link": "https://www.facebook.com/seniworldtravel/videos/-5-things-you-need-to-do-in-da-nang-vietnams-coastal-gemfrom-golden-beaches-and-/4076922512619752/"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "The Ultimate Da Nang Travel Guide: Best Things to Do, See & Eat ...",
+        "link": "https://travelswithingrid.com/vietnam/top-things-to-do-in-da-nang",
+        "snippet": "Relax on My Khe Beach. Da Nang's crown jewel is its long, sweeping coastline. My Khe Beach stretches for miles, with golden sand a...",
+        "source": "Travels with Ingrid",
+        "index": 0
+      },
+      {
+        "title": "THE 15 BEST Things to Do in Da Nang (2026) - Must-See Attractions",
+        "link": "https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html",
+        "snippet": "This 500-foot-long golden bridge appears to be cradled by two gigantic hands amidst the clouds. Get… See ways to experience (497) ...",
+        "source": "Tripadvisor",
+        "index": 1
+      },
+      {
+        "title": "7 Top Things To Do In Da Nang Vietnam You'll Want To Experience!",
+        "link": "https://littlebirdietravel.com/7-things-to-do-in-da-nang/",
+        "snippet": "More than just a list, you will also find some helpful tips and suggestions! * 1. Dragon Bridge. Like its name suggests, this one ...",
+        "source": "Little Birdie Travel",
+        "index": 2
+      },
+      {
+        "title": "What To Do in Da Nang: 20+ Amazing Things To Do - Hayley on Holiday",
+        "link": "https://www.hayleyonholiday.com/what-to-do-in-da-nang-vietnam/",
+        "snippet": "14. See the sunset from the Walking Bridge. 15. Visit the Love Bridge/Love Pier. 16. Enjoy dinner at Son Tra Night Market. 17. See...",
+        "source": "Hayley on Holiday",
+        "index": 3
+      },
+      {
+        "title": "The most wonderful things to do in Da Nang, Vietnam - The Blond Travels",
+        "link": "https://www.theblondtravels.com/things-to-do-da-nang",
+        "snippet": "1. Sunbathe on one of the beaches. 2. Pay a visit to Lady Buddha. 3. Find heaven and hell in Marble Mountains. 4. See the dragon. ...",
+        "source": "The Blond Travels",
+        "index": 4
+      },
+      {
+        "title": "Things To Do In Da Nang, Vietnam - Manhattanite",
+        "link": "https://manhattanite.co/things-to-do-in-da-nang-vietnam/",
+        "snippet": "2. Go Trekking & Wildlife Spotting In The Jungle. In the northern part of Da Nang you'll find the Son Tra Peninsula, known for it'",
+        "source": "manhattanite.co",
+        "index": 5
+      },
+      {
+        "title": "Unmissable things to do in Da Nang, Vietnam — Walk My World",
+        "link": "https://www.walkmyworld.com/posts/things-to-do-da-nang-vietnam",
+        "snippet": "The Marble Mountains iares one of the star attractions in Da Nang and just a 20 minute drive south of the city. When you approach,",
+        "source": "www.walkmyworld.com",
+        "index": 6
+      },
+      {
+        "title": "Hi what's your \"Don't Miss in Da Nang Vietnam\"? Planning to go there",
+        "link": "https://www.facebook.com/groups/vietnamtravelguideofficial/posts/1236229435359251/",
+        "snippet": "Chung Thuỳ Vân and 26 others. 55. Nguyễn Huy Văn. Ba na hill,coconut boat,marble mountain,my son sanctuary. 16w · 7 likes. ... Alr...",
+        "source": "Facebook",
+        "index": 7
+      },
+      {
+        "title": "Must-visit places in Da Nang - Vietnam Tourism",
+        "link": "https://vietnam.travel/things-to-do/must-visit-places-in-da-nang",
+        "snippet": "For a family-friendly day outing, head to Bà Nà Hills. This hilltop resort in the Trường Sơn Mountains is a 40-minute drive to the...",
+        "source": "Vietnam Tourism",
+        "index": 8
+      },
+      {
+        "title": "5 Things You Need to Do in Da Nang — Vietnam's Coastal Gem! From ...",
+        "link": "https://www.facebook.com/seniworldtravel/videos/-5-things-you-need-to-do-in-da-nang-vietnams-coastal-gemfrom-golden-beaches-and-/4076922512619752/",
+        "snippet": "here's the top five things you need to do in Daang. and trust me they're all worth the hype without breaking the bank. number one ...",
+        "source": "www.facebook.com",
+        "index": 9
+      },
+      {
+        "title": "Da Nang Travel Guide - Top 10 Things You Shouldn't Miss Da ...",
+        "link": "https://www.facebook.com/kisstour/videos/top-10-things-to-do-in-da-nang/816240771230685/",
+        "snippet": "heading to Daang. this is one of Vietnam's balanced travel destinations. and here are 10 things you should do when you visit here ...",
+        "source": "www.facebook.com",
+        "index": 10
+      },
+      {
+        "title": "What to Do in Da Nang Vietnam | Best Places to Visit in 2026",
+        "link": "https://www.youtube.com/watch?v=k5MJdyDFCQI&vl=en",
+        "snippet": "number one Marble Mountains marble Mountains is easily one of the most visited spots in Daang. and once you're there you'll unders...",
+        "source": "www.youtube.com",
+        "index": 11
+      },
+      {
+        "title": "The ULTIMATE Da Nang, Vietnam Travel Guide - Things to Do, Where ...",
+        "link": "https://www.youtube.com/watch?v=T4IcTq9YQ8Y",
+        "snippet": "which is the Sra. Peninsula. it's actually the peninsula just to the north of the Sra. neighborhood you can actually stay here the...",
+        "source": "www.youtube.com",
+        "index": 12
+      },
+      {
+        "title": "Da Nang City: Things to See and Do",
+        "link": "https://www.tnktravel.com/blogs/vietnam-blogs/da-nang-city-things-to-see-and-do/",
+        "snippet": "Marble Mountains Your list of things to see and do in Da Nang city should surely include Marble Mountains (Ngu Hanh Son) – a famous chain of 5 marble and limestone...",
+        "source": "TNK Travel",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQKT4-dQob_VDGdX_uK4JOc4iCsef6l6XkTxTkFoAUiv2-dWOxS-bWfi6xf6QbXnaiPCilKp2uCW-IZNe0",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.tnktravel.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 13
+      },
+      {
+        "title": "Top 6 Popular Attractions In Danang City For Your Vietnam Tours",
+        "link": "https://indochinacharmtours.com/blog/top-6-popular-attractions-in-danang-city-for-your-vietnam-tours.html",
+        "snippet": "Driving 9km to the south of Danang city center on, travelers can find one of the most popular attractions of the region, the Marble Mountain. This is a cluster of ...",
+        "source": "indochinacharmtours.com",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUmmAEFpBj9HH6oCjve2B2YHEE8yvdTZb5_6zmZgz7di7EZHL5pTOmpEqn6mqZiv7AxSQ6l9DdCASkYvY",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://indochinacharmtours.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 14
+      },
+      {
+        "title": "24 Hours of Fun in Da Nang: Your Perfect Itinerary » Agoda: See The World For Less",
+        "link": "https://www.agoda.com/travel-guides/vietnam/da-nang/24-hours-of-fun-in-da-nang-your-perfect-itinerary/",
+        "snippet": "The highlight of the peninsula is the Linh Ung Pagoda, home to a towering statue of the Lady Buddha, which stands at 67 meters tall! The serenity of the pagoda is ...",
+        "source": "Agoda.com",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR2E88GtMVFi6Gyy7C8iDRGBy_jy4g46W6JKi1r68FXOP4RvBH9iG7cZKrGkf3DtDlS9PcIjCLXYLsFPxs",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.agoda.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 15
+      },
+      {
+        "title": "A Complete Guide To The Hai Van Pass: Route, Rental & Motorbike Tours",
+        "link": "https://hiddenhoian.com/travel/guide-hai-van-pass/",
+        "snippet": "It ( Son Tra Peninsula ) 's a great ride around the lush, forested hills and the steep road (18% at some points) and all its ( Son Tra Peninsula ) curves make for ...",
+        "source": "Hidden Hoian",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzc8kLMoyLn7efPrReDtWNPk7vfZeAoh-Jg6Xke1ebFMj2H_1PN437V4b9-EgR3MPGMMQn78m9CXgiwTM",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://hiddenhoian.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 16
+      },
+      {
+        "title": "Explore Da Nang Vietnam: Best Attractions, Food & Travel Tips",
+        "link": "https://quangnam.thefiveresorts.vn/news/explore-da-nang-vietnam-best-attractions-food-travel-tips.htm",
+        "snippet": "Son Tra Peninsula (Monkey Mountain) A lush natural reserve offering breathtaking ocean views and home to the rare red-shanked douc langur. The Linh Ung Pagoda with...",
+        "source": "The Five Villas & Resort Quangnam Danang",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRS0mGinJZ6XNIcFdRnKhe5Bl1jw6tEp1OQn7apCmShHvEvC_DcuzUBQlHXgo01Uerhjh_UiWuYOuxivsE",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://quangnam.thefiveresorts.vn&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 17
+      }
+    ]
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "14 Things to Do in Da Nang: A Local's Guide for First-Timers",
+      "link": "https://ahoyvietnam.com/things-to-do-in-da-nang/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ahoyvietnam.com/things-to-do-in-da-nang/&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQFnoECG0QAQ",
+      "displayed_link": "https://ahoyvietnam.com › things-to-d...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAq1BMVEVHcEzjR2vhNVviOlviPVfhNVLqeEboaUzgLFvhOVvhLlX1tDD4wS76zCrxojvkTlLiP1ngJkflWnLrjJjqhJXjRz7xnzH98un____odY3mXEHytb_--e3wp7P747Hvljr--Pn4ymLiOkPjRlj____hNWD85773vBziQF374Kr2twD4wDLtmanthz_hM17UHf_2uAD87MvhNVn52JD42t7iPlf6xi7gL1nujTOeHjmGAAAAOHRSTlMAFzqJ_____6l2________rP________________________8BLP__Tf______WQL__8j___D_6mORYn4AAAEiSURBVHgBYiAaAOgiByyIgSAKBj1ZW712bN__ZPvXrjj1Zlqyosh_jEoktApVf_gagXqj2Wp3ap-ui2W9_mDYH41bWvXdYcvecMJgMp21NPUtHtwcZrHAbTlrdeS3TcWAwWrFYLhuv26MhRsG2y2Dza61f6jDkcSUJytdNwxdX0142tCOD2uSWDJbtuE4hm0xu2PPv7vgKnnhgAW_SqCQGDIwAANsqzyDEgn808MoCnW8iFYnuCkQUx37JgtsnaBQrxE_3UFBLSnfSHetCnZ92u6tRWC-a64_mpthJHt3PndJyxvF5zQJiF45buYOfU3UJFDPm04-Mz8UUC_SyTGvbw7xZWUbVfwig2yI3y6QITsYx2_rU8WX_nCQuqcJMFAHAADqtR5Gi1McuwAAAABJRU5ErkJggg.png",
+      "date": "13 thg 12, 2025",
+      "snippet": "Exploring Hai Chau (a city-side district) and looking for new coffee shops or local food spots is one of my favorite things to do in Da Nang.",
+      "snippet_highlighted_words": [
+        "Exploring Hai Chau"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Choosing Where to Stay in Da...",
+            "link": "https://ahoyvietnam.com/things-to-do-in-da-nang/#Choosing_Where_to_Stay_in_Da_Nang"
+          },
+          {
+            "title": "Admire the Dragon Bridge",
+            "link": "https://ahoyvietnam.com/things-to-do-in-da-nang/#Admire_the_Dragon_Bridge"
+          }
+        ]
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Exploring Hai Chau (a city-side district) and looking for new coffee shops or local food spots is one of my favorite things to do in Da Nang.",
+          "source_info_link": "https://ahoyvietnam.com/things-to-do-in-da-nang/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAq1BMVEVHcEzjR2vhNVviOlviPVfhNVLqeEboaUzgLFvhOVvhLlX1tDD4wS76zCrxojvkTlLiP1ngJkflWnLrjJjqhJXjRz7xnzH98un____odY3mXEHytb_--e3wp7P747Hvljr--Pn4ymLiOkPjRlj____hNWD85773vBziQF374Kr2twD4wDLtmanthz_hM17UHf_2uAD87MvhNVn52JD42t7iPlf6xi7gL1nujTOeHjmGAAAAOHRSTlMAFzqJ_____6l2________rP________________________8BLP__Tf______WQL__8j___D_6mORYn4AAAEiSURBVHgBYiAaAOgiByyIgSAKBj1ZW712bN__ZPvXrjj1Zlqyosh_jEoktApVf_gagXqj2Wp3ap-ui2W9_mDYH41bWvXdYcvecMJgMp21NPUtHtwcZrHAbTlrdeS3TcWAwWrFYLhuv26MhRsG2y2Dza61f6jDkcSUJytdNwxdX0142tCOD2uSWDJbtuE4hm0xu2PPv7vgKnnhgAW_SqCQGDIwAANsqzyDEgn808MoCnW8iFYnuCkQUx37JgtsnaBQrxE_3UFBLSnfSHetCnZ92u6tRWC-a64_mpthJHt3PndJyxvF5zQJiF45buYOfU3UJFDPm04-Mz8UUC_SyTGvbw7xZWUbVfwig2yI3y6QITsYx2_rU8WX_nCQuqcJMFAHAADqtR5Gi1McuwAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "vi"
+        ],
+        "regions": [
+          "VN"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://ahoyvietnam.com/things-to-do-in-da-nang/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fahoyvietnam.com%2Fthings-to-do-in-da-nang%2F",
+      "source": "Ahoy, Vietnam!"
+    },
+    {
+      "position": 2,
+      "title": "The most wonderful things to do in Da Nang, Vietnam",
+      "link": "https://www.theblondtravels.com/things-to-do-da-nang",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.theblondtravels.com/things-to-do-da-nang&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQFnoECGsQAQ",
+      "displayed_link": "https://www.theblondtravels.com › thi...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAeFBMVEX_M5n_IpT_GZL_Mpn_LJf_t9b_9vr_J5X_Vqf_pMz_xt7_____oMr_4O3_OJv__P7_7_b_c7T_5fD_2ur_y-H_AI7_brH_mcb_aK7_e7f_rND_iL3_P57_AIb_5PD_ksP_1uj_rtH_Y6z_ebb_Wqj_wdz_jMD_SKGblVTuAAABQklEQVR4Ab2RV2KFIBBFZURAx0K1J4h1_zvM6_U_l8651In-VQSe_ZhGcfzKEgYPxgWJ-ZPGwFL-MGaYYwFwwifPSSWWDytUUmlTypLHPD8VrAzc4cloHdYNth2xVc8GY_NyvFHa4tjbH8sEssJiU-S_tb-fyYffFn2CYupYLnVgAWVL77AJKsW0Giune2m0wHkh0QN6O2tvUqNCY_3KwQR4QK-hRiJzbQgnnPJ-8_7-bLKJHQc3AJStSDi4aWulOy40plYa0fYTQzl5VNjrkMq9vEIY8wnZNpTOpQvaEKTweL1ufBhEFG13yLCiKGRGqnTL5gvkDaZ75XGwp45cen1sppfN7S3kcNn0gxxb5gs7Dro8KPBnhGRDZcI2PLKccIjfYgu4ljgkXc0Jf84-ogJ0J4TS6Ft0niD6WvKgJPpP_QHARhcLZDP87QAAAABJRU5ErkJggg.png",
+      "date": "8 thg 4, 2026",
+      "snippet": "The most wonderful things to do in Da Nang, Vietnam · 1. Sunbathe on one of the beaches · 2. Pay a visit to Lady Buddha · 3. Find heaven and ...",
+      "snippet_highlighted_words": [
+        "1. Sunbathe on one of the beaches"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "The most wonderful things to do in Da Nang, Vietnam · 1. Sunbathe on one of the beaches · 2. Pay a visit to Lady Buddha · 3. Find heaven and ...",
+          "source_info_link": "https://www.theblondtravels.com/things-to-do-da-nang",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAeFBMVEX_M5n_IpT_GZL_Mpn_LJf_t9b_9vr_J5X_Vqf_pMz_xt7_____oMr_4O3_OJv__P7_7_b_c7T_5fD_2ur_y-H_AI7_brH_mcb_aK7_e7f_rND_iL3_P57_AIb_5PD_ksP_1uj_rtH_Y6z_ebb_Wqj_wdz_jMD_SKGblVTuAAABQklEQVR4Ab2RV2KFIBBFZURAx0K1J4h1_zvM6_U_l8651In-VQSe_ZhGcfzKEgYPxgWJ-ZPGwFL-MGaYYwFwwifPSSWWDytUUmlTypLHPD8VrAzc4cloHdYNth2xVc8GY_NyvFHa4tjbH8sEssJiU-S_tb-fyYffFn2CYupYLnVgAWVL77AJKsW0Giune2m0wHkh0QN6O2tvUqNCY_3KwQR4QK-hRiJzbQgnnPJ-8_7-bLKJHQc3AJStSDi4aWulOy40plYa0fYTQzl5VNjrkMq9vEIY8wnZNpTOpQvaEKTweL1ufBhEFG13yLCiKGRGqnTL5gvkDaZ75XGwp45cen1sppfN7S3kcNn0gxxb5gs7Dro8KPBnhGRDZcI2PLKccIjfYgu4ljgkXc0Jf84-ogJ0J4TS6Ft0niD6WvKgJPpP_QHARhcLZDP87QAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "vi"
+        ],
+        "regions": [
+          "VN"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.theblondtravels.com/things-to-do-da-nang&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.theblondtravels.com%2Fthings-to-do-da-nang",
+      "source": "The Blond Travels"
+    },
+    {
+      "position": 3,
+      "title": "THE 15 BEST Things to Do in Da Nang (2026)",
+      "link": "https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQFnoECGcQAQ",
+      "displayed_link": "https://www.tripadvisor.com › Attracti...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAilBMVEUA61sA7VwA8F0A814A1lMAvEkAq0IAwksA2VQA7FsA9F4A01IAgTIAJg8AAAAALhIAhTQA41gA3VYAayoAHQsAYSYAnD0AWiMACwUAeS8AFgkADwYAIw4AKxEAyU4A9l8AMxQAEwgAGwsAcSwAQRoAlToAaCkAoD4As0UATx8Ady4Ap0EAPRgAjTfyrsZwAAABNUlEQVR4Ac3RRYLEIBQE0PDpOFTcId7eff_rTWAzeoCpDfJwnP8cxogY-1M4nVzP8wNOXz1kR6JYSNgk6YmbntBalud5UKAsq7Su06Ys2870ZKHBvEc7KJ2MEyfikyu1GlokFh2Wz1r1y4qUOyFtWJdeyd1hjsVYDZvrnxVExC9tch3dy6ADiyGb29t0JJsx3rA7pl63d24nunhMebW7kYuuQRw9X5dsOipmKp3hTs0qkVG_63mKIftueuJJBt_wp13qY46Ucp98aFVNHq4WPZwnF9iiYNB6yajBMk4CLrOP0JZZlJ34dFFal2LicRbFgwrtPalG4lJ0uiwHquGRc-ZJeOTY8DewlMC9KtdtB9QA1NyI1fHxSprjeK-Gwutdv7qYf_2vIxSyzAlDMvW_ftUc4j_nA89zGjJlkfnSAAAAAElFTkSuQmCC.png",
+      "snippet": "Top Things to Do in Da Nang. Check out must-see sights and activities: The Marble Mountains, Ba Na Hills SunWorld, Theme Parks, Nature and Wildlife Tours.",
+      "snippet_highlighted_words": [
+        "must-see sights and activities"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Top Things to Do in Da Nang. Check out must-see sights and activities: The Marble Mountains, Ba Na Hills SunWorld, Theme Parks, Nature and Wildlife Tours.",
+          "source_info_link": "https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAilBMVEUA61sA7VwA8F0A814A1lMAvEkAq0IAwksA2VQA7FsA9F4A01IAgTIAJg8AAAAALhIAhTQA41gA3VYAayoAHQsAYSYAnD0AWiMACwUAeS8AFgkADwYAIw4AKxEAyU4A9l8AMxQAEwgAGwsAcSwAQRoAlToAaCkAoD4As0UATx8Ady4Ap0EAPRgAjTfyrsZwAAABNUlEQVR4Ac3RRYLEIBQE0PDpOFTcId7eff_rTWAzeoCpDfJwnP8cxogY-1M4nVzP8wNOXz1kR6JYSNgk6YmbntBalud5UKAsq7Su06Ys2870ZKHBvEc7KJ2MEyfikyu1GlokFh2Wz1r1y4qUOyFtWJdeyd1hjsVYDZvrnxVExC9tch3dy6ADiyGb29t0JJsx3rA7pl63d24nunhMebW7kYuuQRw9X5dsOipmKp3hTs0qkVG_63mKIftueuJJBt_wp13qY46Ucp98aFVNHq4WPZwnF9iiYNB6yajBMk4CLrOP0JZZlJ34dFFal2LicRbFgwrtPalG4lJ0uiwHquGRc-ZJeOTY8DewlMC9KtdtB9QA1NyI1fHxSprjeK-Gwutdv7qYf_2vIxSyzAlDMvW_ftUc4j_nA89zGjJlkfnSAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "vi"
+        ],
+        "regions": [
+          "VN"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.tripadvisor.com%2FAttractions-g298085-Activities-Da_Nang.html",
+      "source": "Tripadvisor"
+    },
+    {
+      "position": 4,
+      "title": "7 Top Things To Do In Da Nang Vietnam You'll Want To ...",
+      "link": "https://littlebirdietravel.com/7-things-to-do-in-da-nang/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://littlebirdietravel.com/7-things-to-do-in-da-nang/&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQFnoECGwQAQ",
+      "displayed_link": "https://littlebirdietravel.com › 7-things...",
+      "favicon": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3NzUyNSstNzU1KzU3NTU1LTUrK__AABEIABwAHAMBIgACEQEDEQH_xAAZAAADAQEBAAAAAAAAAAAAAAAEBQYDAgH_xAArEAACAQMDAQUJAAAAAAAAAAABAgMABBESITEFExUiYZEGFBYyQnGB0fD_xAAXAQADAQAAAAAAAAAAAAAAAAADBAYF_8QAIBEAAQMDBQEAAAAAAAAAAAAAAQACAwQhQREjMVGCE__aAAwDAQACEQMRAD8AsJEW4IlL69QB1FcE_jFZm2WpCaHqEcjy-_rBZ5CRpHOy-Lltif7eju6pezZ5OtXAwcY7V9m4xztvtTtNIPi0a8BIzt3DZPjbLXPu61MLYSzW0UsPUbiV5DsgmbjOOc-Y9aCvRHaShHvbiTUupWWR8EUwHa5QfKJt76ef2okZJIdNsTJ4YcBzoVGQj5SM5Jx9VGNbdPnlke8skw6ldMaKV32Jwdh6VjbMYxpTYYAx9s1q7HFYDZiRayoHQDKAl9n-lpHcDp0t1FI8ZSPtX1iPPOB67-dKfhu7TbvBW8yh_dPpBtqycjg17BI0kYLHfijCpkGUE0zOl__Z.jpeg",
+      "date": "8 thg 7, 2025",
+      "snippet": "My Favorite Things to Do in Da Nang (Top 7 You'll Want To Experience!) · 1. Dragon Bridge · 2. Relax On Gorgeous Beaches · 3. Cable Car Ride ...",
+      "snippet_highlighted_words": [
+        "1. Dragon Bridge"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "My Favorite Things to Do in Da Nang (Top 7 You'll Want To Experience!) · 1. Dragon Bridge · 2. Relax On Gorgeous Beaches · 3. Cable Car Ride ...",
+          "source_info_link": "https://littlebirdietravel.com/7-things-to-do-in-da-nang/",
+          "icon": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3NzUyNSstNzU1KzU3NTU1LTUrK__AABEIABwAHAMBIgACEQEDEQH_xAAZAAADAQEBAAAAAAAAAAAAAAAEBQYDAgH_xAArEAACAQMDAQUJAAAAAAAAAAABAgMABBESITEFExUiYZEGFBYyQnGB0fD_xAAXAQADAQAAAAAAAAAAAAAAAAADBAYF_8QAIBEAAQMDBQEAAAAAAAAAAAAAAQACAwQhQREjMVGCE__aAAwDAQACEQMRAD8AsJEW4IlL69QB1FcE_jFZm2WpCaHqEcjy-_rBZ5CRpHOy-Lltif7eju6pezZ5OtXAwcY7V9m4xztvtTtNIPi0a8BIzt3DZPjbLXPu61MLYSzW0UsPUbiV5DsgmbjOOc-Y9aCvRHaShHvbiTUupWWR8EUwHa5QfKJt76ef2okZJIdNsTJ4YcBzoVGQj5SM5Jx9VGNbdPnlke8skw6ldMaKV32Jwdh6VjbMYxpTYYAx9s1q7HFYDZiRayoHQDKAl9n-lpHcDp0t1FI8ZSPtX1iPPOB67-dKfhu7TbvBW8yh_dPpBtqycjg17BI0kYLHfijCpkGUE0zOl__Z.jpeg"
+        },
+        "languages": [
+          "vi"
+        ],
+        "regions": [
+          "VN"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://littlebirdietravel.com/7-things-to-do-in-da-nang/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Flittlebirdietravel.com%2F7-things-to-do-in-da-nang%2F",
+      "source": "Little Birdie Travel"
+    },
+    {
+      "position": 5,
+      "title": "What To Do in Da Nang: 20+ Amazing Things To Do",
+      "link": "https://www.hayleyonholiday.com/what-to-do-in-da-nang-vietnam/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hayleyonholiday.com/what-to-do-in-da-nang-vietnam/&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQFnoECG4QAQ",
+      "displayed_link": "https://www.hayleyonholiday.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABaUlEQVR4AW3QgWbFMBTG8fuge4ABe4n7GAMDF7goUKAgIKAoFAEB4SDlJDnJ-RbVzm63v1Ly61fam76UKwCVDFROuGCpit7-DPSCQKu1NqgCJf5BLbk05voPNnTeX1s56wULerIhu2mw9AtxRIsZHve390FOhCaWnKwZn6MN9_vD2lVPLOqGcfpcA9P8uJvFTBHpxFSXwUbQMj4HuxY_u1z5REj0dpz6wnpGMEtjwokaCsguxsxBgdHFjVM-EZtb1nn6-HJAGAwQC_iGLgCGzNTc2zKN1q1GYwX5douABE8pMpA9EM3TbIDq_uORKBB3QuWtoZELenRD9j5K64giSA29H2Q_r4E8J24AquQG1BPJLZ6jY--3fVTk17JtUaCSgg-MnQGcyBRIAEEJPoIytOoPahOOFHIMgbgdxyd2CN4736PyavuyJOZ-ZcUVj-8CtIqUC9ae9GOR2rvgcW-q6P1ZNsVeSxu96jflk-xpbGqVaQAAAABJRU5ErkJggg.png",
+      "date": "3 thg 2, 2026",
+      "snippet": "Best free things to do in Da Nang · 1. Visit Han Market · 2. Do some shopping · 3. Check out Da Nang Cathedral · 4. Stroll the Danang Riverwalk.",
+      "snippet_highlighted_words": [
+        "1. Visit Han Market"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Best free things to do in Da Nang",
+            "link": "https://www.hayleyonholiday.com/what-to-do-in-da-nang-vietnam/#Best_free_things_to_do_in_Da_Nang"
+          },
+          {
+            "title": "Best things to do in Da Nang at...",
+            "link": "https://www.hayleyonholiday.com/what-to-do-in-da-nang-vietnam/#Best_things_to_do_in_Da_Nang_at_night"
+          }
+        ]
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Best free things to do in Da Nang · 1. Visit Han Market · 2. Do some shopping · 3. Check out Da Nang Cathedral · 4. Stroll the Danang Riverwalk.",
+          "source_info_link": "https://www.hayleyonholiday.com/what-to-do-in-da-nang-vietnam/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABaUlEQVR4AW3QgWbFMBTG8fuge4ABe4n7GAMDF7goUKAgIKAoFAEB4SDlJDnJ-RbVzm63v1Ly61fam76UKwCVDFROuGCpit7-DPSCQKu1NqgCJf5BLbk05voPNnTeX1s56wULerIhu2mw9AtxRIsZHve390FOhCaWnKwZn6MN9_vD2lVPLOqGcfpcA9P8uJvFTBHpxFSXwUbQMj4HuxY_u1z5REj0dpz6wnpGMEtjwokaCsguxsxBgdHFjVM-EZtb1nn6-HJAGAwQC_iGLgCGzNTc2zKN1q1GYwX5douABE8pMpA9EM3TbIDq_uORKBB3QuWtoZELenRD9j5K64giSA29H2Q_r4E8J24AquQG1BPJLZ6jY--3fVTk17JtUaCSgg-MnQGcyBRIAEEJPoIytOoPahOOFHIMgbgdxyd2CN4736PyavuyJOZ-ZcUVj-8CtIqUC9ae9GOR2rvgcW-q6P1ZNsVeSxu96jflk-xpbGqVaQAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "vi"
+        ],
+        "regions": [
+          "VN"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.hayleyonholiday.com/what-to-do-in-da-nang-vietnam/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.hayleyonholiday.com%2Fwhat-to-do-in-da-nang-vietnam%2F",
+      "source": "Hayley on Holiday"
+    },
+    {
+      "position": 6,
+      "title": "Da Nang Vietnam, Top 10 Best Things To Do",
+      "link": "https://worldtravelfamily.com/10-best-things-to-do-in-da-nang-vietnam/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://worldtravelfamily.com/10-best-things-to-do-in-da-nang-vietnam/&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQFnoECGoQAQ",
+      "displayed_link": "https://worldtravelfamily.com › 10-best...",
+      "favicon": "https://serpapi.com/searches/6a341c7b868180fb9cae9caa/images/TvG0rP6RejaNCbeVs_CXh4E2b__CbWb3HVFOpbahFLM.png",
+      "date": "6 thg 1, 2026",
+      "snippet": "Things To Do in Danang · About Danang – Things You Need To Know · See Danang's Dragon Bridge By Night · See Lady Buddha From Danang (Linh Ung ...",
+      "snippet_highlighted_words": [
+        "Things To Do in Danang"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Things To Do in Danang · About Danang – Things You Need To Know · See Danang's Dragon Bridge By Night · See Lady Buddha From Danang (Linh Ung ...",
+          "source_info_link": "https://worldtravelfamily.com/10-best-things-to-do-in-da-nang-vietnam/",
+          "icon": "https://serpapi.com/searches/6a341c7b868180fb9cae9caa/images/TvG0rP6RejaNCbeVs_CXh12D95A3VD1-BhDgg5VPmilpedXrn8XyReTY5Tolg_VY.png"
+        },
+        "languages": [
+          "vi"
+        ],
+        "regions": [
+          "VN"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://worldtravelfamily.com/10-best-things-to-do-in-da-nang-vietnam/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fworldtravelfamily.com%2F10-best-things-to-do-in-da-nang-vietnam%2F",
+      "source": "World Travel Family"
+    },
+    {
+      "position": 7,
+      "title": "20 Things to Do in Da Nang: A Slow Traveler's Guide",
+      "link": "https://musafirintransit.com/things-to-do-in-da-nang/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://musafirintransit.com/things-to-do-in-da-nang/&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQFnoECGgQAQ",
+      "displayed_link": "https://musafirintransit.com › things-t...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAdVBMVEVHcEwCAgIBAAEAAAAAAAALCwoAAAEAAAAAAAEAAAEBAQFPS0QpJiMBAQEAAAAAAAEAAABkX1VjX1RlYVViXlNIRT4UExEAAABhXVI4NjEAAABiXlRZVkwPDw5BPjdKRz9RTUUAAAABAQFkX1UlJCABAQEBAQHwV0QXAAAAJ3RSTlMADlF6glkiYNCsPlN_ocjhanva___T7kb__43k__7___-7LLb_2BUZTO1BAAABG0lEQVR4AZ3PBZaEQAwE0MJhHNK46_2PuFnCuM9_Tr1UNbik6YZpWDYecFzPWq2tzXZn4Ia9P8APiJSiIIxiXLJ28DlJGMeUZjjTPeSqKDkSVJ1T2wVf1XWtTmmqY-Ei4LtKagWVELHp8-eiULx3DFVjSthi_sZZ1ZyLoyVcq0TSXUTnVRusM3rpo0GLUzr1OmCWTqrhPlUbQMvLEhbzqKMTRf99e7DheFpkYLpDVaxXNMwjVkWXl51ZtMBYL2_fSfGyiTbSALuE0KRYpbaEBwCa10EcanX-T03n6dUWIxbj3GrIyORq2APOBDFxMcmKlWFytytcMGtKYzC-AWIPV6JKStsO9zrZ54c8IjMtHtvjhXiLF5a3_FJs6X_RtR2ljEK_kAAAAABJRU5ErkJggg.png",
+      "date": "5 thg 11, 2024",
+      "snippet": "20 Things to Do in Da Nang: A Slow Traveler's Guide · 1. Swim (duh) · 2. Feel tiny next to the Lady Buddha · 3. See the lanterns glow in Hoi An.",
+      "snippet_highlighted_words": [
+        "1. Swim (duh"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "20 Things to Do in Da Nang: A Slow Traveler's Guide · 1. Swim (duh) · 2. Feel tiny next to the Lady Buddha · 3. See the lanterns glow in Hoi An.",
+          "source_info_link": "https://musafirintransit.com/things-to-do-in-da-nang/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAdVBMVEVHcEwCAgIBAAEAAAAAAAALCwoAAAEAAAAAAAEAAAEBAQFPS0QpJiMBAQEAAAAAAAEAAABkX1VjX1RlYVViXlNIRT4UExEAAABhXVI4NjEAAABiXlRZVkwPDw5BPjdKRz9RTUUAAAABAQFkX1UlJCABAQEBAQHwV0QXAAAAJ3RSTlMADlF6glkiYNCsPlN_ocjhanva___T7kb__43k__7___-7LLb_2BUZTO1BAAABG0lEQVR4AZ3PBZaEQAwE0MJhHNK46_2PuFnCuM9_Tr1UNbik6YZpWDYecFzPWq2tzXZn4Ia9P8APiJSiIIxiXLJ28DlJGMeUZjjTPeSqKDkSVJ1T2wVf1XWtTmmqY-Ei4LtKagWVELHp8-eiULx3DFVjSthi_sZZ1ZyLoyVcq0TSXUTnVRusM3rpo0GLUzr1OmCWTqrhPlUbQMvLEhbzqKMTRf99e7DheFpkYLpDVaxXNMwjVkWXl51ZtMBYL2_fSfGyiTbSALuE0KRYpbaEBwCa10EcanX-T03n6dUWIxbj3GrIyORq2APOBDFxMcmKlWFytytcMGtKYzC-AWIPV6JKStsO9zrZ54c8IjMtHtvjhXiLF5a3_FJs6X_RtR2ljEK_kAAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "vi"
+        ],
+        "regions": [
+          "VN"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://musafirintransit.com/things-to-do-in-da-nang/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fmusafirintransit.com%2Fthings-to-do-in-da-nang%2F",
+      "source": "Musafir in Transit"
+    },
+    {
+      "position": 8,
+      "title": "Must-do Da Nang: An insider list",
+      "link": "https://vietnam.travel/things-to-do/must-do-da-nang-an-insider-list",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://vietnam.travel/things-to-do/must-do-da-nang-an-insider-list&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQFnoECG8QAQ",
+      "displayed_link": "https://vietnam.travel › things-to-do",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEWeCw-bAACcAACYAADHiYqsR0jbtbaWAADkyMj___-0XF2gEhW5amvfvb7CgIHr1tb69fWeBwydAAXu3d39-vqTAACpOTukKSvUqamrQEKwUFHRoaLy5eWmMTO1YWKrQkT37e3Hi4ynNTedAAOjJCbSpKS9cXLOl5i_eHmyVlhGeuuCAAABRklEQVR4AWIYfIARjxygW6IwbBiGRZIhCjOTg-7_D465fWBGMSM6DolHEuigVKRd1g_4HvmsgpCZ7gsQR3ES8otAmqV3Bdwk59jjooSq_iWRATpUuC43uuU44AR_CmSt6DT1zdCM3sSKWeLv1GWSzFrmLYo8X9jQ3xT0wCOs3djEQ9zdS2PzOSbqd3pecD_Lg-u5VwQA3vOlDQGez_PzEajDUTgZiMzOp7jcdTL21qhABR8SlOfX7KozFEN5XYGyesEhHfycPjI5mGQYz7pcSmOkMucAuc7LLwEb6zMPlkMutgltHJv8XLrnvacfAiHtt4AACYFIEzxvfN7v_BTzC2qbAZAhgOCSzy9k34ophhFbI4S9ett79rCXtUZ-ScAlYLv53d7VnewwqKexq-T61bR0f0a2FNPnu20Oppht2Y-5SFPnf68nT6wX-4j6FBwAAAAASUVORK5CYII.png",
+      "snippet": "From local eats to cool architecture, get the inside scoop on Da Nang's best attractions with this insightful list for first-time visitors.",
+      "snippet_highlighted_words": [
+        "Da Nang's",
+        "attractions"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "From local eats to cool architecture, get the inside scoop on Da Nang's best attractions with this insightful list for first-time visitors.",
+          "source_info_link": "https://vietnam.travel/things-to-do/must-do-da-nang-an-insider-list",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEWeCw-bAACcAACYAADHiYqsR0jbtbaWAADkyMj___-0XF2gEhW5amvfvb7CgIHr1tb69fWeBwydAAXu3d39-vqTAACpOTukKSvUqamrQEKwUFHRoaLy5eWmMTO1YWKrQkT37e3Hi4ynNTedAAOjJCbSpKS9cXLOl5i_eHmyVlhGeuuCAAABRklEQVR4AWIYfIARjxygW6IwbBiGRZIhCjOTg-7_D465fWBGMSM6DolHEuigVKRd1g_4HvmsgpCZ7gsQR3ES8otAmqV3Bdwk59jjooSq_iWRATpUuC43uuU44AR_CmSt6DT1zdCM3sSKWeLv1GWSzFrmLYo8X9jQ3xT0wCOs3djEQ9zdS2PzOSbqd3pecD_Lg-u5VwQA3vOlDQGez_PzEajDUTgZiMzOp7jcdTL21qhABR8SlOfX7KozFEN5XYGyesEhHfycPjI5mGQYz7pcSmOkMucAuc7LLwEb6zMPlkMutgltHJv8XLrnvacfAiHtt4AACYFIEzxvfN7v_BTzC2qbAZAhgOCSzy9k34ophhFbI4S9ett79rCXtUZ-ScAlYLv53d7VnewwqKexq-T61bR0f0a2FNPnu20Oppht2Y-5SFPnf68nT6wX-4j6FBwAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "vi"
+        ],
+        "regions": [
+          "VN"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://vietnam.travel/things-to-do/must-do-da-nang-an-insider-list&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fvietnam.travel%2Fthings-to-do%2Fmust-do-da-nang-an-insider-list",
+      "source": "Vietnam Tourism"
+    },
+    {
+      "position": 9,
+      "title": "The Ultimate Da Nang Travel Guide: Best Things to Do, ...",
+      "link": "https://travelswithingrid.com/vietnam/top-things-to-do-in-da-nang",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://travelswithingrid.com/vietnam/top-things-to-do-in-da-nang&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQFnoECGkQAQ",
+      "displayed_link": "https://travelswithingrid.com › vietnam",
+      "favicon": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5Oi8BCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3LSs3NzcrOCw3NTctNzcrNzctNzU1LTU3Ny03Lf_AABEIABwAHAMBIgACEQEDEQH_xAAYAAEAAwEAAAAAAAAAAAAAAAAGAwQFAv_EACgQAAIBAgUDAwUAAAAAAAAAAAECAwQRAAUGEiExQVFhgZETInHB8f_EABcBAAMBAAAAAAAAAAAAAAAAAAEDBQT_xAAfEQACAwABBQEAAAAAAAAAAAABAgADETESEyFBUQT_2gAMAwEAAhEDEQA_AJy0YIEkqqT0Bvz8DCHL5dH1WWoozKkatWO7g1JRt3eyki_jpg46I67XUMPBwbzrIaGnpGqkmEctyFhL3Ym5JuPf0HA63xIrw8yw6seDE-43e6BQDxZtwt-cc7sBNNyxGvEDO6IWsNnH3fr-YcXwHXpMNbFh5h_U-oXypo6elVGqHXcS_IQduO5PPxiLRctDqbM5aXPZWiqSfqwvG-z6wA-5GvfoBcW7bsE9USu-oaos3SXaPQBcUtoYAMLg-cUK6F7Y-zA_6GFu-hEGp86pBmdRT6dghgy9WVUkA3NKy9XDG_Xt6AHvjJp9TZvSxCOGsdkvcGQByPc84z6oWHGKiMQCB5w0VoBmRJsYndn_2Q.jpeg",
+      "snippet": "The Top Things to Do in Da Nang · Relax on My Khe Beach · Explore the Marble Mountains · Walk the Dragon Bridge (and Watch It Breathe Fire!) · Day Trip to Ba Na ...",
+      "snippet_highlighted_words": [
+        "Relax on My Khe Beach"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "The Top Things to Do in Da Nang · Relax on My Khe Beach · Explore the Marble Mountains · Walk the Dragon Bridge (and Watch It Breathe Fire!) · Day Trip to Ba Na ...",
+          "source_info_link": "https://travelswithingrid.com/vietnam/top-things-to-do-in-da-nang",
+          "icon": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5Oi8BCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3LSs3NzcrOCw3NTctNzcrNzctNzU1LTU3Ny03Lf_AABEIABwAHAMBIgACEQEDEQH_xAAYAAEAAwEAAAAAAAAAAAAAAAAGAwQFAv_EACgQAAIBAgUDAwUAAAAAAAAAAAECAwQRAAUGEiExQVFhgZETInHB8f_EABcBAAMBAAAAAAAAAAAAAAAAAAEDBQT_xAAfEQACAwABBQEAAAAAAAAAAAABAgADETESEyFBUQT_2gAMAwEAAhEDEQA_AJy0YIEkqqT0Bvz8DCHL5dH1WWoozKkatWO7g1JRt3eyki_jpg46I67XUMPBwbzrIaGnpGqkmEctyFhL3Ym5JuPf0HA63xIrw8yw6seDE-43e6BQDxZtwt-cc7sBNNyxGvEDO6IWsNnH3fr-YcXwHXpMNbFh5h_U-oXypo6elVGqHXcS_IQduO5PPxiLRctDqbM5aXPZWiqSfqwvG-z6wA-5GvfoBcW7bsE9USu-oaos3SXaPQBcUtoYAMLg-cUK6F7Y-zA_6GFu-hEGp86pBmdRT6dghgy9WVUkA3NKy9XDG_Xt6AHvjJp9TZvSxCOGsdkvcGQByPc84z6oWHGKiMQCB5w0VoBmRJsYndn_2Q.jpeg"
+        },
+        "languages": [
+          "vi"
+        ],
+        "regions": [
+          "VN"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://travelswithingrid.com/vietnam/top-things-to-do-in-da-nang&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Ftravelswithingrid.com%2Fvietnam%2Ftop-things-to-do-in-da-nang",
+      "source": "Travels with Ingrid"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Things to do in Da Nang city centre",
+      "link": "https://www.google.com/search?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&q=Things+to+do+in+Da+Nang+city+centre&sa=X&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ1QJ6BQiGARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=Things+to+do+in+Da+Nang+city+centre"
+    },
+    {
+      "block_position": 1,
+      "query": "Top 10 things to do in Da Nang",
+      "link": "https://www.google.com/search?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&q=Top+10+things+to+do+in+Da+Nang&sa=X&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ1QJ6BQiLARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=Top+10+things+to+do+in+Da+Nang"
+    },
+    {
+      "block_position": 1,
+      "query": "Non touristy things to do in da nang",
+      "link": "https://www.google.com/search?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&q=Non+touristy+things+to+do+in+da+nang&sa=X&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ1QJ6BQiNARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=Non+touristy+things+to+do+in+da+nang"
+    },
+    {
+      "block_position": 1,
+      "query": "Things to do in Da Nang at night",
+      "link": "https://www.google.com/search?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&q=Things+to+do+in+Da+Nang+at+night&sa=X&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ1QJ6BQiJARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=Things+to+do+in+Da+Nang+at+night"
+    },
+    {
+      "block_position": 1,
+      "query": "Things to do in Da Nang Reddit",
+      "link": "https://www.google.com/search?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&q=Things+to+do+in+Da+Nang+Reddit&sa=X&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ1QJ6BQiKARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=Things+to+do+in+Da+Nang+Reddit"
+    },
+    {
+      "block_position": 1,
+      "query": "Weird things to do in da nang",
+      "link": "https://www.google.com/search?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&q=Weird+things+to+do+in+da+nang&sa=X&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ1QJ6BQiHARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=Weird+things+to+do+in+da+nang"
+    },
+    {
+      "block_position": 1,
+      "query": "Golden Bridge, Da Nang",
+      "link": "https://www.google.com/search?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&q=Golden+Bridge,+Da+Nang&sa=X&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ1QJ6BQiMARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=Golden+Bridge%2C+Da+Nang"
+    },
+    {
+      "block_position": 1,
+      "query": "Things to do in da nang in the rain",
+      "link": "https://www.google.com/search?sca_esv=5ae8964695828a7c&hl=vi&gl=vn&q=Things+to+do+in+da+nang+in+the+rain&sa=X&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ1QJ6BQiIARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=Things+to+do+in+da+nang+in+the+rain"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=10&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8NMDegUIhAEQFg",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=10&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8tMDegUIhAEQBA",
+      "3": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=20&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8tMDegUIhAEQBg",
+      "4": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=30&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8tMDegUIhAEQCA",
+      "5": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=40&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8tMDegUIhAEQCg",
+      "6": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=50&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8tMDegUIhAEQDA",
+      "7": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=60&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8tMDegUIhAEQDg",
+      "8": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=70&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8tMDegUIhAEQEA",
+      "9": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=80&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8tMDegUIhAEQEg",
+      "10": "https://www.google.com/search?q=things+to+do+in+Da+Nang&sca_esv=5ae8964695828a7c&hl=vi&gl=vn&ei=exw0aubuLZC4w8cPs4zMqAw&start=90&sa=N&sstk=AU9db-DJEMR17RWXB88NSy__4DNX1KIvj9yCORoq8FRxyeH82nyGiYRvQAmmCazSon21Ie-NZCwlnafuidhWwfJzjsJXo-DcxcqKzQ&ved=2ahUKEwimmP28mpGVAxUQ3PACHTMGE8UQ8tMDegUIhAEQFA"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=vn&google_domain=google.com&hl=vi&q=things+to+do+in+Da+Nang&start=90"
+    }
+  }
+}

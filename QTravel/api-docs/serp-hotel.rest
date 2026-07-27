@@ -1,0 +1,78 @@
+@baseUrl = https://serpapi.com
+@serpApiKey = {{$dotenv SERP_API_KEY}}
+
+###
+# 1. Tìm kiếm danh sách khách sạn (Google Hotels API)
+# API này sử dụng SerpApi để cào dữ liệu từ Google Hotels.
+#
+# Các tham số quan trọng:
+# - engine: Bắt buộc là "google_hotels"
+# - q: Địa điểm hoặc tên khách sạn (vd: "Da Lat", "Bali", "InterContinental")
+# - check_in_date: Ngày nhận phòng (YYYY-MM-DD)
+# - check_out_date: Ngày trả phòng (YYYY-MM-DD)
+# - adults: Số lượng người lớn
+# - currency: Tiền tệ hiển thị giá (vd: VND, USD)
+# - gl: Quốc gia (Country Code) để tối ưu hóa kết quả tìm kiếm (vd: vn)
+
+# @name searchHotels
+GET {{baseUrl}}/search.json
+  ?engine=google_hotels
+  &q=Da Lat
+  &check_in_date=2026-08-20
+  &check_out_date=2026-08-22
+  &adults=2
+  &currency=VND
+  &gl=vn
+  &api_key={{serpApiKey}}
+
+###
+# 2. Tìm kiếm thông tin chi tiết một khách sạn cụ thể
+# Lưu ý: SerpApi không có API "Chi tiết khách sạn" riêng biệt. Để lấy thông tin
+# chi tiết của một khách sạn, bạn truyền tên chính xác của khách sạn đó vào tham số `q`.
+# Nó sẽ trả về kết quả cụ thể bao gồm giá, mô tả, tiện ích, ảnh và link đặt phòng.
+
+# @name getHotelDetails
+GET {{baseUrl}}/search.json
+  ?engine=google_hotels
+  &q=Colline Hotel Da Lat
+  &check_in_date=2026-08-20
+  &check_out_date=2026-08-22
+  &adults=2
+  &currency=VND
+  &gl=vn
+  &api_key={{serpApiKey}}
+
+###
+# 3. Lấy danh sách khách sạn tiêu biểu ở Việt Nam (Có phân trang)
+# Lưu ý: SerpApi giới hạn khoảng 20-30 khách sạn mỗi lần gọi (phụ thuộc vào Google Hotels).
+# Để lấy đủ 1000 khách sạn, bạn cần:
+# 1. Gọi API trang 1.
+# 2. Lấy giá trị `next_page_token` ở cuối file JSON trả về (trong `serpapi_pagination`).
+# 3. Gắn token đó vào tham số `next_page_token` cho lần gọi tiếp theo.
+# 4. Lặp lại khoảng 30-50 lần, hoặc thay đổi `q` thành các thành phố khác nhau (Hanoi, Da Nang, HCM).
+# (CẢNH BÁO: Mỗi lần gọi tốn 1 credit của SerpApi, cẩn thận kẻo hết giới hạn 100 request miễn phí/tháng).
+
+# @name searchVietnamHotelsPage1
+GET {{baseUrl}}/search.json
+  ?engine=google_hotels
+  &q=Vietnam
+  &check_in_date=2026-08-20
+  &check_out_date=2026-08-22
+  &adults=2
+  &currency=VND
+  &gl=vn
+  &api_key={{serpApiKey}}
+
+###
+# @name searchVietnamHotelsPage2
+# Lấy trang thứ 2 bằng cách thêm next_page_token
+GET {{baseUrl}}/search.json
+  ?engine=google_hotels
+  &q=Vietnam
+  &check_in_date=2026-08-20
+  &check_out_date=2026-08-22
+  &adults=2
+  &currency=VND
+  &gl=vn
+  &api_key={{serpApiKey}}
+  &next_page_token=CBI%3D

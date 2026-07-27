@@ -1,0 +1,97 @@
+{
+  "data": {
+    "cabin_class": "economy",
+    "offers": [
+      {
+        "total_emissions_kg": "874",
+        "intended_services": null,
+        "intended_base_amount": "252.38",
+        "intended_tax_amount": "45.43",
+        "intended_total_amount": "297.81",
+        "currency": "AUD",
+        "payment_requirements": {
+          "requires_instant_payment": false,
+          "price_guarantee_expires_at": "2026-06-20T09:27:57Z",
+          "payment_required_by": "2026-06-21T09:27:57Z"
+        },
+        "supported_passenger_identity_document_types": [
+          "passport",
+          "known_traveler_number",
+          "passenger_redress_number"
+        ],
+        "slices": [
+          {
+            "segments": [
+              {
+                "origin_terminal": "2",
+                "destination_terminal": "1",
+                "aircraft": null,
+                "departing_at": "2026-08-20T14:42:00",
+                "arriving_at": "2026-08-20T16:49:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                  "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+                  "iata_code": "ZZ",
+                  "name": "Duffel Airways",
+                  "id": "arl_00009VME7D6ivUu8dn35WK"
+                },
+                "operating_carrier_flight_number": "7252",
+                "distance": "1160.1249784330353",
+                "duration": "PT2H7M",
+                "id": "seg_0000B7SFJ0PlkyrIsx1qN3"
+              }
+            ],
+            "conditions": {
+              "change_before_departure": {
+                "penalty_currency": "AUD",
+                "penalty_amount": "50.00",
+                "allowed": true
+              },
+              "priority_check_in": null,
+              "priority_boarding": null
+            },
+            "duration": "PT2H7M",
+            "origin": {},
+            "destination": {},
+            "id": "sli_0000B7SFJ0Qph1i2wFWh0i"
+          },
+          {
+            "segments": [
+              {
+                "origin_terminal": "2",
+                "destination_terminal": "1",
+                "aircraft": null,
+                "departing_at": "2026-08-27T20:07:00",
+                "arriving_at": "2026-08-27T22:14:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                  "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+                  "iata_code": "ZZ",
+                  "name": "Duffel Airways",
+                  "id": "arl_00009VME7D6ivUu8dn35WK"
+                },
+                "operating_carrier_flight_number": "7252",
+                "distance": "1160.1249784330353",
+                "duration": "PT2H7M",
+                "id": "seg_0000B7SFJ0Rtd4YmzY1Xfw"
+              }
+            ],
+            "conditions": {
+              "change_before_departure": {
+                "penalty_currency": "AUD",
+                "penalty_amount": "40.00",
+                "allowed": true
+              },
+              "priority_check_in": null,
+              "priority_boarding": null
+            },
+            "duration": "PT2H7M",
+            "origin": {},
+            "destination": {},
+            "id": "sli_0000B7SFJ0SxZ7PX2qWOKI"
+          }
+        ]
+      }
+    ]
+  }
+}

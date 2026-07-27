@@ -1,0 +1,2507 @@
+{
+  "meta": {
+    "before": null,
+    "limit": 5,
+    "after": "g2EF"
+  },
+  "data": [
+    {
+      "intended_payment_methods": [],
+      "total_emissions_kg": "874",
+      "available_airline_credit_ids": [],
+      "payment_requirements": {
+        "requires_instant_payment": false,
+        "price_guarantee_expires_at": "2026-06-20T10:21:11Z",
+        "payment_required_by": "2026-06-21T10:21:11Z"
+      },
+      "supported_passenger_identity_document_types": [
+        "passport",
+        "known_traveler_number",
+        "passenger_redress_number"
+      ],
+      "passenger_identity_documents_required": false,
+      "tax_currency": "AUD",
+      "base_amount": "252.38",
+      "private_fares": [],
+      "supported_loyalty_programmes": [],
+      "base_currency": "AUD",
+      "tax_amount": "45.43",
+      "total_currency": "AUD",
+      "live_mode": false,
+      "total_amount": "297.81",
+      "created_at": "2026-06-18T10:21:11.246172Z",
+      "slices": [
+        {
+          "comparison_key": "B9VyQw==",
+          "ngs_shelf": 1,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": "Basic",
+          "segments": [
+            {
+              "origin_terminal": "2",
+              "destination_terminal": "1",
+              "aircraft": null,
+              "departing_at": "2026-08-20T14:42:00",
+              "arriving_at": "2026-08-20T16:49:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                "logo_lockup_url": null,
+                "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+                "iata_code": "ZZ",
+                "name": "Duffel Airways",
+                "id": "arl_00009VME7D6ivUu8dn35WK"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                "logo_lockup_url": null,
+                "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+                "iata_code": "ZZ",
+                "name": "Duffel Airways",
+                "id": "arl_00009VME7D6ivUu8dn35WK"
+              },
+              "operating_carrier_flight_number": "7252",
+              "marketing_carrier_flight_number": "7252",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "30",
+                        "legroom": "n/a",
+                        "type": null
+                      },
+                      "wifi": {
+                        "cost": "paid",
+                        "available": true
+                      },
+                      "power": {
+                        "available": true
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "Y20LGTN2"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "30",
+                        "legroom": "n/a",
+                        "type": null
+                      },
+                      "wifi": {
+                        "cost": "paid",
+                        "available": true
+                      },
+                      "power": {
+                        "available": true
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "Y20LGTN2"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "30",
+                        "legroom": "n/a",
+                        "type": null
+                      },
+                      "wifi": {
+                        "cost": "paid",
+                        "available": true
+                      },
+                      "power": {
+                        "available": true
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "Y20LGTN2"
+                }
+              ],
+              "distance": "1160.1249784330353",
+              "duration": "PT2H7M",
+              "destination": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "id": "seg_0000B7SFJ0PlkyrIsx1qN3"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": {
+              "penalty_currency": "AUD",
+              "penalty_amount": "50.00",
+              "allowed": true
+            },
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H7M",
+          "destination": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "id": "sli_0000B7SFJ0Qph1i2wFWh0i"
+        },
+        {
+          "comparison_key": "BCLwsA==",
+          "ngs_shelf": 1,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": "Basic",
+          "segments": [
+            {
+              "origin_terminal": "2",
+              "destination_terminal": "1",
+              "aircraft": null,
+              "departing_at": "2026-08-27T20:07:00",
+              "arriving_at": "2026-08-27T22:14:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                "logo_lockup_url": null,
+                "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+                "iata_code": "ZZ",
+                "name": "Duffel Airways",
+                "id": "arl_00009VME7D6ivUu8dn35WK"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                "logo_lockup_url": null,
+                "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+                "iata_code": "ZZ",
+                "name": "Duffel Airways",
+                "id": "arl_00009VME7D6ivUu8dn35WK"
+              },
+              "operating_carrier_flight_number": "7252",
+              "marketing_carrier_flight_number": "7252",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "30",
+                        "legroom": "n/a",
+                        "type": null
+                      },
+                      "wifi": {
+                        "cost": "paid",
+                        "available": true
+                      },
+                      "power": {
+                        "available": true
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "Y20LGTN2"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "30",
+                        "legroom": "n/a",
+                        "type": null
+                      },
+                      "wifi": {
+                        "cost": "paid",
+                        "available": true
+                      },
+                      "power": {
+                        "available": true
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "Y20LGTN2"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "30",
+                        "legroom": "n/a",
+                        "type": null
+                      },
+                      "wifi": {
+                        "cost": "paid",
+                        "available": true
+                      },
+                      "power": {
+                        "available": true
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "Y20LGTN2"
+                }
+              ],
+              "distance": "1160.1249784330353",
+              "duration": "PT2H7M",
+              "destination": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "id": "seg_0000B7SFJ0Rtd4YmzY1Xfw"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": {
+              "penalty_currency": "AUD",
+              "penalty_amount": "50.00",
+              "allowed": true
+            },
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H7M",
+          "destination": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "id": "sli_0000B7SFJ0SxZ7PX2qWOKI"
+        }
+      ],
+      "passengers": [
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInGQeOfA6DYhUI"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInH8blEK8PtGap"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "child",
+          "id": "pas_0000B7SFInIYWUMeCoYOno"
+        }
+      ],
+      "conditions": {
+        "refund_before_departure": {
+          "penalty_currency": "AUD",
+          "penalty_amount": "50.00",
+          "allowed": true
+        },
+        "change_before_departure": {
+          "penalty_currency": "AUD",
+          "penalty_amount": "50.00",
+          "allowed": true
+        }
+      },
+      "updated_at": "2026-06-18T10:21:11.246172Z",
+      "expires_at": "2026-06-18T10:51:11.246176Z",
+      "partial": false,
+      "owner": {
+        "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+        "logo_lockup_url": null,
+        "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+        "iata_code": "ZZ",
+        "name": "Duffel Airways",
+        "id": "arl_00009VME7D6ivUu8dn35WK"
+      },
+      "id": "off_0000B7SFJ0UNTqXr7FBWXO"
+    },
+    {
+      "intended_payment_methods": [],
+      "total_emissions_kg": "270",
+      "available_airline_credit_ids": [],
+      "payment_requirements": {
+        "requires_instant_payment": false,
+        "price_guarantee_expires_at": null,
+        "payment_required_by": "2026-06-19T10:21:16.862065Z"
+      },
+      "supported_passenger_identity_document_types": [
+        "known_traveler_number",
+        "passenger_redress_number",
+        "passport"
+      ],
+      "passenger_identity_documents_required": false,
+      "tax_currency": "AUD",
+      "base_amount": "402.04",
+      "private_fares": [],
+      "supported_loyalty_programmes": [],
+      "base_currency": "AUD",
+      "tax_amount": "64.87",
+      "total_currency": "AUD",
+      "live_mode": false,
+      "total_amount": "466.91",
+      "created_at": "2026-06-18T10:21:19.722789Z",
+      "slices": [
+        {
+          "comparison_key": "BkZOXA==",
+          "ngs_shelf": 2,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": null,
+          "segments": [
+            {
+              "origin_terminal": null,
+              "destination_terminal": null,
+              "aircraft": {
+                "iata_code": "321",
+                "name": "Airbus A321",
+                "id": "arc_00009VMF8AgpV5sdO0xXAs"
+              },
+              "departing_at": "2026-08-20T20:40:00",
+              "arriving_at": "2026-08-20T22:55:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "operating_carrier_flight_number": "1156",
+              "marketing_carrier_flight_number": "1156",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                }
+              ],
+              "distance": null,
+              "duration": "PT2H15M",
+              "destination": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "id": "seg_0000B7SFK11qxUA551K8K6"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": null,
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H15M",
+          "destination": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "id": "sli_0000B7SFK11qxUA551K8KE"
+        },
+        {
+          "comparison_key": "AnAtpQ==",
+          "ngs_shelf": 2,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": null,
+          "segments": [
+            {
+              "origin_terminal": null,
+              "destination_terminal": null,
+              "aircraft": {
+                "iata_code": "321",
+                "name": "Airbus A321",
+                "id": "arc_00009VMF8AgpV5sdO0xXAs"
+              },
+              "departing_at": "2026-08-27T23:25:00",
+              "arriving_at": "2026-08-28T01:35:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "operating_carrier_flight_number": "0169",
+              "marketing_carrier_flight_number": "0169",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                }
+              ],
+              "distance": null,
+              "duration": "PT2H10M",
+              "destination": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "id": "seg_0000B7SFK12CwARf67UPsP"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": null,
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H10M",
+          "destination": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "id": "sli_0000B7SFK12CwARf67UPss"
+        }
+      ],
+      "passengers": [
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInGQeOfA6DYhUI"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInH8blEK8PtGap"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "child",
+          "id": "pas_0000B7SFInIYWUMeCoYOno"
+        }
+      ],
+      "conditions": {
+        "refund_before_departure": null,
+        "change_before_departure": null
+      },
+      "updated_at": "2026-06-18T10:21:19.722789Z",
+      "expires_at": "2026-06-18T11:21:16.862160Z",
+      "partial": false,
+      "owner": {
+        "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+        "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+        "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+        "iata_code": "VJ",
+        "name": "VietJet Air",
+        "id": "arl_0000AOUIfUUVARgbzycsrY"
+      },
+      "id": "off_0000B7SFK12YuqjF7DehR8"
+    },
+    {
+      "intended_payment_methods": [],
+      "total_emissions_kg": "270",
+      "available_airline_credit_ids": [],
+      "payment_requirements": {
+        "requires_instant_payment": false,
+        "price_guarantee_expires_at": null,
+        "payment_required_by": "2026-06-19T10:21:16.858422Z"
+      },
+      "supported_passenger_identity_document_types": [
+        "known_traveler_number",
+        "passenger_redress_number",
+        "passport"
+      ],
+      "passenger_identity_documents_required": false,
+      "tax_currency": "AUD",
+      "base_amount": "402.04",
+      "private_fares": [],
+      "supported_loyalty_programmes": [],
+      "base_currency": "AUD",
+      "tax_amount": "64.87",
+      "total_currency": "AUD",
+      "live_mode": false,
+      "total_amount": "466.91",
+      "created_at": "2026-06-18T10:21:19.722789Z",
+      "slices": [
+        {
+          "comparison_key": "BkZOXA==",
+          "ngs_shelf": 2,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": null,
+          "segments": [
+            {
+              "origin_terminal": null,
+              "destination_terminal": null,
+              "aircraft": {
+                "iata_code": "321",
+                "name": "Airbus A321",
+                "id": "arc_00009VMF8AgpV5sdO0xXAs"
+              },
+              "departing_at": "2026-08-20T20:40:00",
+              "arriving_at": "2026-08-20T22:55:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "operating_carrier_flight_number": "1156",
+              "marketing_carrier_flight_number": "1156",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                }
+              ],
+              "distance": null,
+              "duration": "PT2H15M",
+              "destination": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "id": "seg_0000B7SFK10n1RJL1ipHgX"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": null,
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H15M",
+          "destination": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "id": "sli_0000B7SFK11907av2ozZDk"
+        },
+        {
+          "comparison_key": "A9sWFQ==",
+          "ngs_shelf": 2,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": null,
+          "segments": [
+            {
+              "origin_terminal": null,
+              "destination_terminal": null,
+              "aircraft": {
+                "iata_code": "321",
+                "name": "Airbus A321",
+                "id": "arc_00009VMF8AgpV5sdO0xXAs"
+              },
+              "departing_at": "2026-08-27T22:45:00",
+              "arriving_at": "2026-08-28T00:55:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "operating_carrier_flight_number": "0167",
+              "marketing_carrier_flight_number": "0167",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                }
+              ],
+              "distance": null,
+              "duration": "PT2H10M",
+              "destination": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "id": "seg_0000B7SFK11907av2ozZEG"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": null,
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H10M",
+          "destination": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "id": "sli_0000B7SFK11907av2ozZEY"
+        }
+      ],
+      "passengers": [
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInGQeOfA6DYhUI"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInH8blEK8PtGap"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "child",
+          "id": "pas_0000B7SFInIYWUMeCoYOno"
+        }
+      ],
+      "conditions": {
+        "refund_before_departure": null,
+        "change_before_departure": null
+      },
+      "updated_at": "2026-06-18T10:21:19.722789Z",
+      "expires_at": "2026-06-18T11:21:16.858501Z",
+      "partial": false,
+      "owner": {
+        "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+        "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+        "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+        "iata_code": "VJ",
+        "name": "VietJet Air",
+        "id": "arl_0000AOUIfUUVARgbzycsrY"
+      },
+      "id": "off_0000B7SFK11UynsV3v9qm2"
+    },
+    {
+      "intended_payment_methods": [],
+      "total_emissions_kg": "270",
+      "available_airline_credit_ids": [],
+      "payment_requirements": {
+        "requires_instant_payment": false,
+        "price_guarantee_expires_at": null,
+        "payment_required_by": "2026-06-19T10:21:16.852170Z"
+      },
+      "supported_passenger_identity_document_types": [
+        "known_traveler_number",
+        "passenger_redress_number",
+        "passport"
+      ],
+      "passenger_identity_documents_required": false,
+      "tax_currency": "AUD",
+      "base_amount": "402.04",
+      "private_fares": [],
+      "supported_loyalty_programmes": [],
+      "base_currency": "AUD",
+      "tax_amount": "64.87",
+      "total_currency": "AUD",
+      "live_mode": false,
+      "total_amount": "466.91",
+      "created_at": "2026-06-18T10:21:19.722789Z",
+      "slices": [
+        {
+          "comparison_key": "BkZOXA==",
+          "ngs_shelf": 2,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": null,
+          "segments": [
+            {
+              "origin_terminal": null,
+              "destination_terminal": null,
+              "aircraft": {
+                "iata_code": "321",
+                "name": "Airbus A321",
+                "id": "arc_00009VMF8AgpV5sdO0xXAs"
+              },
+              "departing_at": "2026-08-20T20:40:00",
+              "arriving_at": "2026-08-20T22:55:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "operating_carrier_flight_number": "1156",
+              "marketing_carrier_flight_number": "1156",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                }
+              ],
+              "distance": null,
+              "duration": "PT2H15M",
+              "destination": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "id": "seg_0000B7SFK10544kAzWUiZ6"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": null,
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H15M",
+          "destination": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "id": "sli_0000B7SFK10544kAzWUiZi"
+        },
+        {
+          "comparison_key": "BGgvFQ==",
+          "ngs_shelf": 2,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": null,
+          "segments": [
+            {
+              "origin_terminal": null,
+              "destination_terminal": null,
+              "aircraft": {
+                "iata_code": "321",
+                "name": "Airbus A321",
+                "id": "arc_00009VMF8AgpV5sdO0xXAs"
+              },
+              "departing_at": "2026-08-27T21:25:00",
+              "arriving_at": "2026-08-27T23:35:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "operating_carrier_flight_number": "0163",
+              "marketing_carrier_flight_number": "0163",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                }
+              ],
+              "distance": null,
+              "duration": "PT2H10M",
+              "destination": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "id": "seg_0000B7SFK10R2l1l0cf07O"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": null,
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H10M",
+          "destination": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "id": "sli_0000B7SFK10R2l1l0cf07g"
+        }
+      ],
+      "passengers": [
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInGQeOfA6DYhUI"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInH8blEK8PtGap"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "child",
+          "id": "pas_0000B7SFInIYWUMeCoYOno"
+        }
+      ],
+      "conditions": {
+        "refund_before_departure": null,
+        "change_before_departure": null
+      },
+      "updated_at": "2026-06-18T10:21:19.722789Z",
+      "expires_at": "2026-06-18T11:21:16.852252Z",
+      "partial": false,
+      "owner": {
+        "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+        "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+        "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+        "iata_code": "VJ",
+        "name": "VietJet Air",
+        "id": "arl_0000AOUIfUUVARgbzycsrY"
+      },
+      "id": "off_0000B7SFK10n1RJL1ipHfH"
+    },
+    {
+      "intended_payment_methods": [],
+      "total_emissions_kg": "270",
+      "available_airline_credit_ids": [],
+      "payment_requirements": {
+        "requires_instant_payment": false,
+        "price_guarantee_expires_at": null,
+        "payment_required_by": "2026-06-19T10:21:16.848258Z"
+      },
+      "supported_passenger_identity_document_types": [
+        "known_traveler_number",
+        "passenger_redress_number",
+        "passport"
+      ],
+      "passenger_identity_documents_required": false,
+      "tax_currency": "AUD",
+      "base_amount": "402.04",
+      "private_fares": [],
+      "supported_loyalty_programmes": [],
+      "base_currency": "AUD",
+      "tax_amount": "64.87",
+      "total_currency": "AUD",
+      "live_mode": false,
+      "total_amount": "466.91",
+      "created_at": "2026-06-18T10:21:19.722789Z",
+      "slices": [
+        {
+          "comparison_key": "BkZOXA==",
+          "ngs_shelf": 2,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": null,
+          "segments": [
+            {
+              "origin_terminal": null,
+              "destination_terminal": null,
+              "aircraft": {
+                "iata_code": "321",
+                "name": "Airbus A321",
+                "id": "arc_00009VMF8AgpV5sdO0xXAs"
+              },
+              "departing_at": "2026-08-20T20:40:00",
+              "arriving_at": "2026-08-20T22:55:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "operating_carrier_flight_number": "1156",
+              "marketing_carrier_flight_number": "1156",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                }
+              ],
+              "distance": null,
+              "duration": "PT2H15M",
+              "destination": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "id": "seg_0000B7SFK0z181tQwDzruF"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": null,
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H15M",
+          "destination": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "id": "sli_0000B7SFK0z181tQwDzruO"
+        },
+        {
+          "comparison_key": "BnCgag==",
+          "ngs_shelf": 2,
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": null,
+          "segments": [
+            {
+              "origin_terminal": null,
+              "destination_terminal": null,
+              "aircraft": {
+                "iata_code": "321",
+                "name": "Airbus A321",
+                "id": "arc_00009VMF8AgpV5sdO0xXAs"
+              },
+              "departing_at": "2026-08-27T20:55:00",
+              "arriving_at": "2026-08-27T23:05:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+                "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+                "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+                "iata_code": "VJ",
+                "name": "VietJet Air",
+                "id": "arl_0000AOUIfUUVARgbzycsrY"
+              },
+              "operating_carrier_flight_number": "0161",
+              "marketing_carrier_flight_number": "0161",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInGQeOfA6DYhUI",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInH8blEK8PtGap",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7SFInIYWUMeCoYOno",
+                  "cabin": {
+                    "amenities": {
+                      "seat": {
+                        "pitch": "28",
+                        "legroom": "less",
+                        "type": "standard"
+                      },
+                      "wifi": {
+                        "cost": "n/a",
+                        "available": false
+                      },
+                      "power": {
+                        "available": false
+                      }
+                    },
+                    "marketing_name": "Economy",
+                    "name": "economy"
+                  },
+                  "cabin_class": "economy",
+                  "fare_basis_code": "ESP"
+                }
+              ],
+              "distance": null,
+              "duration": "PT2H10M",
+              "destination": {
+                "airports": null,
+                "city_name": "Ho Chi Minh City",
+                "iata_city_code": "SGN",
+                "iata_country_code": "VN",
+                "icao_code": "VVTS",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "origin": {
+                "airports": null,
+                "city_name": "Hanoi",
+                "iata_city_code": "HAN",
+                "iata_country_code": "VN",
+                "icao_code": "VVNB",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "id": "seg_0000B7SFK0z181tQwDzruo"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": null,
+            "priority_check_in": null,
+            "priority_boarding": null,
+            "advance_seat_selection": null
+          },
+          "duration": "PT2H10M",
+          "destination": {
+            "airports": null,
+            "city_name": "Ho Chi Minh City",
+            "iata_city_code": "SGN",
+            "iata_country_code": "VN",
+            "icao_code": "VVTS",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "origin": {
+            "airports": null,
+            "city_name": "Hanoi",
+            "iata_city_code": "HAN",
+            "iata_country_code": "VN",
+            "icao_code": "VVNB",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "id": "sli_0000B7SFK0z181tQwDzrux"
+        }
+      ],
+      "passengers": [
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInGQeOfA6DYhUI"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "adult",
+          "id": "pas_0000B7SFInH8blEK8PtGap"
+        },
+        {
+          "loyalty_programme_accounts": [],
+          "family_name": null,
+          "given_name": null,
+          "age": null,
+          "type": "child",
+          "id": "pas_0000B7SFInIYWUMeCoYOno"
+        }
+      ],
+      "conditions": {
+        "refund_before_departure": null,
+        "change_before_departure": null
+      },
+      "updated_at": "2026-06-18T10:21:19.722789Z",
+      "expires_at": "2026-06-18T11:21:16.848339Z",
+      "partial": false,
+      "owner": {
+        "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/VJ.svg",
+        "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/VJ.svg",
+        "conditions_of_carriage_url": "https://www.vietjetair.com/en/pages/terms-and-conditions-vietjet-1608015385508",
+        "iata_code": "VJ",
+        "name": "VietJet Air",
+        "id": "arl_0000AOUIfUUVARgbzycsrY"
+      },
+      "id": "off_0000B7SFK0zj5OSayQKR0m"
+    }
+  ]
+}

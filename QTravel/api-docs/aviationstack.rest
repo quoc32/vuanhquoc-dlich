@@ -1,0 +1,46 @@
+@baseUrl = http://api.aviationstack.com/v1
+@apiKey = {{$dotenv AVIATIONSTACK_API_KEY}}
+
+### 1. Lấy danh sách các chuyến bay (Real-time Flights)
+# Mặc định lấy các chuyến bay gần nhất toàn cầu
+GET {{baseUrl}}/flights?access_key={{apiKey}}
+Authorization: Go
+
+### 2. Tìm chuyến bay theo chặng (Ví dụ: Từ Tân Sơn Nhất SGN đến Nội Bài HAN)
+# Thích hợp để làm chức năng tìm kiếm lịch trình
+GET {{baseUrl}}/flights
+    ?access_key={{apiKey}}
+    &dep_iata=SGN
+    &arr_iata=HAN
+
+### 3. Tìm đích danh một chuyến bay bằng Flight Number (Ví dụ: VJ122)
+GET {{baseUrl}}/flights
+    ?access_key={{apiKey}}
+    &flight_iata=VJ122
+
+### 4. Tìm kiếm chuyến bay theo trạng thái (Ví dụ: Các chuyến đang bay - active)
+# Các trạng thái khác: scheduled, landed, cancelled, incident, diverted
+GET {{baseUrl}}/flights
+    ?access_key={{apiKey}}
+    &flight_status=active
+    &dep_iata=SGN
+
+### 5. Lấy danh sách các sân bay (Airports) để làm chức năng Auto-complete
+# Lọc lấy các sân bay ở Việt Nam (Country ISO: VN)
+GET {{baseUrl}}/airports
+    ?access_key={{apiKey}}
+    &country_iso2=VN
+
+### 6. Lấy danh sách các hãng hàng không (Airlines)
+# Lọc lấy các hãng có mã IATA cụ thể (Ví dụ: VJ - VietJet, VN - Vietnam Airlines)
+GET {{baseUrl}}/airlines
+    ?access_key={{apiKey}}
+    &iata_operator=VJ
+
+### 7. LẤY DANH SÁCH THÀNH PHỐ TẠI VIỆT NAM
+GET {{baseUrl}}/cities?access_key={{apiKey}}&country_iso2=VN&limit=100
+
+### 8. Tìm sân bay theo thành phố (VD: Hồ Chí Minh)
+GET {{baseUrl}}/airports
+    ?access_key={{apiKey}}
+    &city_name=Ho Chi Minh

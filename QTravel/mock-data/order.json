@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "before": null,
+    "limit": 20,
+    "after": null
+  },
+  "data": [
+    {
+      "void_window_ends_at": null,
+      "intended_payment_methods": [],
+      "synced_at": "2026-06-18T08:23:13Z",
+      "available_actions": [
+        "cancel",
+        "change",
+        "update"
+      ],
+      "documents": [],
+      "airline_initiated_changes": [],
+      "tax_currency": "AUD",
+      "base_amount": "101.14",
+      "base_currency": "AUD",
+      "tax_amount": "18.20",
+      "total_currency": "AUD",
+      "offer_id": "off_0000B7S3uKmmCqxhdmbEqW",
+      "booking_reference": "GAC5DZ",
+      "payment_status": {
+        "price_guarantee_expires_at": "2026-06-20T08:13:28Z",
+        "payment_required_by": "2026-06-21T08:13:28Z",
+        "paid_at": null,
+        "awaiting_payment": true
+      },
+      "total_amount": "119.34",
+      "live_mode": false,
+      "created_at": "2026-06-18T08:23:13.697706Z",
+      "slices": [
+        {
+          "destination_type": "airport",
+          "origin_type": "airport",
+          "fare_brand_name": "Basic",
+          "segments": [
+            {
+              "origin_terminal": "2",
+              "destination_terminal": "1",
+              "aircraft": {
+                "iata_code": "773",
+                "name": "Boeing 777-300",
+                "id": "arc_00009VMF8AhXSSRnQDI6HE"
+              },
+              "departing_at": "2026-08-20T14:42:00",
+              "arriving_at": "2026-08-20T16:49:00",
+              "stops": [],
+              "operating_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                "logo_lockup_url": null,
+                "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+                "iata_code": "ZZ",
+                "name": "Duffel Airways",
+                "id": "arl_00009VME7D6ivUu8dn35WK"
+              },
+              "marketing_carrier": {
+                "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                "logo_lockup_url": null,
+                "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+                "iata_code": "ZZ",
+                "name": "Duffel Airways",
+                "id": "arl_00009VME7D6ivUu8dn35WK"
+              },
+              "operating_carrier_flight_number": "7252",
+              "marketing_carrier_flight_number": "7252",
+              "passengers": [
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7S3uKROEicPuLZQH5",
+                  "seat": null,
+                  "cabin_class": "economy"
+                },
+                {
+                  "baggages": [
+                    {
+                      "quantity": 1,
+                      "type": "checked"
+                    },
+                    {
+                      "quantity": 1,
+                      "type": "carry_on"
+                    }
+                  ],
+                  "cabin_class_marketing_name": "Economy",
+                  "passenger_id": "pas_0000B7S3uKROEicPuLZQH6",
+                  "seat": null,
+                  "cabin_class": "economy"
+                }
+              ],
+              "distance": "1160.1249784330353",
+              "duration": "PT2H7M",
+              "destination": {
+                "icao_code": "VVNB",
+                "city_name": "Hanoi",
+                "iata_country_code": "VN",
+                "iata_city_code": "HAN",
+                "iata_code": "HAN",
+                "latitude": 21.219957,
+                "longitude": 105.805585,
+                "city": null,
+                "time_zone": "Asia/Bangkok",
+                "type": "airport",
+                "name": "Noi Bai International Airport",
+                "id": "arp_han_vn"
+              },
+              "origin": {
+                "icao_code": "VVTS",
+                "city_name": "Ho Chi Minh City",
+                "iata_country_code": "VN",
+                "iata_city_code": "SGN",
+                "iata_code": "SGN",
+                "latitude": 10.818631,
+                "longitude": 106.655412,
+                "city": null,
+                "time_zone": "Asia/Ho_Chi_Minh",
+                "type": "airport",
+                "name": "Tan Son Nhat International Airport",
+                "id": "arp_sgn_vn"
+              },
+              "id": "seg_0000B7S3uKmmCqxhdmbEqN"
+            }
+          ],
+          "conditions": {
+            "change_before_departure": {
+              "penalty_currency": "AUD",
+              "penalty_amount": "20.00",
+              "allowed": true
+            }
+          },
+          "duration": "PT2H7M",
+          "destination": {
+            "icao_code": "VVNB",
+            "city_name": "Hanoi",
+            "iata_country_code": "VN",
+            "iata_city_code": "HAN",
+            "iata_code": "HAN",
+            "latitude": 21.219957,
+            "longitude": 105.805585,
+            "city": null,
+            "time_zone": "Asia/Bangkok",
+            "type": "airport",
+            "name": "Noi Bai International Airport",
+            "id": "arp_han_vn"
+          },
+          "origin": {
+            "icao_code": "VVTS",
+            "city_name": "Ho Chi Minh City",
+            "iata_country_code": "VN",
+            "iata_city_code": "SGN",
+            "iata_code": "SGN",
+            "latitude": 10.818631,
+            "longitude": 106.655412,
+            "city": null,
+            "time_zone": "Asia/Ho_Chi_Minh",
+            "type": "airport",
+            "name": "Tan Son Nhat International Airport",
+            "id": "arp_sgn_vn"
+          },
+          "id": "sli_0000B7S3uKmmCqxhdmbEqR"
+        }
+      ],
+      "passengers": [
+        {
+          "born_on": "1990-01-01",
+          "loyalty_programme_accounts": [],
+          "family_name": "Van A",
+          "given_name": "Nguyen",
+          "infant_passenger_id": null,
+          "phone_number": "+84901234567",
+          "user_id": null,
+          "gender": "m",
+          "email": "nguyenvana@example.com",
+          "title": "mr",
+          "type": "adult",
+          "id": "pas_0000B7S3uKROEicPuLZQH5"
+        },
+        {
+          "born_on": "2020-01-01",
+          "loyalty_programme_accounts": [],
+          "family_name": "Van B",
+          "given_name": "Nguyen",
+          "infant_passenger_id": null,
+          "phone_number": "+84901234567",
+          "user_id": null,
+          "gender": "m",
+          "email": "nguyenvanb@example.com",
+          "title": "mr",
+          "type": "child",
+          "id": "pas_0000B7S3uKROEicPuLZQH6"
+        }
+      ],
+      "cancellation": null,
+      "conditions": {
+        "refund_before_departure": {
+          "penalty_currency": null,
+          "penalty_amount": null,
+          "allowed": false
+        },
+        "change_before_departure": {
+          "penalty_currency": "AUD",
+          "penalty_amount": "20.00",
+          "allowed": true
+        }
+      },
+      "cancelled_at": null,
+      "changes": [],
+      "content": "managed",
+      "services": [],
+      "users": [],
+      "metadata": null,
+      "type": "hold",
+      "owner": {
+        "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+        "logo_lockup_url": null,
+        "conditions_of_carriage_url": "https://duffelairways.com/dummy-url/conditions-of-carriage",
+        "iata_code": "ZZ",
+        "name": "Duffel Airways",
+        "id": "arl_00009VME7D6ivUu8dn35WK"
+      },
+      "id": "ord_0000B7S4mJMFjNTSqkvofo"
+    }
+  ]
+}
