@@ -9,9 +9,11 @@ import Booking from './pages/Booking';
 import Profile from './pages/Profile';
 import MyBookings from './pages/MyBookings';
 import MyBookingDetail from './pages/MyBookingDetail';
+import MyHotelBookingDetail from './pages/MyHotelBookingDetail';
 import Hotels from './pages/Hotels';
 import HotelSearchResults from './pages/HotelSearchResults';
 import HotelDetails from './pages/HotelDetails';
+import AirlinesPage from './pages/AirlinesPage';
 import useCurrencyStore from './store/useCurrencyStore';
 
 function App() {
@@ -32,10 +34,12 @@ function App() {
           <Route path="booking" element={<Booking />} />
           <Route path="profile" element={<Profile />} />
           <Route path="my-bookings" element={<MyBookings />} />
+          <Route path="my-bookings/hotel/:id" element={<MyHotelBookingDetail />} />
           <Route path="my-bookings/:id" element={<MyBookingDetail />} />
           <Route path="hotels" element={<Hotels />} />
           <Route path="hotels/search" element={<HotelSearchResults />} />
           <Route path="hotels/:id" element={<HotelDetails />} />
+          <Route path="airlines" element={<AirlinesPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

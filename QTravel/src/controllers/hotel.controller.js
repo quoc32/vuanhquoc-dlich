@@ -4,7 +4,7 @@ class HotelController {
   static async searchHotels(req, res, next) {
     /*
       #swagger.tags = ['Hotels']
-      #swagger.description = 'Tìm kiếm danh sách khách sạn theo City ID hoặc Tên Thành phố.'
+      #swagger.description = 'Tìm kiếm danh sách khách sạn theo City ID, Tên Thành phố hoặc Tên Khách sạn.'
       #swagger.parameters['cityId'] = {
         in: 'query',
         description: 'Mã City ID',
@@ -14,6 +14,12 @@ class HotelController {
       #swagger.parameters['cityName'] = {
         in: 'query',
         description: 'Tên thành phố',
+        required: false,
+        type: 'string'
+      }
+      #swagger.parameters['hotelName'] = {
+        in: 'query',
+        description: 'Tên khách sạn',
         required: false,
         type: 'string'
       }
@@ -29,11 +35,32 @@ class HotelController {
         required: false,
         type: 'integer'
       }
+      #swagger.parameters['minPrice'] = {
+        in: 'query',
+        description: 'Giá thấp nhất',
+        required: false,
+        type: 'number'
+      }
+      #swagger.parameters['maxPrice'] = {
+        in: 'query',
+        description: 'Giá cao nhất',
+        required: false,
+        type: 'number'
+      }
+      #swagger.parameters['ratings'] = {
+        in: 'query',
+        description: 'Đánh giá thấp nhất (mảng)',
+        required: false,
+        type: 'array',
+        items: { type: 'number' }
+      }
     */
     try {
-      const { cityId, cityName, limit, offset } = req.query;
+      const { cityId, cityName, hotelName, limit, offset, minPrice, maxPrice, ratings } = req.query;
       
-      const data = await HotelService.searchHotels({ cityId, cityName, limit, offset });
+      const data = await HotelService.searchHotels({ 
+        cityId, cityName, hotelName, limit, offset, minPrice, maxPrice, ratings 
+      });
       
       res.json({ data });
     } catch (error) {
@@ -44,10 +71,10 @@ class HotelController {
   static async searchCities(req, res, next) {
     /*
       #swagger.tags = ['Hotels']
-      #swagger.description = 'Tìm kiếm gợi ý tên Thành phố cho ô tìm kiếm (Autocomplete)'
+      #swagger.description = 'Tìm kiếm gợi ý tên Thành phố hoặc Khách sạn cho ô tìm kiếm (Autocomplete)'
       #swagger.parameters['q'] = {
         in: 'query',
-        description: 'Từ khoá tìm kiếm (Tên thành phố hoặc mã IATA)',
+        description: 'Từ khoá tìm kiếm (Tên thành phố, mã IATA, hoặc tên khách sạn)',
         required: true,
         type: 'string'
       }
@@ -61,10 +88,23 @@ class HotelController {
     }
   }
 
+  static async getTopDestinations(req, res, next) {
+    /*
+      #swagger.tags = ['Hotels']
+      #swagger.description = 'Lấy danh sách top 10 điểm đến (thành phố) thu hút nhất Việt Nam dựa trên số lượng khách sạn (Redis cache)'
+    */
+    try {
+      const data = await HotelService.getTopDestinations();
+      res.json({ data });
+    } catch (error) {
+      next(error);
+    }
+  }
+
   static async getHotelDetails(req, res, next) {
     /*
       #swagger.tags = ['Hotels']
-      #swagger.description = 'Lấy thông tin chi tiết khách sạn'
+      #swagger.description = 'Lấy thông tin chi tiết khách sạn (Redis cache)'
     */
     try {
       const { id } = req.params;

@@ -47,6 +47,8 @@ model User {
   reviews  HotelReview[]
 
   flightOrders FlightOrder[]
+  hotelOrders  HotelOrder[]
+  notifications Notification[]
 }
 
 model Hotel {
@@ -67,6 +69,7 @@ model Hotel {
   
   reviews         HotelReview[]
   media           HotelMedia[]
+  hotelOrders     HotelOrder[]
 
   createdAt       DateTime  @default(now())
   updatedAt       DateTime  @updatedAt
@@ -152,6 +155,7 @@ model City {
   cityName    String? @map("city_name")
   cityNameVi  String? @map("city_name_vi")
   timezone    String?
+  imageUrl    String? @map("image_url") @db.Text
 
   airports   Airport[]
   hotels     Hotel[]
@@ -234,5 +238,36 @@ model PaymentTransaction {
 
   createdAt        DateTime @default(now())
   updatedAt        DateTime @updatedAt
+}
+
+model HotelOrder {
+  id          String   @id @default(uuid())
+  userId      Int?
+  hotelId     String?
+  hotelName   String?
+  roomType    String?
+  checkIn     DateTime?
+  checkOut    DateTime?
+  totalAmount Int?
+  status      String?  @default("CONFIRMED")
+  bookingReference String?
+  
+  user        User?    @relation(fields: [userId], references: [id])
+  hotel       Hotel?   @relation(fields: [hotelId], references: [id])
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Notification {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  title     String
+  message   String   @db.Text
+  type      String   
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id])
 }
 

@@ -1,0 +1,29 @@
+### API Overpass để tìm các địa danh xung quanh một tọa độ cụ thể
+### Phù hợp để làm tính năng "Các địa danh nổi tiếng" và "Địa danh gần nhất" giống hình mẫu
+### Tọa độ ví dụ: Hội An (Lat: 15.88597, Lon: 108.336568)
+
+# Sử dụng endpoint khác (lz4 hoặc kumi) để tránh lỗi "Server too busy"
+POST https://overpass.openstreetmap.fr/api/interpreter
+Content-Type: text/plain
+
+[out:json][timeout:25];
+(
+  // Các điểm du lịch, bảo tàng, phòng tranh (bán kính 1500m)
+  node["tourism"](around:1500, 15.88597, 108.336568);
+  way["tourism"](around:1500, 15.88597, 108.336568);
+  
+  // Các địa danh lịch sử, di tích như Hội quán, Nhà cổ (bán kính 1500m)
+  node["historic"](around:1500, 15.88597, 108.336568);
+  way["historic"](around:1500, 15.88597, 108.336568);
+  
+  // Các tiện ích công cộng như Chợ (marketplace), Nhà thuốc (pharmacy) (bán kính 1000m)
+  node["amenity"~"marketplace|pharmacy"](around:1000, 15.88597, 108.336568);
+  
+  // Phòng tập thể hình (fitness centre) (bán kính 1000m)
+  node["leisure"~"fitness_centre|sports_centre"](around:1000, 15.88597, 108.336568);
+
+  // Các cửa hàng mua sắm (bán kính 1000m)
+  node["shop"](around:1000, 15.88597, 108.336568);
+);
+// Trả về định dạng JSON, chỉ lấy thông tin center (tọa độ trung tâm) cho gọn
+out 10 center tags;

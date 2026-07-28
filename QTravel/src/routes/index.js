@@ -4,6 +4,8 @@ const authRoutes = require('./auth.routes');
 const momoRoutes = require('./momo.routes');
 const userRoutes = require('./user.routes');
 const hotelRoutes = require('./hotel.routes');
+const webhookRoutes = require('./webhook.routes');
+const notificationRoutes = require('./notification.routes');
 
 const router = Router();
 
@@ -16,5 +18,7 @@ router.use('/users', userRoutes);
 router.use('/flights', flightRoutes);
 router.use('/momo', momoRoutes);
 router.use('/hotels', hotelRoutes);
+router.use('/webhooks', webhookRoutes);
+router.use('/notifications', notificationRoutes);
 
 module.exports = router;

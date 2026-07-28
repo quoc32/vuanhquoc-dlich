@@ -10,9 +10,12 @@ const HotelSearchResults = () => {
   const [hotels, setHotels] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [priceLimit, setPriceLimit] = useState(10000000);
+  const [selectedRatings, setSelectedRatings] = useState([]);
 
   const cityId = searchParams.get('cityId');
   const cityName = searchParams.get('cityName');
+  const hotelName = searchParams.get('hotelName');
 
   useEffect(() => {
     const fetchHotels = async () => {
@@ -22,6 +25,11 @@ const HotelSearchResults = () => {
         const params = {};
         if (cityId) params.cityId = cityId;
         if (cityName) params.cityName = cityName;
+        if (hotelName) params.hotelName = hotelName;
+        params.maxPrice = priceLimit;
+        if (selectedRatings.length > 0) {
+          params.ratings = selectedRatings;
+        }
         
         const response = await hotelService.searchHotels(params);
         setHotels(response.data?.data || []);
@@ -34,7 +42,7 @@ const HotelSearchResults = () => {
     };
 
     fetchHotels();
-  }, [searchParams]);
+  }, [searchParams, priceLimit, selectedRatings]);
 
   return (
     <div className="bg-gray-50 min-h-screen pb-12">
@@ -42,7 +50,7 @@ const HotelSearchResults = () => {
       <div className="bg-primary pt-12 pb-24">
         <div className="container mx-auto px-4">
           <h1 className="text-white text-3xl font-bold mb-4">
-            Hotels in {cityName || 'your selected destination'}
+            {hotelName ? `Searching for: ${hotelName}` : `Hotels in ${cityName || 'your selected destination'}`}
           </h1>
         </div>
       </div>
@@ -58,20 +66,39 @@ const HotelSearchResults = () => {
             <h3 className="font-bold text-lg mb-4">Filter by</h3>
             
             <div className="mb-6">
-              <h4 className="font-semibold text-gray-700 mb-2">Price</h4>
+              <h4 className="font-semibold text-gray-700 mb-2">Giá phòng (VND)</h4>
               <div className="flex items-center justify-between text-sm text-gray-500 mb-2">
-                <span>$0</span>
-                <span>$1000+</span>
+                <span>0đ</span>
+                <span>{priceLimit.toLocaleString('vi-VN')}đ</span>
               </div>
-              <input type="range" className="w-full accent-primary" />
+              <input 
+                type="range" 
+                min="0" 
+                max="10000000" 
+                step="100000"
+                value={priceLimit}
+                onChange={(e) => setPriceLimit(Number(e.target.value))}
+                className="w-full accent-primary" 
+              />
             </div>
 
             <div className="mb-6">
-              <h4 className="font-semibold text-gray-700 mb-2">Property Rating</h4>
+              <h4 className="font-semibold text-gray-700 mb-2">Xếp hạng chỗ nghỉ</h4>
               {[5, 4, 3, 2, 1].map((stars) => (
                 <label key={stars} className="flex items-center gap-2 mb-2 cursor-pointer">
-                  <input type="checkbox" className="rounded text-primary focus:ring-primary" />
-                  <span className="text-sm text-gray-700">{stars} Stars</span>
+                  <input 
+                    type="checkbox" 
+                    checked={selectedRatings.includes(stars)}
+                    onChange={(e) => {
+                      if (e.target.checked) {
+                        setSelectedRatings(prev => [...prev, stars]);
+                      } else {
+                        setSelectedRatings(prev => prev.filter(r => r !== stars));
+                      }
+                    }}
+                    className="rounded text-primary focus:ring-primary" 
+                  />
+                  <span className="text-sm text-gray-700">{stars} Sao</span>
                 </label>
               ))}
             </div>

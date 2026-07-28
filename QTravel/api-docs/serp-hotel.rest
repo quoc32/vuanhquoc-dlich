@@ -17,12 +17,13 @@
 # @name searchHotels
 GET {{baseUrl}}/search.json
   ?engine=google_hotels
-  &q=Da Lat
-  &check_in_date=2026-08-20
-  &check_out_date=2026-08-22
-  &adults=2
+  &q=Vung Tau
+  &check_in_date=2026-08-29
+  &check_out_date=2026-08-30
+  &adults=1
   &currency=VND
   &gl=vn
+  &num=5
   &api_key={{serpApiKey}}
 
 ###

@@ -221,6 +221,10 @@ class FlightController {
 
   // 4. REFERENCE DATA
   static async listAirlines(req, res, next) {
+    /*
+      #swagger.tags = ['Reference Data']
+      #swagger.description = 'Lấy danh sách các hãng hàng không (Redis cache)'
+    */
     try {
       const data = await FlightService.listAirlines(req.query);
       res.json(data);

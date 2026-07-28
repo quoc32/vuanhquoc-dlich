@@ -1,7 +1,8 @@
 const prisma = require('../config/db');
+const redisClient = require('../config/redis');
 
 class HotelService {
-  static async searchHotels({ cityId, cityName, limit = 10, offset = 0 }) {
+  static async searchHotels({ cityId, cityName, hotelName, limit = 10, offset = 0, minPrice, maxPrice, ratings }) {
     const whereClause = {};
 
     if (cityId) {
@@ -13,6 +14,24 @@ class HotelService {
           { cityNameVi: { contains: cityName } }
         ]
       };
+    }
+    
+    if (hotelName) {
+      whereClause.name = { contains: hotelName };
+    }
+
+    if (minPrice !== undefined || maxPrice !== undefined) {
+      whereClause.ratePerNight = {};
+      if (minPrice !== undefined) whereClause.ratePerNight.gte = parseInt(minPrice);
+      if (maxPrice !== undefined) whereClause.ratePerNight.lte = parseInt(maxPrice);
+    }
+
+    if (ratings) {
+      const ratingsArray = Array.isArray(ratings) ? ratings : [ratings];
+      if (ratingsArray.length > 0) {
+        const minRating = Math.min(...ratingsArray.map(r => parseFloat(r)));
+        whereClause.overallRating = { gte: minRating };
+      }
     }
 
     const total = await prisma.hotel.count({ where: whereClause });
@@ -71,7 +90,7 @@ class HotelService {
           { iataCode: { contains: query } }
         ]
       },
-      take: 10,
+      take: 5,
       select: {
         id: true,
         cityName: true,
@@ -84,10 +103,103 @@ class HotelService {
       }
     });
 
-    return cities;
+    const hotels = await prisma.hotel.findMany({
+      where: {
+        name: { contains: query }
+      },
+      take: 5,
+      select: {
+        id: true,
+        name: true,
+        city: {
+          select: {
+            cityName: true,
+            countryIso2: true
+          }
+        }
+      }
+    });
+
+    // Format output
+    const formattedCities = cities.map(c => ({
+      type: 'city',
+      id: c.id,
+      name: c.cityName,
+      subName: c.countryIso2,
+      originalData: c
+    }));
+
+    const formattedHotels = hotels.map(h => ({
+      type: 'hotel',
+      id: h.id,
+      name: h.name,
+      subName: `${h.city.cityName}, ${h.city.countryIso2}`,
+      originalData: h
+    }));
+
+    return [...formattedCities, ...formattedHotels];
+  }
+
+  static async getTopDestinations() {
+    const CACHE_KEY = 'top_destinations:VN';
+    
+    try {
+      const cachedData = await redisClient.get(CACHE_KEY);
+      if (cachedData) {
+        return JSON.parse(cachedData);
+      }
+    } catch (error) {
+      console.error('Redis get error:', error);
+    }
+
+    const topDestinations = await prisma.city.findMany({
+      where: {
+        countryIso2: 'VN'
+      },
+      include: {
+        _count: {
+          select: { hotels: true }
+        }
+      },
+      orderBy: {
+        hotels: {
+          _count: 'desc'
+        }
+      },
+      take: 10
+    });
+
+    const result = topDestinations.map(city => ({
+      id: city.id,
+      cityName: city.cityName,
+      cityNameVi: city.cityNameVi,
+      imageUrl: city.imageUrl,
+      hotelCount: city._count.hotels
+    }));
+
+    try {
+      await redisClient.set(CACHE_KEY, JSON.stringify(result), {
+        EX: 3600 // Cache for 1 hour
+      });
+    } catch (error) {
+      console.error('Redis set error:', error);
+    }
+
+    return result;
   }
 
   static async getHotelById(id) {
+    const CACHE_KEY = `hotel:${id}`;
+
+    try {
+      const cachedData = await redisClient.get(CACHE_KEY);
+      if (cachedData) {
+        return JSON.parse(cachedData);
+      }
+    } catch (error) {
+      console.error('Redis get error:', error);
+    }
+
     const hotel = await prisma.hotel.findUnique({
       where: { id },
       include: {
@@ -97,7 +209,17 @@ class HotelService {
     });
     if (!hotel) return null;
     const { media, ...rest } = hotel;
-    return { ...rest, images: media.map(m => m.media) };
+    const result = { ...rest, images: media.map(m => m.media) };
+
+    try {
+      await redisClient.set(CACHE_KEY, JSON.stringify(result), {
+        EX: 3600 // Cache for 1 hour
+      });
+    } catch (error) {
+      console.error('Redis set error:', error);
+    }
+
+    return result;
   }
 
   static async getReviewsByHotelId(hotelId) {

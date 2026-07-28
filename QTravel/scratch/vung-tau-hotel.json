@@ -1,0 +1,628 @@
+[
+    {
+      "type": "vacation rental",
+      "name": "Ngoc Phuong Homestay - Bungalow",
+      "property_token": "ChoQmraTmOvrpuuxARoNL2cvMTF6NXIweHhxeBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoQmraTmOvrpuuxARoNL2cvMTF6NXIweHhxeBAC&q=Vung+Tau",
+      "gps_coordinates": {
+        "latitude": 10.265000343322754,
+        "longitude": 105.962890625
+      },
+      "check_in_time": "12:30 PM",
+      "check_out_time": "2:00 PM",
+      "rate_per_night": {
+        "lowest": "₫299,718",
+        "extracted_lowest": 299718,
+        "before_taxes_fees": "₫277,618",
+        "extracted_before_taxes_fees": 277618
+      },
+      "total_rate": {
+        "lowest": "₫299,718",
+        "extracted_lowest": 299718,
+        "before_taxes_fees": "₫277,618",
+        "extracted_before_taxes_fees": 277618
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₫299,718",
+            "extracted_lowest": 299718,
+            "before_taxes_fees": "₫277,618",
+            "extracted_before_taxes_fees": 277618
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Jun 15",
+          "free_cancellation_until_time": "7:00 AM"
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/GF_0RxsTfCoPbDFl9_4i_863Lyk5VRhcA2caJUqzp2m6GanyeXr7W_zw7VW63sdoCNPI_9nZDxcOaGFasazVenOYwvglJjoM6xO8WijaXFNBbWI3pHua7mMzFUNKV4BHaBQTJQxgsK2HHeDb11rZeNU2Pn2Uhg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/46933866.jpg?k=270a7cd0f0df21565156ce4269f3f6f1695b75c3c0fadbda3fb3b327f2fb3c3d&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/b3Nn9NH11FQb-jOLUwugBweA7kcuNJ5mHtcLZ0YzbhMC_JjW2EUdJuSKkUdrxBOOE0n2SV5-CsTBmm0O0LIrnHwh7jk58ASBCdvUR6IPAtuAxwxrkWZo-3q_RF1TVajvlY6iZP4ExkHnCjXLNo1dGMj727vQVA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/661258328.jpg?k=5d56b1a5afc788d33a3c69c207e2c8f735c8e2ff3621f97c5931f6fb4218de4b&o=&a=1538557"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/TA1byb3wbYCKP5Hut6H6s0wruqUd0HFNLd-5V2GYo3wHqR4O7aUEqtkj0xLAcokGMa7TLzQy57pmIzkRAZVzAxxWQ0SsyvpuP3R9zLgD6q4OJAlKKGPVgKIzGWLzZ0A6JoWLckawN8CVdtR9jIjegVsg7ne2-As=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/229878069.jpg?k=b4f2528c42db154e4afbd76326d064d44090406caf2f2416a5e0417b9cbc520d&o=&a=1538557"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/OEqduboAeVb7rsyuxrAajOjAf2eduUckLbpqK8fmzMdmhLH0YdgOxI7rXjtwZId2-kBEAmvOB0sU8Pm45xElYVRqGSfmqXCJ1_MLVyriYH4LbOUCs8IpTbFXlfAuln151YLW7E8Ou3x91UBs60NOw-xPSl3r2w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/181854242.jpg?k=21cb2633c0de3cb80ac343aea1f1a66e77114ef0765a2c868a760b66e7b0a81f&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/WcFt8lLM2PzGGfGeSXBkeguTKW-Vul6IJLSVjarIYZTN_p_ugRY8fsc9JFFMXZxxa-0ZdGnUDolFrP3kysW0OAgqAtOkFU8u5-g7h0arD6_lcDy-tQNK4CG141DfrKddpom1jVgOPWNdljR6-39r1I7g5x6azuc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/714390670.jpg?k=62fcb65e0a070a6944475301f470dda9069e95ad4a7fecfdb2176fca9d710489&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/tOswSNZ7MZ7j-n9kn26r6DaSz1xk69FK9MreeksdSajM4hMiXl8ZdT9_6JAkiP6axCLpodc1cE0GTmpEZMymaEC6c-n2P_PhLkO0Cbrz9akiCFHkbQpJMNbxJRX5RJtvlbQl9J5SO31SeKjR_wuQRvdvTEmopQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/213680316.jpg?k=93a4b9b1eafc5b7dc5cdb750af207fb2a9cca29cedc60f3b388b7513d32e8433&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/CEjJ9FlWRl4FndGkDZBKSZipt5WmK4BjvZHISf8-2KEylIIBR9ItKapBiTnc0GHX-lTIqpyPVUoPK2VClmWrshdf2AZatovZdUABd9WCDd11j79YVe89uNM8LT0FTsEYxBarath-dvCNSbxYqYR8a1Wx6M9OHA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/661258309.jpg?k=87d932715c1a667764dcff1164d9ce2006f53f022ae8d7cd60cdbe9bf75e858c&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/81RnMoqwoJTQrOskLI9rOcTGSIz_iJfFesrr6iO4gMrrqjOOGgLKP3zK_MkgGs6ltUYsklJ9AaYMjzQ0dP34ig80YJW8VUSEB6kUgeBD7z24Bm4fY0EqaJYuVuulRC5kGwO_oCNYlff-AMLVohuDLsGMXtNv8-k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/714390676.jpg?k=c1156b4194028eedb0b0111f1360ac1b066182e1b54dd25caae1b658bda026fa&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/y5TY9ITiZMvBRgrLku8jqtlyItlmghRHxwJbygn5HUPPW9ckW5HhE-jtdUABxyAVDbmpPXyA6XlUsiwZlP4NQw5CMsztXD5OJxZjR4w8lkAgKkinJPe3JkXfMd8mXj_7sbBVv2dtbDnULUJtnpEzfwAOlG_mdg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/558662656.jpg?k=8e5edc2ebe5bb6ab122d9fcbf28217750dfed79e7271a2374287f0f53788c7e6&o=&s=312x"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 16,
+      "amenities": [
+        "Air conditioning",
+        "Airport shuttle",
+        "Kid-friendly",
+        "Crib",
+        "Indoor pool",
+        "Ironing board",
+        "Kitchen",
+        "Patio",
+        "Pet-friendly",
+        "Smoke-free",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No outdoor pool"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 6",
+        "1 bedroom",
+        "1 bathroom",
+        "3 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQmraTmOvrpuuxARoNL2cvMTF6NXIweHhxeBAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQmraTmOvrpuuxARoNL2cvMTF6NXIweHhxeBAC"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Kontum Home Sweet Homestay - Double Room with Garden View",
+      "link": "https://www.freecancellations.com/search/F2ZyS1YGGiJRDVVVDVlSEgtYDU0yEFIR?lat=14.38075&lng=108.02774&language=en",
+      "property_token": "ChoQnLSHo6GKgPzqARoNL2cvMTF6NGNwdjZyORAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChoQnLSHo6GKgPzqARoNL2cvMTF6NGNwdjZyORAC&q=Vung+Tau",
+      "gps_coordinates": {
+        "latitude": 14.380749702453613,
+        "longitude": 108.02774047851562
+      },
+      "check_in_time": "1:00 AM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₫74,997",
+        "extracted_lowest": 74997,
+        "before_taxes_fees": "₫69,469",
+        "extracted_before_taxes_fees": 69469
+      },
+      "total_rate": {
+        "lowest": "₫74,997",
+        "extracted_lowest": 74997,
+        "before_taxes_fees": "₫69,469",
+        "extracted_before_taxes_fees": 69469
+      },
+      "prices": [
+        {
+          "source": "freecancellations.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/13148659453950554256.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₫74,997",
+            "extracted_lowest": 74997,
+            "before_taxes_fees": "₫69,469",
+            "extracted_before_taxes_fees": 69469
+          }
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/XkbJMD2tDkThbpXvvJLL0j4JHpTiqMpixMHyI3ybR49thnz_SfHl7emlQDLsZAd8SUEU2aYV4KFW86x7iYurPkjLPz19aYgawaGbZDxLw2-VMnNt-NhACdmpqVVh9pmDWQ5WTrA-HwUChvmUkVQA5PaiRbb_tRQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/239017720.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/coFh7iYf-x4WFtPrWndJRSVNTt1YcyLwKPBjPMR0w1q8FHz7be0GaESpmzGVAjy61-22HGq2qwyeKas-TskRYr4UYsxU-u8YE2JhKlV3-SdDnh0f9rxmYJFvmfCEYJp30-OuPGvrnWZ_ogummTWJ6nUibK225N8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/410900543.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/td3sclQvf8npcVkSQ_zNodBTIaX3Oy699tnZTCskYaekW0hp4AboB4cuUlmiXBWzkx8Rt2SPDAVDqJm1sz4zvNJNZLzBhhTN1QdrfoarS-7CAeEt8VWFMwmDsfx9hKpMOCTHTbjOSiCIPyvAZ5wVt2aHcJvh4Lw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/239017716.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/BiZKE22xfQcUhnQ4xK65g4ygOAuX-pC8ePrb4ayOUh9Ponlr_1PcudZYJenJ5KfJNjyj35Sc8GL8ddXq2d2cs5-KgKHGaDF2kCfdgxu84mNynqLVKIdsPR8F-jcUD2oh7b24VS8IdOr-UflVvwyJJedWhgUj2A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/183796405.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/b0Rzi_Ni5bRGLPw4FGyURUY1lEwX2GZFymdj4dTlmajNIAlTN4o6F2XdSuBOeT9wg8emGqA4ysfb6bpFWQrGMsA6Jdsd8dO5zRsK3cED0aHYPdXaVGdmd8BYlpOiyvJDBGP_hfKKeKajYkljXbHZI85P3TzvwZY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/429254658.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ErwWJDuaCfMfNa282vR9LEvaart-O5N3hcFtwGeqHiGuV3tdewZ_YetyoCAgklhKv_MgPsKTwMgrWLLo_VKHJS57OyWCGRDtjsVp9Q0g3JbL5Fg2Q2ACyZo01hxcJ91x7th2aCW1SRjWSGsQ39Aj70C-NP2JfQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/410900556.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ADDrmxVSCewG6L_x-wc03ahp9DKcmIWQ3HqiyUbiG_bkUWrK6aZ5RU1jYp0VtMKs4dauSqAY4-xCPG6adMhTFkSAPW7SIu4VGpGrBtAj0jM6xdXV0TKMSHpwyKDVg7P1bJ1qZi_X9XAYqHRPWCK4GhAyRU7-S2Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/261489398.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Ck_XiV1P16JT3nBqNoPNRE1tN_hjyn8blEvJ4WcS_7LrRn9NvLYQqc9fZoP6iiFPNIcGycaabd0RnEHhjke6CdVgu19GVKIC5eJqShMV5k36Rsua13oz69GcWvcOmJsrJ4KIYzrol6M_bWWiQXiIP5_v8PCVAg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/235399721.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/VturUoZTiuD2Kt7jmShpEH4sOt8HX6epRXCOZdNYnGKaUjNvWJ337ZFEr4oEk5N-_pERbYBW8RX6EN9c04x7ooGA2c6en_5cb8bd1aM4UXsC0m-AC1DJFjQshQDRae7x5NBT_mJfkMcS76xbmSB7D5P-h8vjSw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/410900566.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 8,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Ironing board",
+        "Kitchen",
+        "Smoke-free",
+        "Washer",
+        "Wheelchair accessible",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 4",
+        "6 bedrooms",
+        "6 bathrooms",
+        "2 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQnLSHo6GKgPzqARoNL2cvMTF6NGNwdjZyORAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQnLSHo6GKgPzqARoNL2cvMTF6NGNwdjZyORAC"
+    },
+    {
+      "type": "hotel",
+      "name": "Pullman Vung Tau",
+      "description": "High-end hotel offering city & sea views, plus an international eatery, 4 bars & an outdoor pool.",
+      "link": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=7133&merchantid=seo-maps-VN-7133&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps",
+      "property_token": "ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE&q=Vung+Tau",
+      "gps_coordinates": {
+        "latitude": 10.3485113,
+        "longitude": 107.0945661
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₫3,011,932",
+        "extracted_lowest": 3011932,
+        "before_taxes_fees": "₫2,656,166",
+        "extracted_before_taxes_fees": 2656166
+      },
+      "total_rate": {
+        "lowest": "₫3,011,932",
+        "extracted_lowest": 3011932,
+        "before_taxes_fees": "₫2,656,166",
+        "extracted_before_taxes_fees": 2656166
+      },
+      "deal": "37% less than usual",
+      "deal_description": "Great Deal",
+      "nearby_places": [
+        {
+          "name": "Tháp Tam Thắng - Bãi Sau Vũng Tàu",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Tan Son Nhat International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "2 hr 30 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 38 min"
+            }
+          ]
+        },
+        {
+          "name": "La Vita Food & Beer",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkW5MNSl4RdzmDZc2pP3uaN2uAlN8e5OvUAamMuOgPc5vr1QX_7OBiyXe7CIVff0CUhPchVEp2MZwIrSPpn_KC_f6uAYoL429I0GGjdbhLC7Z_waSk5jNczMDjq6266S18-4dGRDw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkW5MNSl4RdzmDZc2pP3uaN2uAlN8e5OvUAamMuOgPc5vr1QX_7OBiyXe7CIVff0CUhPchVEp2MZwIrSPpn_KC_f6uAYoL429I0GGjdbhLC7Z_waSk5jNczMDjq6266S18-4dGRDw=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/m7zY_ePII4qMzqJNHdFeoWTGpTEp8_kQ4pZ3UNbgd9b5dL-RFXOQ7YqUxtPMqdcb2oggmzeLERt1GNsCHiSNpjdc99c1Xifnc9W_pVyqe7xtVUrrt4-mZW0fsIxTEL8sCUR6JuAtsLBiKIVD-AR2fdpBUHPfS4k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-76693-f87237080_XXLejpg/Viet-Nam/VUNG-TAU/Pullman-Vung-Tau/Photo/Pullman-Vung-Tau-VUNG-TAU-Undefined-Pool.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm-HVo_H0sahBBalYIsxkvY1ElekrnC_qP5-rBumrVD-TSFXYxAk90P1JYycItwDXBU3CaI4OWYUBgAXeZfTT5OY7X1eWbFGoRLGibxtDeB7hDq26kI4hghNIEwpRJyvLpV5AsYFQW04hmK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm-HVo_H0sahBBalYIsxkvY1ElekrnC_qP5-rBumrVD-TSFXYxAk90P1JYycItwDXBU3CaI4OWYUBgAXeZfTT5OY7X1eWbFGoRLGibxtDeB7hDq26kI4hghNIEwpRJyvLpV5AsYFQW04hmK=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/LdTr29T-wxl4yfmqv0tCKHVeBHomZcFsqhTz46kyH_mHYKQxnu6GMggL27OGy_J5Sk3nLpcSAlxjb-0GUXgKguZXUNZnP0rTe2_M87tN9WuUWkv7CW2Q8pVwlAZCko_eUmadkw7yZkX9whADmfjpj1bE-0gzYmA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/49/492861/492861a_hb_w_011.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnagA6BpT2Lxa5sbQTgFZXOVJMo4kafzMbXvkVllMK6jCi7XNNo56B52R-Ig03kFgmnNys4Wy9Z_TK_iquXccsT5RLDjy9OTyHXHxxaudWK_Yln1UZZ7kcHIXquSX48VLCCPtpJBu27Rao=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnagA6BpT2Lxa5sbQTgFZXOVJMo4kafzMbXvkVllMK6jCi7XNNo56B52R-Ig03kFgmnNys4Wy9Z_TK_iquXccsT5RLDjy9OTyHXHxxaudWK_Yln1UZZ7kcHIXquSX48VLCCPtpJBu27Rao=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/FGGbU2HqpzgLbw15DSpU7OKKnZDOjYslNtbVmO-wvSjYPWv448elmgeQCAOh4OwGeSa5kXHWoS99GB60Ql8rU9X2EeOtqLjqYtgTzUnrtBZ9QiVT_KBvPsIBCL2JJpus9Yw00kGEHpiZ2JhLIlm1Z8Lkowmf6ks=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/49/492861/492861a_hb_w_013.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/7g7lFjyOil5E99SEEetC9qg0fdSdSVK8dnGTg6sIhZ5XWctSlZthZrwn3iwV0F-x2V6JC3b4VaDuTRpqqwaY05qV4XJi9YfMWWH8XmQcJ6rd5YBuhZoqr_-dPjxgidRwPWYCEjqmU-1JH7bI0cbjT_3TrrCkqQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/49/492861/492861a_hb_w_012.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/69ghcO5W15LTZDcSZ__bSzRZzvcYlxvraovz7URpdtc0_EzueiLPFLc_7XbHerczm9YGU2jjJ3sj-QlvsgZJ9L8UjDCh6xdERaUJPp49N61p1Dq_gcY30BNMNCp9Jj0RtiFxVSRv6m5zJ8pCIaJA8ompqqRrFmw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-76693-f93341633_XXLejpg/Viet-Nam/VUNG-TAU/Pullman-Vung-Tau/Photo/Pullman-Vung-Tau-VUNG-TAU-Undefined-Guest-room.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ZYpDKbqCPqWfqd04dkEQa-ZQLi9yrncgFv5u9pwcJsi0Q_MvklRSSrPFk5V4dRJSQaKCN9y12c7-nvc73ro71gTvJRxE5dCkXePFDFeCb0Zop8pvJeLo45dVaDTonduJKzARw5cBicG8UTi5249WMThJB_arkA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/49/492861/492861a_hb_f_005.jpg"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 6442,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 5159
+        },
+        {
+          "stars": 4,
+          "count": 829
+        },
+        {
+          "stars": 3,
+          "count": 215
+        },
+        {
+          "stars": 2,
+          "count": 77
+        },
+        {
+          "stars": 1,
+          "count": 162
+        }
+      ],
+      "location_rating": 3.5,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 336,
+          "positive": 282,
+          "negative": 41,
+          "neutral": 13,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 306,
+          "positive": 265,
+          "negative": 26,
+          "neutral": 15,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE"
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 79,
+          "positive": 45,
+          "negative": 20,
+          "neutral": 14,
+          "category_token": "3xjAEHica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmoxwzKINAAIXRQw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=3xjAEHica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmoxwzKINAAIXRQw&engine=google_hotels_reviews&hl=en&property_token=ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE"
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 81,
+          "positive": 33,
+          "negative": 37,
+          "neutral": 11,
+          "category_token": "_gyaT3ica1yRnFiSmp5fVDl5uVtmSV5qcTEDjAEAtWsMIQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=_gyaT3ica1yRnFiSmp5fVDl5uVtmSV5qcTEDjAEAtWsMIQ&engine=google_hotels_reviews&hl=en&property_token=ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 89,
+          "positive": 67,
+          "negative": 16,
+          "neutral": 6,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE"
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 61,
+          "positive": 41,
+          "negative": 14,
+          "neutral": 6,
+          "category_token": "qI-Rpnica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirjYiAXAMhXDEE",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qI-Rpnica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirjYiAXAMhXDEE&engine=google_hotels_reviews&hl=en&property_token=ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkImf-2wavn16AWGg0vZy8xMWJ3NzdfZm42EAE"
+    },
+    {
+      "type": "vacation rental",
+      "name": "SaPa Big Tree Hmong Homestay - Double Room",
+      "property_token": "ChkQ8_iisqTiuI87Gg0vZy8xMXo0c2o1cDkwEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkQ8_iisqTiuI87Gg0vZy8xMXo0c2o1cDkwEAI&q=Vung+Tau",
+      "gps_coordinates": {
+        "latitude": 22.303319931030273,
+        "longitude": 103.87950897216797
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₫308,674",
+        "extracted_lowest": 308674,
+        "before_taxes_fees": "₫285,777",
+        "extracted_before_taxes_fees": 285777
+      },
+      "total_rate": {
+        "lowest": "₫308,674",
+        "extracted_lowest": 308674,
+        "before_taxes_fees": "₫285,777",
+        "extracted_before_taxes_fees": 285777
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₫308,674",
+            "extracted_lowest": 308674,
+            "before_taxes_fees": "₫285,777",
+            "extracted_before_taxes_fees": 285777
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Jun 15",
+          "free_cancellation_until_time": "7:00 AM"
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/yCfFrgbhkbILHwK1LhoTxbHIhuwpasQac-AeqqvjihmX8nBobK3EcT3bwIifmIDh6l1yNsLi-OWbNAckMBO3I8kXEL7Sl8JFONJ1EZjvzJlSzNM2mIOgRxJBexk4Pb5OMOk5cEXNXFiS8rLr-Bl8KezA8LmlC9E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://vr-thumbs.vacationrenter.com/960/booking/8972732/ebe7c2.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Jy2bLudpfK96VUfGUiulBQkxQLAVGrwPEdzAGz9jLY9YvsPkW-XiItm_GSSp-49jIi_Gt2k3b6E6Co78Op9DgYV_XSHQZZLb_v-uwEsp0n3peuZe9vTEhSJPobilgoqGmnxS-sCwwvtCz_yjVjfcktWXyJ969Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/517580601.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/j6OMuJX7OL3mJ2gp6xGiTSy9J_TMiXwiifRbZ2R7b0Xyddy6VQ_VbgQWGpkm2FnSiJ3S0GaRSBfp7VJM1IWIe-iFh3R-AMiEkHHrMt1TZ7kenPda66rmhsod6wrCto2DIycWxXkQOw6MeG4z8FiFJJ5TXRc4834=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://vr-thumbs.vacationrenter.com/960/booking/8972732/bb3b52.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/CFOgDBX0mCnyBRk0XlO2RriJkPLu-OMuK_hgyXlBhwGG7hPVNc_cD6WkiXiy0nmmEn0spGkZt4VmC3g3EHgJO45zYv9pvlUVQW3_W1786Aae6a8XLKnvnrkx4GL5y4VOpOkX-1tqMdchUARxAUBM4IE0sb_yAv8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/501284203.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/QRiP1quFzvmKtoYqQN_uGOt6OQz3urYCHnyBRla04SOLaLItPJ0VY9sUEPw4o46SsbsG4CkYwX-Do-x6JkU2rolH3_zX2Uj71d2XQjo3ryl6Q3q0Sp0-y4rMp_QxMmg1vzu_8umtcrtj7ga7lc8zwoSk7YJPpg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/744128193.jpg?k=eba1347a5c70c471da8ad619ba3d0d49853293d70151bba5f83b7732f40b0b1e&o=&a=1538557"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/EAbUjPhnBrT-tCjLuDgL8cR-w29Ks9fCmOs8OSeiz-c1Ruy8VEVDedjf6Vr9h41cMYOACZqgexTN2C_IZ_qiNg0s7F1iLd4w5E2XjdWv16t2yiwxWbwdEXzv9M5gZKxlj8m2vGRx6ABZP8dCW6ditkzNLXA24A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/404988721.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/jxD67RNYuWIoNksKsPl3oph-0-lEaM6ImTFSEnNA_he7Yv7WVXWWS2hxuNeiaYquBjTew2CN1pLQc63J6FWtLCJJ19GTXmw6OUONcBMQGsIhsePmYmq7TA7IoqnEjAua7Dw5dhhygZSaQJP9ke-g8p7uxZG3sDs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/605860835.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/9942_qxHqmS5hiLxXmYYCmLHtIexVFHh9NIBTvtDIjvKvxjT1Pb6ZFecRWgIQLyAbjD0_Ss9ET0wv1g3wM5Wx1wr6zAhkhzCWHCMG6DXOrKzYVIyGkTdMNy2GYL4k2TLzAr5oz83RtfXmN7QYRlN576GctUKHA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://vr-thumbs.vacationrenter.com/960/booking/8972732/744768.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/7BIqr12TObUefNXXV_4d3tfgCauDJe11UHBGwq04K7lqiOWYtQk7Y4sphc46mW5KS4353e0FXrLRybxbDwTfaa7km7PF0E3nkUgCK_Bqa9-QGqKNPn1rgUfSRmtV634V-7lDr1ijpYP7QciQ2FmIpaUzMz4MsA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/386520359.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 91,
+      "amenities": [
+        "Kid-friendly",
+        "Crib",
+        "Fitness center",
+        "Indoor pool",
+        "Kitchen",
+        "Patio",
+        "Pet-friendly",
+        "Smoke-free",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No outdoor pool"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Enhanced cleaning",
+            "list": [
+              {
+                "title": "Enhanced cleaning of the property",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire house",
+        "Sleeps 8",
+        "5 bedrooms",
+        "1 bathroom",
+        "3 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQ8_iisqTiuI87Gg0vZy8xMXo0c2o1cDkwEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQ8_iisqTiuI87Gg0vZy8xMXo0c2o1cDkwEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Homestay Khánh Pù luông - Two-Bedroom Apartment",
+      "link": "https://www.freecancellations.com/search/F2ZzF1xcSCYADVdVVA1XEQtYXkwwEwBB?lat=20.45601&lng=105.15542&language=en",
+      "property_token": "ChkQ27GY0IfsvtceGg0vZy8xMW5ibXFzMXg1EAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=ChkQ27GY0IfsvtceGg0vZy8xMW5ibXFzMXg1EAI&q=Vung+Tau",
+      "gps_coordinates": {
+        "latitude": 20.456010818481445,
+        "longitude": 105.1554183959961
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₫116,837",
+        "extracted_lowest": 116837,
+        "before_taxes_fees": "₫108,151",
+        "extracted_before_taxes_fees": 108151
+      },
+      "total_rate": {
+        "lowest": "₫116,837",
+        "extracted_lowest": 116837,
+        "before_taxes_fees": "₫108,151",
+        "extracted_before_taxes_fees": 108151
+      },
+      "prices": [
+        {
+          "source": "freecancellations.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/13148659453950554256.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₫116,837",
+            "extracted_lowest": 116837,
+            "before_taxes_fees": "₫108,151",
+            "extracted_before_taxes_fees": 108151
+          }
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/xk9SuyCoIE7Tjju1PnuIOUN0hWTAZfGhzNk-DqR6pluDZdF8XSNHKqRfN1xrU3lbdgPAQt5FAiSBlYwSgeyiRVRsy_mSiKksIXLYHO4LUJMhdAr2EgWkb-garJPIcJJUoIWT7UeoKwBBfZqWbJbe4vGZOjTg6g8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/752942981.jpg?k=d261d6ebaeb45532d1337289c210e2aef1ad4b411771c7550eddfb1e4d68d61c&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/qhQcV-Gz_y5LgjO_3a3m2qC7fuSjGNqUIe0MsSNID1DYy2pkCopIwfZX9-YoD09gcoLIZfJNoy58iT26wmswiIrbR25z0oV9EuRQqMVxSBKySWvgF3QRuXZWHUChfa_2y2dUH6NTrrRQwccDNPdfElx9aO1TFw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/752942809.jpg?k=ae903e68c1cab0be1a12e6eb90965895d7e639dd7b782b7fd1d7c47839473b08&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/fN9bxbLE2uKVbV1pLcrS66YwAZRRP4WutrA3nSNQRvfHrzDClI48HLkd0sHZ5W8IxmMexvdaEbaW3zeFYBXT2MsyKxZEhWsYHpDXzp86u8DLV1uVXhzMJBG23lxcRmHZvLOq6FriIrZoELzrzUDuT4tm2ZtfzZY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/752942912.jpg?k=6df04bbbdd0121a48898a2d16a62afb861764c794547f6eaeca8e3a8f21c6348&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/RhLoAQIhamRnQauOqJbdYlpP_w7RWPMKQHOVI5Pd2RHspHG8EitqzucJl9bxNvwugvgD9otlpbiveWGE1R1yN1Fsbn22j-RDXhswZ51Jd17hA5Zaf095U6HUUKR53iR2vrTyGfcIKnYP7yMg1ybcKg4L_wq6zIs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/752942457.jpg?k=c35e0bab0da4a5c7d103d128b3ba12ed696fad625de58099f3f57f5a7fd0cfcf&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/QtFVInzm2P--a_6djixlUR-MAC2V8N7VOlutDdONLTzj2X2IazcMNm54OUSM9wZRg-z1bWcdP2gVE_tIYHZB5SlVQVDdjCFDufHWEfjc9hgvgY2JuCfAlAip70NntoOBmexty3w6X9iX_VZqmkXR4bqcgEHOECQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/752942833.jpg?k=e99cf8698cd154620d5693e14397a42d4265d41f00ec4369dab5f44d8d13cb6e&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/j9HQIx7Nx7VK6zzJ1XatlzdcT3ijzcFYFQDgpI-_zHpyQor6PlrIGj5Ixxqh9l_bdoO8-nbQWQdSxfaEmFLZ82Q6OtVlOw34T4tWS5exdoBihuzH-dyBmqHw2Tw3A_ENthafWUttilTdifFi9Li-Vf_pOKFW0Rs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/752942859.jpg?k=962acbd1580fb39f3c05aa17f87b45b40c7ceee93a6ea310e4048755703d0b24&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/NuCXFqTwDbNB7h8Wm2AapR0OT2EdB-vVJAKzPUoX_Y5_q0WXw7-DWKaQqx_yNdWmMThB3PGLAKw_NxcGas0YFVj0O-trLRnNmLlg_QyFxxFMyMAyXv7-3LYCNIhRExi-vv_f19z_tQMFLjkeWHl6a_5v0NSU2A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/752942786.jpg?k=a83596b7c24a2d8c96a408a77ed4c5eb7b5c2284657617df0516dd4be7532e72&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/kPUgMwAxsA4EbzT46-yI1oQ6NHkBVZWKxuo-vXkkYOyl8B0f3fWYwpgJxF4HA0iRNGR1TG2uDzlwkKI_rPC0izRjDZXpwqZQ1CSS9hvctmaryXhVc2EqFKjnhfrGr1cN-DaT11fFe4bpV6YBYaBWDvyQIPgW3w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/752942885.jpg?k=60572d7b811e5e17d9272f5c0667ff9452dcd09e60632f748d41c2f20ee78d7a&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/fbz_7TpXctk6wkWOPB5cWU977hqtHeZuTezAkQzv_9uplpsmWS7OwST67Se-ne13uOt5vPDuDq2w90kndybwMSh3I16yON9QmXWQIl1_bdQRc92m4GdZCAecRYeWj_ZjxKEKB8fAeNPdP9_PZE3ppSufE4LEpqw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/q-xx.bstatic.com/xdata/images/hotel/max1024x683/752942939.jpg?k=25e6e614387ed006802e4e7680e45d751afa511ae53af2d883d0ef0a52adfbf1&o=&a=2344045&w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80"
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Washer",
+        "Free parking"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 15",
+        "5 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQ27GY0IfsvtceGg0vZy8xMW5ibXFzMXg1EAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQ27GY0IfsvtceGg0vZy8xMW5ibXFzMXg1EAI"
+    }
+]

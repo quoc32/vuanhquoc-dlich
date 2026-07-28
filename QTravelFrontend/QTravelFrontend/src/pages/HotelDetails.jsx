@@ -4,6 +4,8 @@ import { Loader2, MapPin, Star, ChevronLeft, ChevronRight, Check, Image as Image
 import hotelService from '../services/hotel.service';
 import useCurrencyStore from '../store/useCurrencyStore';
 import useAuthStore from '../store/useAuthStore';
+import NearbyAttractions from '../features/hotels/NearbyAttractions';
+import HotelMap from '../features/hotels/HotelMap';
 
 const BACKEND_URL = 'http://localhost:3000';
 
@@ -276,10 +278,25 @@ const HotelDetails = () => {
                 </div>
               </div>
             )}
+
+            {/* Nearby Attractions */}
+            {hotel.latitude && hotel.longitude && (
+              <NearbyAttractions latitude={hotel.latitude} longitude={hotel.longitude} />
+            )}
           </div>
 
-          {/* Sidebar (Reviews) */}
+          {/* Sidebar (Map + Reviews) */}
           <div className="lg:col-span-1 space-y-6">
+            
+            {/* Interactive Mini Map */}
+            {hotel.latitude && hotel.longitude && (
+              <HotelMap 
+                latitude={hotel.latitude} 
+                longitude={hotel.longitude} 
+                hotelName={hotel.name} 
+              />
+            )}
+
             <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden sticky top-24">
               <div className="p-5 border-b border-gray-100 bg-gray-50">
                 <h3 className="text-lg font-bold text-gray-900">Đánh giá từ người dùng</h3>

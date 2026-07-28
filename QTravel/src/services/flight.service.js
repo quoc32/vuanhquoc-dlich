@@ -1,5 +1,6 @@
 const prisma = require('../config/db');
 const qstashClient = require('../config/qstash');
+const redisClient = require('../config/redis');
 
 const baseUrl = process.env.DUFFEL_API_URL || 'https://api.duffel.com';
 
@@ -89,8 +90,31 @@ class FlightService {
   // 4. REFERENCE DATA
   static async listAirlines(params = {}) {
     const query = new URLSearchParams(params).toString();
+    const CACHE_KEY = `airlines:${query || 'all'}`;
+
+    try {
+      const cachedData = await redisClient.get(CACHE_KEY);
+      if (cachedData) {
+        return JSON.parse(cachedData);
+      }
+    } catch (error) {
+      console.error('Redis get error:', error);
+    }
+
     const response = await fetch(`${baseUrl}/air/airlines${query ? `?${query}` : ''}`, { headers: getHeaders() });
-    return response.json();
+    const data = await response.json();
+
+    try {
+      if (data && !data.errors) {
+        await redisClient.set(CACHE_KEY, JSON.stringify(data), {
+          EX: 86400 // Cache for 24 hours
+        });
+      }
+    } catch (error) {
+      console.error('Redis set error:', error);
+    }
+
+    return data;
   }
 
   static async listAircrafts(params = {}) {

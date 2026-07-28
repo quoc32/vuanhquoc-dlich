@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { MapPin, Loader2 } from 'lucide-react';
+import { MapPin, Building, Loader2 } from 'lucide-react';
 import hotelService from '../../services/hotel.service';
 
 const CityAutocomplete = ({ icon: Icon, placeholder, label, value, onChange, error }) => {
@@ -46,10 +46,14 @@ const CityAutocomplete = ({ icon: Icon, placeholder, label, value, onChange, err
     return () => clearTimeout(debounce);
   }, [query, isOpen]);
 
-  const handleSelect = (city) => {
-    setQuery(city.cityName);
-    // Passing back an object with id and name so the form knows both
-    onChange({ cityId: city.id, cityName: city.cityName });
+  const handleSelect = (item) => {
+    setQuery(item.name);
+    // Passing back an object with type, id and name so the form knows what was selected
+    if (item.type === 'city') {
+      onChange({ type: 'city', cityId: item.id, cityName: item.name });
+    } else {
+      onChange({ type: 'hotel', hotelId: item.id, hotelName: item.name });
+    }
     setIsOpen(false);
   };
 
@@ -64,7 +68,7 @@ const CityAutocomplete = ({ icon: Icon, placeholder, label, value, onChange, err
           onChange={(e) => {
             setQuery(e.target.value);
             // If they are typing, we might clear the selected ID since it's unconfirmed
-            onChange({ cityId: null, cityName: e.target.value });
+            onChange({ type: 'city', cityId: null, cityName: e.target.value });
             setIsOpen(true);
           }}
           onFocus={() => setIsOpen(true)}
@@ -79,21 +83,25 @@ const CityAutocomplete = ({ icon: Icon, placeholder, label, value, onChange, err
         <div className="absolute z-50 w-full md:w-[350px] mt-2 bg-white border border-gray-100 rounded-2xl shadow-xl max-h-[400px] overflow-y-auto">
           {suggestions.length > 0 ? (
             <ul className="py-2">
-              {suggestions.map((city) => (
+              {suggestions.map((item) => (
                 <li 
-                  key={city.id}
-                  onClick={() => handleSelect(city)}
+                  key={item.type + item.id}
+                  onClick={() => handleSelect(item)}
                   className="px-4 py-3 hover:bg-blue-50 cursor-pointer flex items-center gap-4 transition-colors border-b border-gray-50 last:border-0"
                 >
                   <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center shrink-0">
-                    <MapPin className="w-4 h-4 text-gray-500" />
+                    {item.type === 'hotel' ? (
+                      <Building className="w-4 h-4 text-gray-500" />
+                    ) : (
+                      <MapPin className="w-4 h-4 text-gray-500" />
+                    )}
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-semibold text-gray-900 text-sm truncate">
-                      {city.cityName}
+                      {item.name}
                     </p>
                     <p className="text-xs text-gray-500 truncate mt-0.5">
-                      {city.countryIso2}
+                      {item.subName}
                     </p>
                   </div>
                 </li>

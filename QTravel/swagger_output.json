@@ -343,6 +343,35 @@
         ]
       }
     },
+    "/api/v1/users/hotel-orders": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get user hotel bookings/orders",
+        "description": "",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
     "/api/v1/users/orders/{id}": {
       "get": {
         "description": "",
@@ -640,7 +669,10 @@
     },
     "/api/v1/flights/airlines": {
       "get": {
-        "description": "",
+        "tags": [
+          "Reference Data"
+        ],
+        "description": "Lấy danh sách các hãng hàng không (Redis cache)",
         "responses": {
           "200": {
             "description": "OK"
@@ -835,12 +867,12 @@
         "tags": [
           "Hotels"
         ],
-        "description": "Tìm kiếm gợi ý tên Thành phố cho ô tìm kiếm (Autocomplete)",
+        "description": "Tìm kiếm gợi ý tên Thành phố hoặc Khách sạn cho ô tìm kiếm (Autocomplete)",
         "parameters": [
           {
             "name": "q",
             "in": "query",
-            "description": "Từ khoá tìm kiếm (Tên thành phố hoặc mã IATA)",
+            "description": "Từ khoá tìm kiếm (Tên thành phố, mã IATA, hoặc tên khách sạn)",
             "required": true,
             "type": "string"
           }
@@ -857,7 +889,7 @@
         "tags": [
           "Hotels"
         ],
-        "description": "Tìm kiếm danh sách khách sạn theo City ID hoặc Tên Thành phố.",
+        "description": "Tìm kiếm danh sách khách sạn theo City ID, Tên Thành phố hoặc Tên Khách sạn.",
         "parameters": [
           {
             "name": "cityId",
@@ -874,6 +906,13 @@
             "type": "string"
           },
           {
+            "name": "hotelName",
+            "in": "query",
+            "description": "Tên khách sạn",
+            "required": false,
+            "type": "string"
+          },
+          {
             "name": "limit",
             "in": "query",
             "description": "Số lượng kết quả trả về",
@@ -886,8 +925,70 @@
             "description": "Số lượng kết quả bỏ qua (phân trang)",
             "required": false,
             "type": "integer"
+          },
+          {
+            "name": "minPrice",
+            "in": "query",
+            "description": "Giá thấp nhất",
+            "required": false,
+            "type": "number"
+          },
+          {
+            "name": "maxPrice",
+            "in": "query",
+            "description": "Giá cao nhất",
+            "required": false,
+            "type": "number"
+          },
+          {
+            "name": "ratings",
+            "in": "query",
+            "description": "Đánh giá thấp nhất (mảng)",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "in",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "required",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "items",
+            "in": "query",
+            "type": "string"
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/hotels/destinations/top": {
+      "get": {
+        "tags": [
+          "Hotels"
+        ],
+        "description": "Lấy danh sách top 10 điểm đến (thành phố) thu hút nhất Việt Nam dựa trên số lượng khách sạn (Redis cache)",
         "responses": {
           "200": {
             "description": "OK"
@@ -900,7 +1001,7 @@
         "tags": [
           "Hotels"
         ],
-        "description": "Lấy thông tin chi tiết khách sạn",
+        "description": "Lấy thông tin chi tiết khách sạn (Redis cache)",
         "parameters": [
           {
             "name": "id",
@@ -957,18 +1058,6 @@
           {
             "name": "authorization",
             "in": "header",
-            "type": "string"
-          },
-          {
-            "name": "authorization",
-            "hidden": true,
-            "in": "query",
-            "type": "string"
-          },
-          {
-            "name": "body",
-            "hidden": true,
-            "in": "query",
             "type": "string"
           },
           {
@@ -1119,6 +1208,67 @@
             "bearerAuth": []
           }
         ]
+      }
+    },
+    "/api/v1/webhooks/hotel-order": {
+      "post": {
+        "tags": [
+          "Webhooks"
+        ],
+        "description": "Nhận thông tin đơn đặt phòng từ các khách sạn đối tác (ví dụ: QHotel)",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "description": "Thông tin booking từ khách sạn",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "bookingId": {
+                  "type": "string",
+                  "example": "B123456"
+                },
+                "userEmail": {
+                  "type": "string",
+                  "example": "user@example.com"
+                },
+                "hotelId": {
+                  "type": "string",
+                  "example": "qhotel_01"
+                },
+                "hotelName": {
+                  "type": "string",
+                  "example": "Quoc Vu Hotel"
+                },
+                "roomType": {
+                  "type": "string",
+                  "example": "Deluxe"
+                },
+                "checkIn": {
+                  "type": "string",
+                  "example": "2026-08-01T14:00:00.000Z"
+                },
+                "checkOut": {
+                  "type": "string",
+                  "example": "2026-08-03T12:00:00.000Z"
+                },
+                "totalPrice": {
+                  "type": "number",
+                  "example": 1500000
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
       }
     }
   },

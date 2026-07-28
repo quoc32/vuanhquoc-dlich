@@ -1,16 +1,5 @@
 import HotelSearchBox from '../features/hotels/HotelSearchBox';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-const DEALS = [
-  { id: 1, image: 'https://images.unsplash.com/photo-1542314831-c6a4d14d837e?q=80&w=2070&auto=format&fit=crop', title: 'Luxury Resorts', price: 'from $199/night' },
-  { id: 2, image: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=2049&auto=format&fit=crop', title: 'City Center Hotels', price: 'from $99/night' },
-  { id: 3, image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop', title: 'Beachfront Villas', price: 'from $299/night' },
-  { id: 4, image: 'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=2074&auto=format&fit=crop', title: 'Boutique Stays', price: 'from $149/night' },
-];
+import TopRecommendedHotels from '../features/hotels/TopRecommendedHotels';
 
 const Hotels = () => {
   return (
@@ -32,42 +21,9 @@ const Hotels = () => {
         <HotelSearchBox />
       </div>
 
-      {/* Special Offers Section */}
+      {/* Top Recommended Hotels Section */}
       <div className="container mx-auto px-4 py-20">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Featured Hotel Collections</h2>
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={24}
-          slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 5000 }}
-          breakpoints={{
-            640: { slidesPerView: 2 },
-            768: { slidesPerView: 3 },
-            1024: { slidesPerView: 4 },
-          }}
-          className="pb-12"
-        >
-          {DEALS.map((deal) => (
-            <SwiperSlide key={deal.id}>
-              <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group cursor-pointer border border-gray-100">
-                <div className="h-48 overflow-hidden relative">
-                  <img 
-                    src={deal.image} 
-                    alt={deal.title} 
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <div className="absolute bottom-4 left-4 text-white">
-                    <p className="text-sm font-medium opacity-90">{deal.price}</p>
-                    <h3 className="text-xl font-bold">{deal.title}</h3>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        <TopRecommendedHotels />
       </div>
       
       {/* Why Book With Us */}

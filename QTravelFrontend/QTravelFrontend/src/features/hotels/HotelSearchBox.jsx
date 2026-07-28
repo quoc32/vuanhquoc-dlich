@@ -1,5 +1,5 @@
 import { useForm, Controller } from 'react-hook-form';
-import { MapPin, Calendar, Users, Search } from 'lucide-react';
+import { MapPin, Search } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import CityAutocomplete from '../../components/ui/CityAutocomplete';
 
@@ -7,17 +7,15 @@ const HotelSearchBox = () => {
   const navigate = useNavigate();
   const { register, handleSubmit, control, watch } = useForm({
     defaultValues: {
-      city: { cityId: null, cityName: '' },
-      checkIn: '',
-      checkOut: '',
-      guests: 2,
-      rooms: 1,
+      city: { type: 'city', cityId: null, cityName: '', hotelName: '' }
     }
   });
 
   const onSubmit = (data) => {
     const params = new URLSearchParams();
-    if (data.city?.cityId) {
+    if (data.city?.type === 'hotel' && data.city?.hotelName) {
+      params.append('hotelName', data.city.hotelName);
+    } else if (data.city?.cityId) {
       params.append('cityId', data.city.cityId);
     } else if (data.city?.cityName) {
       params.append('cityName', data.city.cityName);
@@ -47,70 +45,20 @@ const HotelSearchBox = () => {
                   label=""
                   icon={MapPin}
                   placeholder="Where are you going? (e.g. Tokyo)"
-                  value={field.value?.cityName || ''}
-                  onChange={field.onChange}
+                  value={field.value?.hotelName || field.value?.cityName || ''}
+                  onChange={(val) => {
+                    field.onChange(val);
+                    if (val.type === 'hotel' && val.hotelId) {
+                      navigate(`/hotels/${val.hotelId}`);
+                    }
+                  }}
                 />
               )}
             />
           </div>
         </div>
 
-        {/* Row 2: Dates & Guests */}
-        <div className="flex flex-col md:flex-row gap-4 mt-1">
-          
-          {/* Dates Box */}
-          <div className="flex flex-1 border border-gray-200 rounded-xl overflow-hidden divide-x divide-gray-200 focus-within:ring-2 focus-within:ring-primary focus-within:border-primary transition-all">
-            <div className="flex-1 p-3 flex items-center relative bg-white">
-              <Calendar className="text-gray-400 w-5 h-5 mr-3 shrink-0" />
-              <div className="flex-1 min-w-0">
-                <input 
-                  type="date" 
-                  {...register('checkIn')}
-                  className="w-full bg-transparent outline-none text-gray-800 font-medium"
-                />
-              </div>
-            </div>
-            
-            <div className="flex-1 p-3 flex items-center relative bg-white">
-              <Calendar className="text-gray-400 w-5 h-5 mr-3 shrink-0" />
-              <div className="flex-1 min-w-0">
-                <input 
-                  type="date" 
-                  {...register('checkOut')}
-                  className="w-full bg-transparent outline-none text-gray-800 font-medium"
-                />
-              </div>
-            </div>
-          </div>
 
-          {/* Guests & Rooms Box */}
-          <div className="flex flex-1 border border-gray-200 rounded-xl overflow-hidden divide-x divide-gray-200 focus-within:ring-2 focus-within:ring-primary focus-within:border-primary transition-all">
-            <div className="w-1/2 p-3 flex items-center bg-white">
-              <Users className="text-gray-400 w-5 h-5 mr-3 shrink-0" />
-              <div className="flex-1 flex items-center min-w-0">
-                <input 
-                  type="number" 
-                  min="1"
-                  {...register('guests', { valueAsNumber: true })}
-                  className="w-10 bg-transparent outline-none text-gray-800 font-medium"
-                />
-                <span className="text-gray-500 font-medium truncate">Guests</span>
-              </div>
-            </div>
-            <div className="w-1/2 p-3 flex items-center bg-white">
-              <div className="flex-1 flex items-center min-w-0 pl-3">
-                <input 
-                  type="number" 
-                  min="1"
-                  {...register('rooms', { valueAsNumber: true })}
-                  className="w-10 bg-transparent outline-none text-gray-800 font-medium"
-                />
-                <span className="text-gray-500 font-medium truncate">Rooms</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
 
         {/* Submit */}
         <div className="flex justify-center mt-6">

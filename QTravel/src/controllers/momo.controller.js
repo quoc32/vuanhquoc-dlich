@@ -1,5 +1,6 @@
 const MomoService = require('../services/momo.service');
 const FlightService = require('../services/flight.service');
+const SocketService = require('../services/socket.service');
 const prisma = require('../config/db');
 
 class MomoController {
@@ -152,6 +153,20 @@ class MomoController {
           where: { id: transaction.flightOrderId },
           data: { paymentStatus: 'SUCCESS' }
         });
+
+        // Trigger notification
+        const orderInfo = await prisma.flightOrder.findUnique({ where: { id: transaction.flightOrderId } });
+        if (orderInfo && orderInfo.userId) {
+          const notif = await prisma.notification.create({
+            data: {
+              userId: orderInfo.userId,
+              title: '✈️ Thanh toán vé thành công!',
+              message: `Đơn hàng ${transaction.flightOrderId} đã được thanh toán thành công qua MoMo.`,
+              type: 'FLIGHT_BOOKING'
+            }
+          });
+          SocketService.sendNotificationToUser(orderInfo.userId, notif);
+        }
 
         // 3. Call Duffel to pay for the order
         // Lấy tiền tệ và số tiền gốc đã lưu trong PaymentTransaction

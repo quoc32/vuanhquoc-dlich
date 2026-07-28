@@ -1,4 +1,5 @@
 const express = require('express');
+const http = require('http');
 const cors = require('cors');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
@@ -6,11 +7,15 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('../swagger_output.json');
 const apiRoutes = require('./routes');
 const { errorHandler } = require('./middlewares/error.middleware');
+const { initSocket } = require('./services/socket.service');
 
 dotenv.config();
 
 const app = express();
+const server = http.createServer(app);
 const port = process.env.PORT || 3000;
+
+initSocket(server);
 
 const path = require('path');
 
@@ -32,6 +37,6 @@ app.get('/', (req, res) => {
 // Global error handler
 app.use(errorHandler);
 
-app.listen(port, () => {
+server.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });

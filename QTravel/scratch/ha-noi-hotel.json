@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Wyndham Garden Hanoi",
+    "source": "Booking.com",
+    "source_icon": "https://www.gstatic.com/travel-hotels/branding/icon_184.png",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi4rZbgrPOVAxXdbUcBHWpDEiwYACICCAEQCxoCcXU&co=1&gclid=EAIaIQobChMIuK2W4KzzlQMV3W1HAR1qQxIsEA0YASABEgLeVPD_BwE&cid=CAASugHkaCGVb4Yd0TEi_bzcdtn79Qx7m6dE6HOQ1nDfxRWuXpbMPxFGbwImUu_NDOuTkHVHtpW5_PmM0dBKb5sw6iEPCqOQfXqZ6fLchu86gl7dzl3QDX5Ne_j0_tMKLLV6p29yr27NASZWbX0F7TZ9Ry6TKAkD8U-vUJ99s93zeHmtkxyc0dgqUaJy0JhKWlHsLoS3YNFWq5wFQDeE0tkLJ9ImGp_gFkKL-Jy0ceX4hQ6rTuNmG9ByTRMVwE4&sig=AOD64_0G7TXtR6yEufOqAbL_-sW-_jNZqg&adurl=",
+    "property_token": "CgoIrOHrodueuN9OEAE",
+    "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=CgoIrOHrodueuN9OEAE&q=Ha+Noi",
+    "gps_coordinates": {
+      "latitude": 20.983929999999997,
+      "longitude": 105.771808
+    },
+    "hotel_class": 4,
+    "overall_rating": 4.4,
+    "reviews": 770,
+    "price": "₫1,553,807",
+    "extracted_price": 1553807,
+    "amenities": [
+      "Hot tub",
+      "Spa",
+      "Pool",
+      "Free parking",
+      "Parking",
+      "Fitness center",
+      "Free Wi-Fi",
+      "Free breakfast"
+    ]
+  },
+  {
+    "name": "Fairmont Hanoi",
+    "source": "Fairmont Hanoi",
+    "source_icon": "https://www.gstatic.com/travel-hotels/branding/9a916ed1-257d-4978-b1c4-a94a7e18ed96.png",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi4rZbgrPOVAxXdbUcBHWpDEiwYACICCAEQAxoCcXU&co=1&gclid=EAIaIQobChMIuK2W4KzzlQMV3W1HAR1qQxIsEA0YAiABEgLMGvD_BwE&cid=CAASugHkaCGVb4Yd0TEi_bzcdtn79Qx7m6dE6HOQ1nDfxRWuXpbMPxFGbwImUu_NDOuTkHVHtpW5_PmM0dBKb5sw6iEPCqOQfXqZ6fLchu86gl7dzl3QDX5Ne_j0_tMKLLV6p29yr27NASZWbX0F7TZ9Ry6TKAkD8U-vUJ99s93zeHmtkxyc0dgqUaJy0JhKWlHsLoS3YNFWq5wFQDeE0tkLJ9ImGp_gFkKL-Jy0ceX4hQ6rTuNmG9ByTRMVwE4&sig=AOD64_2ur0qQbk5aVJt7xooriWFWGYKRVQ&adurl=",
+    "property_token": "CgsI6arGwqLrxbf9ARAB",
+    "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=CgsI6arGwqLrxbf9ARAB&q=Ha+Noi",
+    "gps_coordinates": {
+      "latitude": 21.029194000000004,
+      "longitude": 105.855781
+    },
+    "hotel_class": 5,
+    "overall_rating": 4.8,
+    "reviews": 305,
+    "price": "₫8,100,000",
+    "extracted_price": 8100000,
+    "amenities": [
+      "Hot tub",
+      "Pool",
+      "Free parking",
+      "Parking",
+      "Fitness center",
+      "Free Wi-Fi",
+      "Wi-Fi",
+      "Outdoor pool",
+      "Free breakfast"
+    ]
+  },
+  {
+    "name": "Hanoi HM Boutique Hotel",
+    "source": "Booking.com",
+    "source_icon": "https://www.gstatic.com/travel-hotels/branding/icon_184.png",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi4rZbgrPOVAxXdbUcBHWpDEiwYACICCAEQCRoCcXU&co=1&gclid=EAIaIQobChMIuK2W4KzzlQMV3W1HAR1qQxIsEA0YAyABEgLF2PD_BwE&cid=CAASugHkaCGVb4Yd0TEi_bzcdtn79Qx7m6dE6HOQ1nDfxRWuXpbMPxFGbwImUu_NDOuTkHVHtpW5_PmM0dBKb5sw6iEPCqOQfXqZ6fLchu86gl7dzl3QDX5Ne_j0_tMKLLV6p29yr27NASZWbX0F7TZ9Ry6TKAkD8U-vUJ99s93zeHmtkxyc0dgqUaJy0JhKWlHsLoS3YNFWq5wFQDeE0tkLJ9ImGp_gFkKL-Jy0ceX4hQ6rTuNmG9ByTRMVwE4&sig=AOD64_2SWgz0F_q_G_cqMwkvUj6MnmSeeQ&adurl=",
+    "property_token": "CgoI55LWxrPGh-NwEAE",
+    "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=CgoI55LWxrPGh-NwEAE&q=Ha+Noi",
+    "gps_coordinates": {
+      "latitude": 21.032038,
+      "longitude": 105.85395299999999
+    },
+    "hotel_class": 3,
+    "overall_rating": 4.4,
+    "reviews": 589,
+    "price": "₫985,909",
+    "extracted_price": 985909,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free breakfast"
+    ]
+  },
+  {
+    "name": "Media Central Hanoi Hotel",
+    "source": "Expedia.com",
+    "source_icon": "https://www.gstatic.com/travel-hotels/branding/ac238c97-1652-4830-8da8-bb8d8883af88.png",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi4rZbgrPOVAxXdbUcBHWpDEiwYACICCAEQARoCcXU&co=1&gclid=EAIaIQobChMIuK2W4KzzlQMV3W1HAR1qQxIsEA0YBCABEgJin_D_BwE&cid=CAASugHkaCGVb4Yd0TEi_bzcdtn79Qx7m6dE6HOQ1nDfxRWuXpbMPxFGbwImUu_NDOuTkHVHtpW5_PmM0dBKb5sw6iEPCqOQfXqZ6fLchu86gl7dzl3QDX5Ne_j0_tMKLLV6p29yr27NASZWbX0F7TZ9Ry6TKAkD8U-vUJ99s93zeHmtkxyc0dgqUaJy0JhKWlHsLoS3YNFWq5wFQDeE0tkLJ9ImGp_gFkKL-Jy0ceX4hQ6rTuNmG9ByTRMVwE4&sig=AOD64_0beNMpR0Lfs-bmIDPl27nD7j0QVg&adurl=",
+    "property_token": "CgsI0fHNvpL3wa6yARAB",
+    "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=CgsI0fHNvpL3wa6yARAB&q=Ha+Noi",
+    "gps_coordinates": {
+      "latitude": 21.03414,
+      "longitude": 105.85122199999999
+    },
+    "overall_rating": 4.6,
+    "reviews": 430,
+    "price": "₫1,174,437",
+    "extracted_price": 1174437,
+    "amenities": [
+      "Hot tub",
+      "Spa",
+      "Free Wi-Fi",
+      "Free breakfast"
+    ],
+    "free_cancellation": true
+  },
+  {
+    "name": "Sheraton Hanoi West",
+    "source": "Hotels.com",
+    "source_icon": "https://www.gstatic.com/travel-hotels/branding/306127930749010778.png",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi4rZbgrPOVAxXdbUcBHWpDEiwYACICCAEQBxoCcXU&co=1&gclid=EAIaIQobChMIuK2W4KzzlQMV3W1HAR1qQxIsEA0YBSABEgIR7PD_BwE&cid=CAASugHkaCGVb4Yd0TEi_bzcdtn79Qx7m6dE6HOQ1nDfxRWuXpbMPxFGbwImUu_NDOuTkHVHtpW5_PmM0dBKb5sw6iEPCqOQfXqZ6fLchu86gl7dzl3QDX5Ne_j0_tMKLLV6p29yr27NASZWbX0F7TZ9Ry6TKAkD8U-vUJ99s93zeHmtkxyc0dgqUaJy0JhKWlHsLoS3YNFWq5wFQDeE0tkLJ9ImGp_gFkKL-Jy0ceX4hQ6rTuNmG9ByTRMVwE4&sig=AOD64_3yUzDf1BauR7jS02LzA9BH4RL53Q&adurl=",
+    "property_token": "CgsImN_Wq7jb4qWXARAB",
+    "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=CgsImN_Wq7jb4qWXARAB&q=Ha+Noi",
+    "gps_coordinates": {
+      "latitude": 21.02714,
+      "longitude": 105.76735099999999
+    },
+    "hotel_class": 5,
+    "overall_rating": 4.6,
+    "reviews": 1877,
+    "price": "₫3,067,009",
+    "extracted_price": 3067009,
+    "amenities": [
+      "Hot tub",
+      "Spa",
+      "Pool",
+      "Free parking",
+      "Fitness center",
+      "Free Wi-Fi",
+      "Outdoor pool"
+    ],
+    "free_cancellation": true
+  },
+  {
+    "name": "The Ann Hanoi Hotel & Spa",
+    "source": "Booking.com",
+    "source_icon": "https://www.gstatic.com/travel-hotels/branding/icon_184.png",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi4rZbgrPOVAxXdbUcBHWpDEiwYACICCAEQDRoCcXU&co=1&gclid=EAIaIQobChMIuK2W4KzzlQMV3W1HAR1qQxIsEA0YBiABEgLOUvD_BwE&cid=CAASugHkaCGVb4Yd0TEi_bzcdtn79Qx7m6dE6HOQ1nDfxRWuXpbMPxFGbwImUu_NDOuTkHVHtpW5_PmM0dBKb5sw6iEPCqOQfXqZ6fLchu86gl7dzl3QDX5Ne_j0_tMKLLV6p29yr27NASZWbX0F7TZ9Ry6TKAkD8U-vUJ99s93zeHmtkxyc0dgqUaJy0JhKWlHsLoS3YNFWq5wFQDeE0tkLJ9ImGp_gFkKL-Jy0ceX4hQ6rTuNmG9ByTRMVwE4&sig=AOD64_09SpjKRAxL66J5sCDkWwwXk1seAw&adurl=",
+    "property_token": "CgoI5_Oj9ZiA-ZVVEAE",
+    "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=CgoI5_Oj9ZiA-ZVVEAE&q=Ha+Noi",
+    "gps_coordinates": {
+      "latitude": 21.015781,
+      "longitude": 105.857703
+    },
+    "hotel_class": 4,
+    "overall_rating": 4.3,
+    "reviews": 1132,
+    "price": "₫1,185,001",
+    "extracted_price": 1185001,
+    "amenities": [
+      "Hot tub",
+      "Spa",
+      "Pool",
+      "Free parking",
+      "Parking",
+      "Fitness center",
+      "Free Wi-Fi",
+      "Outdoor pool",
+      "Free breakfast"
+    ],
+    "free_cancellation": true
+  },
+  {
+    "name": "Ha Noi Calido Hotel",
+    "source": "Booking.com",
+    "source_icon": "https://www.gstatic.com/travel-hotels/branding/icon_184.png",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi4rZbgrPOVAxXdbUcBHWpDEiwYACICCAEQERoCcXU&co=1&gclid=EAIaIQobChMIuK2W4KzzlQMV3W1HAR1qQxIsEA0YByABEgLx7_D_BwE&cid=CAASugHkaCGVb4Yd0TEi_bzcdtn79Qx7m6dE6HOQ1nDfxRWuXpbMPxFGbwImUu_NDOuTkHVHtpW5_PmM0dBKb5sw6iEPCqOQfXqZ6fLchu86gl7dzl3QDX5Ne_j0_tMKLLV6p29yr27NASZWbX0F7TZ9Ry6TKAkD8U-vUJ99s93zeHmtkxyc0dgqUaJy0JhKWlHsLoS3YNFWq5wFQDeE0tkLJ9ImGp_gFkKL-Jy0ceX4hQ6rTuNmG9ByTRMVwE4&sig=AOD64_1mjHBA4kjK0AfOgID7F-l7bNihEg&adurl=",
+    "property_token": "CgsIx7fN_dr00rKhARAB",
+    "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=CgsIx7fN_dr00rKhARAB&q=Ha+Noi",
+    "gps_coordinates": {
+      "latitude": 21.032192,
+      "longitude": 105.84567799999999
+    },
+    "hotel_class": 3,
+    "overall_rating": 4.3,
+    "reviews": 489,
+    "price": "₫916,667",
+    "extracted_price": 916667,
+    "amenities": [
+      "Free parking",
+      "Parking",
+      "Free Wi-Fi",
+      "Free breakfast"
+    ],
+    "free_cancellation": true
+  },
+  {
+    "name": "One Hotel Ha Noi",
+    "source": "Hotels.com",
+    "source_icon": "https://www.gstatic.com/travel-hotels/branding/306127930749010778.png",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi4rZbgrPOVAxXdbUcBHWpDEiwYACICCAEQBRoCcXU&co=1&gclid=EAIaIQobChMIuK2W4KzzlQMV3W1HAR1qQxIsEA0YCCABEgJwYPD_BwE&cid=CAASugHkaCGVb4Yd0TEi_bzcdtn79Qx7m6dE6HOQ1nDfxRWuXpbMPxFGbwImUu_NDOuTkHVHtpW5_PmM0dBKb5sw6iEPCqOQfXqZ6fLchu86gl7dzl3QDX5Ne_j0_tMKLLV6p29yr27NASZWbX0F7TZ9Ry6TKAkD8U-vUJ99s93zeHmtkxyc0dgqUaJy0JhKWlHsLoS3YNFWq5wFQDeE0tkLJ9ImGp_gFkKL-Jy0ceX4hQ6rTuNmG9ByTRMVwE4&sig=AOD64_2uScq_hKghOtEwPoQ0EVTWa3AHVQ&adurl=",
+    "property_token": "CgoIvq6W7vmk0PZFEAE",
+    "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=CgoIvq6W7vmk0PZFEAE&q=Ha+Noi",
+    "gps_coordinates": {
+      "latitude": 21.032393,
+      "longitude": 105.789799
+    },
+    "hotel_class": 3,
+    "overall_rating": 4.1,
+    "reviews": 162,
+    "price": "₫473,932",
+    "extracted_price": 473932,
+    "amenities": [
+      "Free parking",
+      "Free Wi-Fi"
+    ]
+  },
+  {
+    "name": "Somerset Hoa Binh Hanoi",
+    "source": "Booking.com",
+    "source_icon": "https://www.gstatic.com/travel-hotels/branding/icon_184.png",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi4rZbgrPOVAxXdbUcBHWpDEiwYACICCAEQDxoCcXU&co=1&gclid=EAIaIQobChMIuK2W4KzzlQMV3W1HAR1qQxIsEA0YCSABEgJ-2PD_BwE&cid=CAASugHkaCGVb4Yd0TEi_bzcdtn79Qx7m6dE6HOQ1nDfxRWuXpbMPxFGbwImUu_NDOuTkHVHtpW5_PmM0dBKb5sw6iEPCqOQfXqZ6fLchu86gl7dzl3QDX5Ne_j0_tMKLLV6p29yr27NASZWbX0F7TZ9Ry6TKAkD8U-vUJ99s93zeHmtkxyc0dgqUaJy0JhKWlHsLoS3YNFWq5wFQDeE0tkLJ9ImGp_gFkKL-Jy0ceX4hQ6rTuNmG9ByTRMVwE4&sig=AOD64_1d4ATvnAbiLOFRvVK4FP3a41ed4w&adurl=",
+    "property_token": "CgsI9Yz5qsy-xYLAARAB",
+    "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-08-29&check_out_date=2026-08-30&children=0&currency=VND&engine=google_hotels&gl=vn&hl=en&property_token=CgsI9Yz5qsy-xYLAARAB&q=Ha+Noi",
+    "gps_coordinates": {
+      "latitude": 21.046647,
+      "longitude": 105.79539500000001
+    },
+    "hotel_class": 4,
+    "overall_rating": 4.3,
+    "reviews": 1056,
+    "price": "₫1,428,000",
+    "extracted_price": 1428000,
+    "amenities": [
+      "Hot tub",
+      "Spa",
+      "Pool",
+      "Pet-friendly",
+      "Parking",
+      "Fitness center",
+      "Free Wi-Fi",
+      "Free breakfast"
+    ]
+  }
+]

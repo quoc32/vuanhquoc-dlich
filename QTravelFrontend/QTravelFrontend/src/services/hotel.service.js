@@ -11,6 +11,16 @@ const hotelService = {
     }
   },
 
+  getTopDestinations: async () => {
+    try {
+      const response = await api.get('/hotels/destinations/top');
+      return response.data;
+    } catch (error) {
+      console.error('Error getting top destinations:', error);
+      throw error;
+    }
+  },
+
   searchHotels: async (params) => {
     try {
       const response = await api.get('/hotels/', { params });

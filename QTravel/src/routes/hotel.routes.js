@@ -7,6 +7,7 @@ const router = Router();
 
 router.get('/cities/search', HotelController.searchCities);
 router.get('/', HotelController.searchHotels);
+router.get('/destinations/top', HotelController.getTopDestinations);
 router.get('/:id', HotelController.getHotelDetails);
 router.get('/:id/reviews', HotelController.getReviews);
 router.post('/:id/reviews', authMiddleware, upload.array('images', 5), HotelController.addReview);

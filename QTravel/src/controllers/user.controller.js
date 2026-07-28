@@ -161,6 +161,47 @@ class UserController {
       next(error);
     }
   }
+
+  async getHotelOrders(req, res, next) {
+    /* 
+      #swagger.tags = ['Users']
+      #swagger.summary = 'Get user hotel bookings/orders'
+      #swagger.security = [{ "bearerAuth": [] }]
+    */
+    try {
+      const userId = req.user.id;
+      const orders = await prisma.hotelOrder.findMany({
+        where: { userId },
+        orderBy: { createdAt: 'desc' }
+      });
+      res.status(200).json({ data: orders });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  async getHotelOrder(req, res, next) {
+    /* 
+      #swagger.tags = ['Users']
+      #swagger.summary = 'Get specific user hotel booking/order detail'
+      #swagger.security = [{ "bearerAuth": [] }]
+    */
+    try {
+      const userId = req.user.id;
+      const orderId = req.params.id;
+      const order = await prisma.hotelOrder.findFirst({
+        where: { id: orderId, userId }
+      });
+
+      if (!order) {
+        return res.status(404).json({ message: 'Hotel order not found' });
+      }
+
+      res.status(200).json({ data: order });
+    } catch (error) {
+      next(error);
+    }
+  }
 }
 
 module.exports = new UserController();
