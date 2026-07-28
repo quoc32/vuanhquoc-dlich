@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import useAuthStore from '../../store/useAuthStore';
-import { Plane, User, LogOut, Settings, Briefcase, Bell, CheckCircle } from 'lucide-react';
+import { Plane, User, LogOut, Settings, Briefcase, Bell } from 'lucide-react';
 import SettingsModal from '../ui/SettingsModal';
 import { io } from 'socket.io-client';
 import api from '../../services/api';

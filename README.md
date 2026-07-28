@@ -1,6 +1,6 @@
-# ✈️ QTravel - Fullstack Travel Booking Platform
+# ✈️ QTravel - Hệ sinh thái Du lịch & Đặt phòng Toàn diện (Fullstack Travel Platform)
 
-Chào mừng bạn đến với **QTravel** - Nền tảng đặt vé máy bay và phòng khách sạn toàn diện.
+Chào mừng bạn đến với **QTravel** - Hệ sinh thái đặt vé máy bay và phòng khách sạn toàn diện, hỗ trợ quản lý đặt chỗ, tích hợp cổng thanh toán trực tuyến, và đặc biệt là hệ thống đồng bộ hóa thời gian thực (real-time) với các đối tác khách sạn.
 
 **Được phát triển bởi:** Vũ Anh Quốc
 
@@ -8,67 +8,101 @@ Chào mừng bạn đến với **QTravel** - Nền tảng đặt vé máy bay v
 
 ## 📖 Giới thiệu (Introduction)
 
-QTravel là một ứng dụng Fullstack (Frontend & Backend) được thiết kế để cung cấp trải nghiệm trơn tru cho người dùng trong việc tìm kiếm, so sánh và đặt trước các dịch vụ du lịch như chuyến bay và phòng khách sạn. Hệ thống cũng hỗ trợ thanh toán điện tử, quản lý hồ sơ và theo dõi lịch sử đặt chỗ.
+QTravel không chỉ là một ứng dụng Fullstack (Frontend & Backend) thông thường. Nền tảng được thiết kế với kiến trúc hướng dịch vụ, cung cấp trải nghiệm mượt mà từ việc tìm kiếm chuyến bay toàn cầu, đặt phòng khách sạn, thanh toán trực tuyến qua MoMo, cho đến việc theo dõi đơn hàng và nhận thông báo đẩy (push notification) ngay lập tức khi có cập nhật mới.
 
-## 🛠 Công nghệ sử dụng (Tech Stack)
+Hệ thống bao gồm 3 phân hệ chính:
+1. **QTravel Frontend**: Giao diện người dùng web hiện đại, tốc độ cao.
+2. **QTravel Backend**: API Server trung tâm, xử lý logic nghiệp vụ, giao tiếp với các bên thứ 3 (Duffel, MoMo).
+3. **QHotel**: Một mini-server đóng vai trò là "Đối tác khách sạn", minh họa cho luồng Webhook đồng bộ hóa đơn hàng tự động từ trang web riêng của khách sạn về nền tảng QTravel.
 
-Dự án được chia làm hai phần chính với các công nghệ hiện đại:
+## 🛠 Công nghệ & Kiến trúc sử dụng (Tech Stack & Architecture)
 
 ### Frontend (`/QTravelFrontend`)
-- **Framework:** React.js (khởi tạo với Vite để tối ưu tốc độ build)
-- **Quản lý trạng thái:** Zustand / Context API (theo cấu trúc store)
-- **Định tuyến:** React Router
-- **Giao diện:** Thiết kế thân thiện, tương thích với nhiều thiết bị.
+- **Core:** React.js (khởi tạo với Vite để tối ưu tốc độ build & HMR).
+- **Styling:** Tailwind CSS (utility-first, responsive, custom themes), Lucide React (Icons).
+- **Quản lý trạng thái (State Management):** Zustand (gọn nhẹ, hỗ trợ persist storage), Context API.
+- **Định tuyến (Routing):** React Router v6.
+- **Real-time:** `socket.io-client` để nhận Push Notifications từ Backend.
+- **Tiện ích khác:** `date-fns` (xử lý ngày tháng), `axios` (gọi API).
 
-### Backend (`/QTravel`)
-- **Môi trường:** Node.js với Express.js
-- **Cơ sở dữ liệu & ORM:** Prisma ORM (tương tác với cơ sở dữ liệu SQL)
-- **Thanh toán:** Tích hợp cổng thanh toán **MoMo**
-- **Tài liệu API:** Swagger UI (Cung cấp tài liệu API trực quan)
-- **Kiến trúc:** Layered Architecture (Routes -> Controllers -> Services)
+### Backend Trung tâm (`/QTravel`)
+- **Core:** Node.js với Express.js.
+- **Kiến trúc:** Layered Architecture (Routes -> Controllers -> Services).
+- **Cơ sở dữ liệu (Database):** MySQL (Quản lý qua **Prisma ORM** với schema rõ ràng).
+- **Caching (Bộ nhớ đệm):** **Redis** (Tối ưu hóa các endpoint nặng như API tìm kiếm Top Destinations).
+- **Real-time:** **Socket.io** (Quản lý WebSocket, xác thực bằng JWT, đẩy thông báo thời gian thực về Frontend).
+- **Bảo mật & Xác thực:** JWT (JSON Web Tokens), `bcryptjs` (mã hóa mật khẩu).
+- **Tích hợp bên thứ 3 (Third-party Integrations):**
+  - **Duffel API**: Tìm kiếm, lấy giá, và tạo đơn đặt vé máy bay thực tế.
+  - **MoMo API**: Xử lý thanh toán điện tử (Momo ATM, CC, Wallet) kèm webhook (IPN) xử lý kết quả tự động.
+- **Tài liệu API:** Swagger UI (`swagger-autogen` tự động sinh docs từ code comments).
+
+### Đối tác Khách sạn (`/QHotel`)
+- **Mô hình giả lập (Mock Partner):** Một Node.js/Express server đơn giản có giao diện HTML/CSS cơ bản.
+- **Webhook Integration**: Minh họa luồng khách hàng đặt phòng trực tiếp trên website khách sạn, sau đó server khách sạn sẽ tự động gọi **Webhook** sang QTravel để đồng bộ đơn hàng về hệ sinh thái chung.
 
 ## 📂 Cấu trúc dự án (Project Structure)
 
 ```text
 QTravel-FullStack/
-├── QTravel/                # Backend API Server
-│   ├── api-docs/           # Các file test API (.rest)
-│   ├── database/           # Sơ đồ cơ sở dữ liệu
-│   ├── mock-data/          # Dữ liệu mẫu (mock)
-│   ├── prisma/             # Schema cho Prisma ORM
-│   ├── src/                # Mã nguồn chính của Backend (Controllers, Services, Routes)
-│   └── swagger.js          # Cấu hình tài liệu Swagger
+├── QTravel/                  # Backend API Server chính
+│   ├── prisma/               # Schema cho Prisma ORM (schema.prisma)
+│   ├── src/
+│   │   ├── config/           # Cấu hình DB, Redis,...
+│   │   ├── controllers/      # Logic xử lý HTTP request (webhook, momo, auth, user,...)
+│   │   ├── middlewares/      # Middleware (Auth JWT, Error handling)
+│   │   ├── routes/           # Định tuyến API
+│   │   ├── services/         # Logic nghiệp vụ (Duffel API, Momo, Socket.io)
+│   │   └── index.js          # Entry point, tích hợp Socket.io & Express
+│   └── swagger.js            # Cấu hình tự động tạo Swagger docs
 │
-├── QTravelFrontend/        # Frontend Client App
+├── QTravelFrontend/          # Frontend Web Client
 │   └── QTravelFrontend/
-│       ├── src/            # Mã nguồn chính của Frontend (Components, Pages, Hooks)
-│       └── vite.config.js  # Cấu hình Vite
+│       ├── src/
+│       │   ├── components/   # Các UI components tái sử dụng (Header, Modal,...)
+│       │   ├── pages/        # Giao diện các trang (Home, Bookings, Profile,...)
+│       │   ├── services/     # API Client (Axios interceptors)
+│       │   ├── store/        # Zustand stores (AuthStore, CurrencyStore,...)
+│       │   └── App.jsx       # Khai báo React Router
+│       └── tailwind.config.js
 │
-└── README.md               # Tài liệu dự án
+├── QHotel/                   # Mini Server đóng vai trò đối tác khách sạn
+│   └── server.js             # Giao diện HTML form & Logic Webhook
+│
+└── README.md                 # Tài liệu dự án
 ```
 
 ## 🚀 Tính năng nổi bật (Key Features)
 
-- **Tìm kiếm dịch vụ:** Tìm kiếm chuyến bay và phòng khách sạn theo nhiều tiêu chí (địa điểm, thời gian, giá).
-- **Hệ thống đặt chỗ (Booking):** Đặt phòng, đặt vé máy bay nhanh chóng.
-- **Thanh toán:** Tích hợp ví điện tử MoMo an toàn, tiện lợi.
-- **Xác thực & Người dùng:** Đăng ký, đăng nhập (Authentication) và Quản lý thông tin cá nhân.
-- **Quản lý đơn hàng:** Xem và theo dõi chi tiết lịch sử đặt chỗ (My Bookings).
+- **🔍 Tìm kiếm Dịch vụ Toàn cầu:** Tích hợp Duffel API để tìm kiếm vé máy bay, hiển thị chi tiết hãng hàng không. Tính năng Top Destinations được tăng tốc bằng **Redis Caching**.
+- **💳 Thanh toán Điện tử (MoMo):** Luồng thanh toán hoàn chỉnh với MoMo Sandbox. Nhận IPN Webhook để tự động cập nhật trạng thái đơn hàng.
+- **🔄 Đồng bộ Webhook Khách sạn:** Cho phép người dùng đặt phòng trên trang web vệ tinh (QHotel), hệ thống tự động đẩy dữ liệu đơn hàng về QTravel qua Webhook an toàn.
+- **🔔 Push Notification Thời gian thực:** Tích hợp Socket.io. Ngay khi có đơn hàng mới hoặc thanh toán thành công, hệ thống tự động đẩy thông báo (kèm "chấm đỏ" notification) ngay trên màn hình người dùng mà không cần tải lại trang.
+- **👤 Quản lý Tài khoản & Đặt chỗ:** Xem chi tiết vé máy bay, phòng khách sạn, định dạng tiền tệ động, xử lý xác thực bảo mật bằng JWT.
 
 ## 💻 Hướng dẫn chạy dự án (How to run locally)
 
-### 1. Backend (QTravel)
-1. Mở terminal, di chuyển vào thư mục backend: `cd QTravel`
+Yêu cầu môi trường: `Node.js` (v16+), `MySQL`, và `Redis Server` đang chạy.
+
+### 1. Backend Chính (QTravel)
+1. Mở terminal, di chuyển vào thư mục: `cd QTravel`
 2. Cài đặt các gói thư viện: `npm install`
-3. Cấu hình biến môi trường (`.env`) dựa trên `.env.example` (nếu có).
-4. Khởi chạy dự án: `npm run dev`
+3. Cấu hình biến môi trường (`.env`), đảm bảo có đủ các key của DB, Redis, Duffel, MoMo, JWT.
+4. Chạy migration Database: `npx prisma db push`
+5. Khởi chạy dự án: `npm run dev`
+*(Swagger Docs sẽ có sẵn tại `http://localhost:3000/api-docs`)*
 
 ### 2. Frontend (QTravelFrontend)
-1. Mở terminal khác, di chuyển vào thư mục frontend: `cd QTravelFrontend/QTravelFrontend`
+1. Mở terminal mới, di chuyển vào thư mục: `cd QTravelFrontend/QTravelFrontend`
 2. Cài đặt các gói thư viện: `npm install`
 3. Khởi chạy dự án: `npm run dev`
-4. Truy cập ứng dụng qua đường dẫn được hiển thị trên terminal (thường là `http://localhost:5173`).
+*(Giao diện web chạy tại `http://localhost:5173`)*
+
+### 3. Server Vệ tinh Khách sạn (QHotel)
+1. Mở terminal thứ 3, di chuyển vào thư mục: `cd QHotel`
+2. Cài đặt thư viện: `npm install`
+3. Khởi chạy dự án: `node server.js`
+*(Trang đặt phòng khách sạn chạy tại `http://localhost:4000`)*
 
 ---
-
 *Cảm ơn bạn đã quan tâm đến dự án QTravel!*
